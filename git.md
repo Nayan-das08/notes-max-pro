@@ -2,7 +2,6 @@
 subject:  git
 category: notes
 ---
-#Unlinked 
 Dec 18, 2022
 
 >Links: [[random CS topic]]

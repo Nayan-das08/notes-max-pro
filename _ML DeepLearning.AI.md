@@ -15,6 +15,6 @@ category: course
 ## notes associated with the course
 ```dataview
 LIST 
-FROM [[_ML DeepLearning.AI Specialization]]
+FROM [[_ML DeepLearning.AI]]
 sort file.name asc
 ```

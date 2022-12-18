@@ -56,4 +56,5 @@ Front matter
 ```dataview
 table subject, category
 from ""
+where subject="AIML"
 ```
