@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c9d77334915b3272","x":-179,"y":-110,"width":299,"height":250,"type":"text","text":"# first note\n- This is a full fledged note\n- we can do everything we did in .md here"},
+		{"id":"88599a936fc4563d","x":240,"y":-260,"width":250,"height":60,"type":"text","text":"second note"},
+		{"id":"fb018c37e221b976","x":520,"y":-120,"width":400,"height":400,"type":"file","file":"git.md"}
+	],
+	"edges":[
+		{"id":"e38bfa58c9c231b3","fromNode":"c9d77334915b3272","fromSide":"right","toNode":"88599a936fc4563d","toSide":"left"},
+		{"id":"6a813cf362ab162e","fromNode":"fb018c37e221b976","fromSide":"left","toNode":"88599a936fc4563d","toSide":"bottom"}
+	]
+}
