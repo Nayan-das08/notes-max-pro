@@ -4,8 +4,7 @@ category: notes
 ---
 Dec 18, 2022
 
-#AIML/ML
->Links: [[_ML DeepLearning.AI]]
+>%%Links: [[_AIML MOC]]%%
 
 ## Formal Definitions
 - According to Arthur Samuel, 

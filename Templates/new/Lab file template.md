@@ -1,6 +1,11 @@
-%%[[]]%%
-%%#Unlinked%% 
-%%#incomplete%% 
+---
+subject: 
+category: lab-file
+---
+>%%Links: [[]]%%
+
+#Unlinked 
+#incomplete 
 # Experiment 
 {{date}}
 

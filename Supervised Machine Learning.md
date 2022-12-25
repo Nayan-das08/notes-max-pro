@@ -3,9 +3,7 @@ subject : AIML
 category: notes
 ---
 Dec 18, 2022
-
-#AIML/ML 
->Links: [[_ML DeepLearning.AI]]
+%%Links: [[_AIML MOC]]%%
 
 ## what is it?
 Refers to the algorithms that learn by learning **how to map vector of inputs $X$ to output label $y$.**
@@ -37,7 +35,7 @@ Some common examples are:
 - etc.
 
 There are different types of regression for different needs
-- **[[Linear Regression]]**
+- **Linear Regression**
 	- the relationship is limited to degree 1, i.e. linear
 - **Polynomial/Curvilinear Regression**
 	- the degree of relationship can be any integer
@@ -61,4 +59,6 @@ Some common examples are:
 Classification can be **binary**, or **multi-class**
 
 ---
-[[cost function]] plays an **important role in ALL** supervised learning algorithms
+cost function plays an **important role in ALL** supervised learning algorithms
+
+

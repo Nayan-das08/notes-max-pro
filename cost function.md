@@ -2,10 +2,9 @@
 subject : AIML
 category: notes
 ---
-#AIML/ML 
 Dec 18, 2022
 
->Links: [[_ML DeepLearning.AI]], [[Supervised Machine Learning]]
+>%%Links: [[_AIML MOC]]%%
 
 ## need?
 Key step in building a machine learning model is to define a cost function
@@ -27,8 +26,11 @@ it denotes the numerical "cost" the model owes due to the magnitude of the error
 It can be expressed in many ways. Most popular is Squared Sum of Errors (SSE). 
 
 SSE is expressed as:
-$$J(w,b)=\frac{1}{2m}\sum^{m}_{i=1}(\hat{y}^{(i)}-{y}^{(i)})^2$$
-Here, 
+
+$$J(w,b)=\frac{1}{2m}\sum^{m}_{i=1}(\hat{y}^{(i)}-{y}^{(i)})^2$$ ^512f55
+
+Here,  ^c05793
+
 | symbol                        | meaning                                                                                      |
 | ----------------------------- | -------------------------------------------------------------------------------------------- |
 | $J(w,b)$                      | cost function is a **function of the weights** of the model                                  |
@@ -56,23 +58,23 @@ for dataset
 
 we have the distribution as 
 
-![[Pasted image 20221218194641.png|400]]
+![[Pasted image 20221218194641.png|250]]
 
 Now, considering a simpler cost function $f_w(x)=wx$, for $w=1$, we get the cost function $J(w)=0$ 
 
-![[Pasted image 20221218200733.png|400]]
+![[Pasted image 20221218200733.png|250]]
 
 similarly, for $w=0.5$, we get cost function $J(0.5)=0.583$
 
-![[Pasted image 20221218201251.png|400]]
+![[Pasted image 20221218201251.png|250]]
 
 similarly, for $w=1.5$, we get cost function $J(1.5)=0.583$
 
-![[Pasted image 20221218201412.png|400]]
+![[Pasted image 20221218201412.png|250]]
 
 for 20 values of $w$ ranging from 0.25 to 1.75, the values of $J(w)$ is given by
 
-![[Pasted image 20221218203658.png|500]]
+![[Pasted image 20221218203658.png|250]]
 
 We require the value of $w$ for which we can get the lowest value of $J(w)$, and from the last graph, that point is at $w=1$.
 
@@ -85,4 +87,4 @@ In other words, the cost function $J(w)$ has to be minimised
 ---
 There are two common ways to get the appropriate values of the parameters such that the cost function is the lowest possible value (for regression problem):
 - Least Square Method
-- [[Gradient Descent]]
+- Gradient Descent

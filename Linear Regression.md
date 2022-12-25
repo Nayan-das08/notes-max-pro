@@ -2,10 +2,9 @@
 subject : AIML
 category: notes
 ---
-#AIML/ML 
 Dec 18, 2022
 
->Links: [[_ML DeepLearning.AI]], [[Supervised Machine Learning]]
+>%%Links: [[_AIML MOC]]%%
 
 ## definition
 establishing relationship between different input variables and the output value to predict the latter value for a new and unknown set of input vector
@@ -62,4 +61,4 @@ As per the supervised learning technique,
 
 Since we are only dealing with linear relationship between feature and target right now, so we can express the *hypothesis function* as: $$f_{w,b}(x)=wx+b$$The function takes $x$ as input and gives estimate value of target variable on the basis of coefficients $w$ and $b$.
 
-The value the function gives out is checked against the actual value from training set, and this is done with the help of **[[cost function]]**
+The value the function gives out is checked against the actual value from training set, and this is done with the help of **cost function**

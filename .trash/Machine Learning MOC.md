@@ -5,12 +5,12 @@ category: course
 >Links: [[]]
 
 #Unlinked 
-#### **{{title}}**
+#### **Machine Learning MOC**
 - [Link]()
 
 ## notes associated with the course
 ```dataview
 LIST 
-FROM [[{{title}}]]
+FROM [[Machine Learning MOC]]
 sort file.name asc
 ```

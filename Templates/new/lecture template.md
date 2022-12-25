@@ -1,10 +1,7 @@
 ---
 subject : 
 category: 
-- personal
-- course
 - lecture-notes
-- notes
 module  : 
 ---
 #Unlinked 

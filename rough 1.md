@@ -47,10 +47,12 @@ Front matter
 	- what type of content is there in the file
 	- eg: 
 		- personal, 
-		- course, 
+		- MOC, 
 		- lecture-notes, 
 		- notes, 
+		- lab-file
 
+![[gradient descent#types of gradient descent]]
 
 
 ```dataview

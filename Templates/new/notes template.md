@@ -5,6 +5,6 @@ category: notes
 #Unlinked 
 {{date}}
 
->Links: 
+>%%Links: [[]]%%
 
-## heading
+## 

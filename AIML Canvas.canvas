@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"1c4143ed866ab973","x":707,"y":-130,"width":449,"height":374,"type":"file","file":"Supervised Machine Learning.md"},
+		{"id":"97f3a97f52288e80","x":1414,"y":23,"width":418,"height":442,"type":"text","text":"![[Supervised Machine Learning#Regression]]\n"},
+		{"id":"54f6685e9a74b7e7","x":1048,"y":778,"width":400,"height":400,"type":"file","file":"cost function.md"},
+		{"id":"855eedd3052faf86","x":1520,"y":1244,"width":559,"height":412,"type":"text","text":"![[gradient descent#gradient descent for linear regression]]"},
+		{"id":"35afa7953c9f73f1","x":1679,"y":664,"width":456,"height":400,"type":"file","file":"Linear Regression.md"},
+		{"id":"0cbc1ee4808852ff","x":2281,"y":733,"width":454,"height":263,"type":"file","file":"Multiple Linear Regression.md"},
+		{"id":"c0bdf6dcf747938d","x":405,"y":1064,"width":527,"height":488,"type":"file","file":"gradient descent.md"},
+		{"id":"993f8ab72d7b3cfb","x":798,"y":1750,"width":501,"height":377,"type":"text","text":"![[gradient descent#types of gradient descent]]"},
+		{"id":"fcbd7b06fa2b0ee2","x":-492,"y":-1,"width":419,"height":139,"type":"text","text":"# *Artificial Intelligence* and *Machine Learning*"},
+		{"id":"22e1a2f895acf05e","x":-282,"y":333,"width":524,"height":400,"type":"file","file":"Machine Learning.md"},
+		{"id":"956ae810b046fc5c","x":89,"y":-453,"width":400,"height":400,"type":"file","file":"_AIML MOC.md"}
+	],
+	"edges":[
+		{"id":"6831132d061238f6","fromNode":"fcbd7b06fa2b0ee2","fromSide":"top","toNode":"956ae810b046fc5c","toSide":"left"},
+		{"id":"f206f33a6d762d71","fromNode":"fcbd7b06fa2b0ee2","fromSide":"bottom","toNode":"22e1a2f895acf05e","toSide":"top"},
+		{"id":"ece1281283a3f6ce","fromNode":"22e1a2f895acf05e","fromSide":"right","toNode":"1c4143ed866ab973","toSide":"left"},
+		{"id":"44ccb1ece13d1b33","fromNode":"97f3a97f52288e80","fromSide":"bottom","toNode":"35afa7953c9f73f1","toSide":"top"},
+		{"id":"5fed454c48a0158e","fromNode":"35afa7953c9f73f1","fromSide":"left","toNode":"54f6685e9a74b7e7","toSide":"right","label":"driven by"},
+		{"id":"1eaf908bf4d230dc","fromNode":"54f6685e9a74b7e7","fromSide":"left","toNode":"c0bdf6dcf747938d","toSide":"top","label":"works with"},
+		{"id":"9116bb401b7c500d","fromNode":"1c4143ed866ab973","fromSide":"bottom","toNode":"97f3a97f52288e80","toSide":"left","label":"problem type 1"},
+		{"id":"c8c6078d09433380","fromNode":"855eedd3052faf86","fromSide":"top","toNode":"35afa7953c9f73f1","toSide":"bottom"},
+		{"id":"7eb7a4794cfbf428","fromNode":"c0bdf6dcf747938d","fromSide":"bottom","toNode":"993f8ab72d7b3cfb","toSide":"top"},
+		{"id":"921df404b2d3b2e1","fromNode":"c0bdf6dcf747938d","fromSide":"right","toNode":"855eedd3052faf86","toSide":"left"}
+	]
+}

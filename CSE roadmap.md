@@ -1,12 +1,29 @@
+---
+subject : cse roadmap
+category: personal
+---
+> Links: [[personal]]
+
 # courses
 ## Machine Learning
-1. ![[_ML DeepLearning.AI#**Machine Learning Specialization**]]
+1. **Machine Learning Specialization**
+	- [Coursera](https://www.coursera.org/specializations/machine-learning-introduction) 
+	- Andrew Ng - DeepLearning.AI
+	- [ ] Course 1 - Supervised Machine Learning: Regression and Classification
+	- [ ] Course 2 - Advanced Learning Algorithms
+	- [ ] Course 3 - Unsupervised Learning, Recommenders, Reinforcement Learning
 
-2.  ![[_ML IBM#**IBM Machine Learning Professional Certificate**]]
-3. ![[_ML A-Z™- Python & R#**Machine Learning A-Z™- Hands-On Python & R In Data Science**]]
+2. **IBM Machine Learning Professional Certificate**
+	- [Coursera](https://www.coursera.org/professional-certificates/ibm-machine-learning) 
+	- for reference
+
+3. **Machine Learning A-Z™- Hands-On Python & R In Data Science**
+	- [Udemy](https://www.udemy.com/course/machinelearning/) 
+	- for reference
 
 ## MLOps
-- ![[_MLOps Specialization#**Machine Learning Engineering for Production (MLOps) Specialization**]]
+- **Machine Learning Engineering for Production (MLOps) Specialization**
+	- [Coursera](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
 
 ## Web Dev
 ### HTML
