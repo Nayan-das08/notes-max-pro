@@ -32,4 +32,7 @@ where the hypothesis function takes an entire vector of input features for $i^{t
 For the elements $w_j \in W$ vector, they are updated with the gradient of $W$ $w.r.t$ $w_j$, i.e.;
 $$w_j=w_j-\alpha\frac{\partial}{\partial w_j}J(W,b)$$
 where
-$$\frac{\partial}{\partial w_j}J(W,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{W,b}(X^{(i)})-y^{(i)})x_j^{(i)}$$
+$$\begin{align}
+\frac{\partial}{\partial w_j}J(W,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{W,b}(X^{(i)})-y^{(i)})x_j^{(i)} \\
+\frac{\partial}{\partial b}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{W,b}(X^{(i)})-{y}^{(i)})
+\end{align}$$
