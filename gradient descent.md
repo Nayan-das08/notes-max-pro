@@ -49,7 +49,7 @@ let us be at some value of $w$ that is not the minima. Our intuition for gradien
 	- the value of parameter is at the minima
 	- the actual value remains unchanged
 
-## gradient descent for linear regression
+## gradient descent for [[simple linear regression]]
 
 | function            | math                                                        |
 | ------------------- | ----------------------------------------------------------- |
@@ -63,7 +63,6 @@ $$
 \frac{\partial}{\partial b}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{w,b}(x^{(i)})-{y}^{(i)})
 \end{align}
 $$
-
 ## types of gradient descent
 1. **Batch Gradient Descent**
 	- calculate the gradient using the mean over the cost function of all the samples

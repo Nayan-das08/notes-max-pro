@@ -7,7 +7,7 @@ Dec 18, 2022
 >%%Links: [[_AIML MOC]]%%
 
 ## need?
-Key step in building a machine learning model is to define a cost function
+Key step in building a supervised learning model is to define a cost function
 
 Suppose for a simple linear regression problem, we have a input features and target variables and the model described by 
 $$f(x)=wx+b$$
@@ -36,7 +36,7 @@ Here,  ^c05793
 | $J(w,b)$                      | cost function is a **function of the weights** of the model                                  |
 | $(\hat{y}^{(i)}-{y}^{(i)})^2$ | error between predicted value and actual value, squared to make it absolute                  |
 | summation                     | to find the sum of all the errors, so that the final cost includes error from all the points |
-| $1/2m$                        | to cancel out the term received after taking the derivative (gradient descent)               |
+| $1/2m$                        | to cancel out the term received after taking the derivative ([[gradient descent]])               |
 
 The term $\hat{y}^{(i)}$ can be expanded and the cost function can ultimately be expressed as 
 $$J(w,b)=\frac{1}{2m}\sum^{m}_{i=1}(f(x^{(i)})-{y}^{(i)})^2$$
@@ -87,4 +87,4 @@ In other words, the cost function $J(w)$ has to be minimised
 ---
 There are two common ways to get the appropriate values of the parameters such that the cost function is the lowest possible value (for regression problem):
 - Least Square Method
-- Gradient Descent
+- [[Gradient Descent]]

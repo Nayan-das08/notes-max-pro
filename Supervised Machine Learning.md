@@ -35,9 +35,11 @@ Some common examples are:
 - etc.
 
 There are different types of regression for different needs
-- **Linear Regression**
+- **Linear Regression** ^5450a3
 	- the relationship is limited to degree 1, i.e. linear
-- **Polynomial/Curvilinear Regression**
+	- [[Simple Linear Regression]]
+	- [[Multiple Linear Regression]]
+- **Polynomial/Curvilinear Regression** ^376c22
 	- the degree of relationship can be any integer
 
 Other types of regression (found from [net](https://www.statology.org/types-of-regression/))
@@ -59,6 +61,6 @@ Some common examples are:
 Classification can be **binary**, or **multi-class**
 
 ---
-cost function plays an **important role in ALL** supervised learning algorithms
+[[cost function]] plays an **important role in ALL** supervised learning algorithms
 
 

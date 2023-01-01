@@ -15,5 +15,5 @@ Dec 18, 2022
 - the more the program gets the opportunity to learn, the better it will perform
 
 - Two main **types of machine learning** techniques are 
-	- Supervised Machine Learning
+	- [[Supervised Machine Learning]]
 	- Unsupervised Machine Learning

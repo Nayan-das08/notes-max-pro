@@ -52,7 +52,7 @@ Front matter
 		- notes, 
 		- lab-file
 
-![[gradient descent#types of gradient descent]]
+
 
 
 ```dataview
