@@ -230,3 +230,5 @@ open ended - spark fund assignment problem
 		- [ ] n-queen
 		- [x] 0/1 knapsack
 		- [x] Travelling salesman
+	- [ ] 
+# 

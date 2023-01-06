@@ -47,11 +47,19 @@ Socrates is a man, all men are mortal, therefore, Socrates is mortal
 
 ---
 ## Applications of AI
-- recommendation system
-- automated vehicles
-- automated chat bot services
-- 8-tile puzzle
-- etc.
+- Gaming: game design, character development, player behavior analysis
+- Astronomy: data analysis from telescopes and other instruments, pattern identification, prediction making
+- Healthcare: medical image analysis, diagnosis and treatment planning assistance, patient outcome prediction
+- Transport: route optimization, maintenance scheduling, safety improvement
+- Agriculture: crop yield optimization, livestock management
+- Education: personalized learning experiences, grading and feedback assistance
+- E-commerce: product recommendation, pricing and inventory management optimization, customer service improvement
+- Entertainment: personalized recommendations, content generation, audience engagement analysis
+- Robotics: improved robot capabilities, increased autonomy
+- Automotive: safety improvement, fuel efficiency improvement, overall driving experience improvement
+- Social media: accurate content recommendations, identification and moderation of harmful content
+- Data security: identification and protection against cyber threats
+- Finance: market data analysis, trend and pattern identification, decision-making assistance
 
 ---
 ## expert system
@@ -91,6 +99,5 @@ example: heurestics
 
 
 
-introduction to AI, Russel & Norvig (book)
 
 
