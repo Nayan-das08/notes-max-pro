@@ -6,7 +6,6 @@ Dec 18, 2022
 
 >Links: [[random CS topic]]
 
-## heading
 ![[Pasted image 20221203213144.png]]
 
 
@@ -43,7 +42,7 @@ once un-staged, the file will be in **modified** mode again
 # `git reset` and `git checkout`
 git maintains three *trees*, or collection of files
 if all are same, `git status` will give "nothing to commit, working tree clean"
-
+z
 1. <u>HEAD</u>
 	- `bb312f6 (HEAD -> master) three`
 	- `HEAD` represents the *current commit* where the repo is pointing to
@@ -92,4 +91,23 @@ if all are same, `git status` will give "nothing to commit, working tree clean"
 - `git fetch`
 - `git log origin/master`
 - you can also do `git diff origin/master` as well
+
+
+
+---
+
+
+# second commit
+git commit
+## staged
+git add 
+## modified
+made any changes
+# first commit
+
+
+
+
+
+
 

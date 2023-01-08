@@ -51,6 +51,8 @@ let us be at some value of $w$ that is not the minima. Our intuition for gradien
 
 ## gradient descent for [[simple linear regression]]
 
+^61f76d
+
 | function            | math                                                        |
 | ------------------- | ----------------------------------------------------------- |
 | hypothesis function | $f_{w,b}(x)=wx+b$                                           |
