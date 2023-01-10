@@ -91,3 +91,10 @@ soln
 >[!HW]
 >- implement in python
 >- draw state space soln of missionary-cannibal problem
+
+## 8-puzzle
+
+## missionary-cannibal problem
+
+## n queens
+
