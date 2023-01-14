@@ -7,6 +7,8 @@ Dec 18, 2022
 >topic: 
 >Links: [[rough]].
 
+
+
 ## [5]
 The author Kim, Liu Z.[5] provided an overview of breakthroughs in fire detection systems throughout the last decade. They focused on numerous promising monitoring technologies (e.g., computer vision system, decentralised optical fibre thermal sensor, and so on), signal processing and surveillance technologies (for example, real-time automation over the Internet), and embedded fire detection systems. 
 

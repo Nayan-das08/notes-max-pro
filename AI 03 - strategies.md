@@ -66,9 +66,15 @@ hill climbing
 best first search
 - combination of DSF and BFS and h value
 - maintains 2 lists: open and closed lists
-- 
 
 a*
+- $f(n)=g(n)+h(n)$ 
+- $g(n)$ -> sum of edge costs from start to node n
+- $h(n)$ -> estimate of lowest cost path from node n to goal
+- algo
+- 
+
+i want kitkat
 ao*
 constraint satisfaction
 
