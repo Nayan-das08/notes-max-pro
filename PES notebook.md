@@ -4,19 +4,14 @@ category:
 - lecture-notes
 module  : 
 ---
-2023-01-02
-
->Links: [[PES MOC]]
-
-## heading
-
-## python
-```python
+## "Hello World" programs in different languages
+### python
+```plain
 print('Hello World')
 ```
 
-## C
-```C
+### C
+```plain
 # include <stdio.h>
 int main()
 {
@@ -24,8 +19,8 @@ int main()
 }
 ```
 
-## Java
-```java
+### Java
+```plain
 public class temp
 {
 	public static void main()
@@ -35,8 +30,8 @@ public class temp
 }
 ```
 
-## C++
-```cpp
+### C++
+```plain
 # include <iostream>
 int main()
 {
@@ -44,8 +39,9 @@ int main()
 }
 ```
 
+---
 ## WAP for factorial
-```C
+```plain
 # include <stdio.h>
 
 int factorial(int n)
@@ -65,7 +61,7 @@ int main()
 ```
 
 ## WAP for matrix multiplication
-```C
+```plain
 # include <stdio.h>
 
 const int size
@@ -85,4 +81,28 @@ int mult(int A[][size], int B[][size], int C[][size])
 		}
 	}
 }
+```
+
+---
+## WAP to sort a very large array containing 0s and 1s (min time and space complexity)
+```plain
+from random import randint
+
+a = [randint(0,1) for i in range(2000)]
+# a = [0,1,0,1,1,0,0,0,1,0,1,0,1,1,1,0,0,0]
+# print(a)
+
+p = 0
+q = len(a)-1
+
+# for i in range(len(a)):
+while (p <= q):
+    if a[p] == 1 and a[q] == 0:
+        a[p],a[q] = a[q],a[p]
+    elif a[p] == 0:
+        p += 1
+    elif a[q] == 1:
+        q -= 1
+
+print(a)
 ```
