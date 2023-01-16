@@ -1,3 +1,10 @@
+#Unlinked 
+#incomplete 
+Jan 17, 2023
+
+>Links: [[DIP MOC]]
+
+## heading
 book = gonzalez
 
 components of general problem image processing system

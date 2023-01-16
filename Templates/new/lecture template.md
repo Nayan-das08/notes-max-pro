@@ -1,9 +1,3 @@
----
-subject : 
-category: 
-- lecture-notes
-module  : 
----
 #Unlinked 
 #incomplete 
 {{date}}

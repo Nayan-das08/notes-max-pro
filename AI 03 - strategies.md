@@ -1,3 +1,9 @@
+#Unlinked 
+#incomplete 
+Jan 17, 2023
+
+>Links: [[AI MOC]]
+
 ## classes of production system
 1. **monotonic**
 	1. when two rules are applied simultaneously
