@@ -8,9 +8,9 @@ Dec 18, 2022
 
 To Whom It May Concern,
 
-I am writing to highly recommend [Nayan Ranjan Das] for the AI and Machine Learning internship at [CERN OpenLabs]. I have had the pleasure of working with [him] for the past year as his supervisor at [Amity University, Noida], and I have consistently been impressed by his aptitude for and passion for this field.
+I am writing to highly recommend [Nayan Ranjan Das] for the [Summer Students Programme 2023] at [CERN OpenLabs]. I have had the pleasure of working with [him] for the past year as his supervisor at [Amity University, Noida], and I have consistently been impressed by his aptitude for and passion for this field.
 
-In the time that I have known [Nayan], he has consistently demonstrated a strong understanding of AI and machine learning concepts. They have completed several relevant coursework, including [Course] and [Course], and have consistently excelled in these classes. In addition, [Nayan] has completed several independent research projects in these areas, including a project on [Topic] that resulted in a published paper in [Publication].
+In the time that I have known [Nayan], he has consistently demonstrated a strong understanding of AI and machine learning concepts. He has completed several relevant coursework, including [Course] and [Course], and have consistently excelled in these classes. In addition, [Nayan] has completed several independent research projects in these areas, including a project on [Topic] that resulted in a published paper in [Publication].
 
 In addition to their technical skills, [Nayan] is a highly motivated and dedicated individual. They consistently take on additional responsibilities and are always willing to go above and beyond to ensure that projects are completed to the best of their ability. Their strong work ethic and positive attitude would make them an asset to any team.
 
@@ -129,3 +129,22 @@ int main()
 	return 0;
 }
 ```
+
+# second
+To Whom It May Concern,
+
+I am writing to highly recommend [Nayan Ranjan Das] for the Summer Student Programme at CERN. As [his] faculty guide in the field of Artificial Intelligence and Machine Learning, I have had the pleasure of working with [Nayan] for the past year and can confidently say that [he] is a dedicated and talented individual.
+
+[Nayan] has demonstrated a strong aptitude for AIML, consistently producing high-quality work in class and during group projects. [He] has a deep understanding of the theories and concepts behind AIML and Deep Learning and is able to apply them to solve complex problems.
+
+[Nayan] also showed exceptional research skills, completing an group study project on [Fire Detection Alarm System using Deep Learning], which resulted in a publication in a reputable journal. [He] worked tirelessly on this project, conducting extensive literature reviews and developing new methods to improve the performance of [topic].
+
+[Nayan] is also a team player and a leader, during group projects and class activities [he] always demonstrated excellent communication and leadership skills, making sure the team's goals were met and that everyone was working together efficiently.
+
+I have no doubt that [Nayan] would be an asset to the Summer Student Programme at CERN. [He] is a hardworking, intelligent and enthusiastic learner, who is eager to learn and contribute to the field of AIML. I strongly recommend [Nayan] for this opportunity.
+
+Sincerely,
+[Dr. Supriya Raheja]
+Professor of Computer Science
+Amity School of Engineering and Technology
+Amity University, Noida
