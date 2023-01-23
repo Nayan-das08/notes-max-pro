@@ -4,12 +4,13 @@ category: lab-file
 ---
 >%%Links: [[Lab Files]]%%
 
-# Experiment 2
-Jan 10, 2023
+# Experiment 1B
+Jan 3, 2023
 
 ## Objective
 To convert infix expression into prefix expression.
 
+---
 ## Source Code
 ```plain
 // convert infix expression to prefix expression
@@ -177,7 +178,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 ```
-
+---
 ## Output
 ```plain
 Enter infix expression : 12*(587+2)-8/7
