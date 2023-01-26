@@ -4,12 +4,13 @@ category: lab-file
 ---
 >%%Links: [[Lab Files]]%%
 
-# Experiment 1
+# Experiment 1A
 Jan 3, 2023
 
 ## Objective
 To convert infix expression into postfix expression.
 
+---
 ## Source Code
 ```plain
 // convert infix expression to postfix expression
@@ -183,6 +184,7 @@ int main(int argc, char *argv[])
 }
 ```
 
+---
 ## Output
 ```plain
 Enter infix expression : 12*(587+2)-8/7
