@@ -137,7 +137,7 @@ I am writing to highly recommend Nayan Ranjan Das for the Summer Student Program
 
 Nayan has demonstrated a strong aptitude for AIML, consistently producing high-quality work in class and during group projects. He has a deep understanding of the theories and concepts behind AIML and Deep Learning and is able to apply them to solve complex problems.
 
-Nayan also showed exceptional research skills, completing an group study project on Fire Detection Alarm System using Deep Learning, which resulted in a publication in *University conference "Confluence 2023"*. He worked tirelessly on this project, conducting extensive literature reviews and developing new methods to improve the performance of fire detecttion.
+Nayan also showed exceptional research skills, completing an group study project on Fire Detection Alarm System using Deep Learning, which resulted in a publication in University conference "Confluence 2023". He worked tirelessly on this project, conducting extensive literature reviews and developing new methods to improve the performance of fire detecttion.
 
 Nayan is also a team player and a leader, during group projects and class activities he always demonstrated excellent communication and leadership skills, making sure the team's goals were met and that everyone was working together efficiently.
 
@@ -152,16 +152,43 @@ Amity University, Noida
 ---
 To Whom It May Concern,
 
-I am writing to highly recommend Nayan Ranjan Das for the Summer Students Programme 2023 at CERN and at CERN Openlab. I have had the pleasure of teaching him for the past year at Amity University, Noida, and I have consistently been impressed by his aptitude for and passion for this field.
+I am writing to highly recommend Nayan Ranjan Das for the Summer Students Programme 2023 at CERN. I have had the pleasure of teaching him for the past year at Amity University, Noida, and I have consistently been impressed by his aptitude for and passion for this field.
 
-In the time that I have known Nayan, he has consistently demonstrated a strong understanding of AI and machine learning concepts. He has completed several relevant coursework, including Introduction to AIML and Fundamental of Data Analytics, and have consistently excelled in these classes. In addition, Nayan has completed several independent research projects in these areas, including a project on Fire Detection Alarm System using Deep Learning that resulted in a published paper in Confluence 2023, university conference.
+In the time that I have known Nayan, he has consistently demonstrated a strong understanding of AI and machine learning concepts. He has completed several relevant coursework, including Introduction to AIML and Fundamental of Data Analytics, and have consistently excelled in these classes. In addition, Nayan has completed several independent research projects in these areas, including a project on Fire Detection Alarm System using Deep Learning that resulted in a published paper in Confluence 2023, University conference.
 
 In addition to his technical skills, Nayan is a highly motivated and dedicated individual. He consistently take on additional responsibilities and is always willing to go above and beyond to ensure that projects are completed to the best of his ability. His strong work ethic and positive attitude would make him an asset to any team.
 
-I am certain that Nayan would be an excellent fit for the AI and Machine Learning internship in the Student Summer Programme at CERN and CERN Openlabs. I wholeheartedly recommend them for this opportunity, and I would be happy to provide any further information or elaboration on my endorsement.
+I am certain that Nayan would be an excellent fit for the AI and Machine Learning internship in the Student Summer Programme at CERN. I wholeheartedly recommend them for this opportunity, and I would be happy to provide any further information or elaboration on my endorsement.
 
 Sincerely,
 Dr. Krishna Kant Singh
 Professor of Deep Learning and Neural Network
 Amity School of Engineering and Technology
 Amity University, Noida
+
+---
+Dear Adriana Bejaoui,
+
+I am writing to express my strong interest in the CERN openlab Internship opportunity. As a Artificial Intelligence and Machine Learning student, I am thrilled about the chance to work alongside the talented individuals at CERN and contribute to cutting-edge research in the field of AIML and other computational aspects of particle physics.
+
+I am particularly drawn to CERN's mission of fostering collaboration and scientific advancement and I am eager to be a part of such a dynamic and innovative organization. The opportunity to work with some of the world's leading experts in this field, and to learn from their experiences, is a once-in-a-lifetime opportunity that I do not want to miss.
+
+I have performed several independent research projects in the field of AIML (especially in AI) and am currently pursuing Undergraduate Engineering in Computer Science with hons. in the same field. I am well versed with several programming languages and have a deep understanding of Deep Learning concepts and Mathematics. I am confident that my skills and experience make me a strong candidate for this internship and I am excited about the prospect of contributing my knowledge and abilities to CERN.
+
+Thank you for considering my application. I look forward to the opportunity to discuss my interest further and learn more about the responsibilities and expectations of the internship role.
+
+Best regards,
+Nayan Ranjan Das
+
+---
+1. Programming
+2. Data Analysis
+3. Knowledge of Physics, Math and CS
+4. Data processing and visualization
+5. Machine Learning
+
+1. Deep Learning
+2. TensorFlow
+3. Keras
+4. Strong teamwork, collaboration
+5. Independent problem solving

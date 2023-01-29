@@ -1,4 +1,4 @@
-# modelling languages
+## modelling languages
 Modeling languages are formal languages that are used to describe the structure and behavior of systems. They are used to create models, which are abstract representations of real-world systems or processes. Modeling languages can be used in a variety of fields, including software development, systems engineering, and business analysis.
 
 There are many different types of modeling languages, each with its own specific syntax and semantics. Some of the most common types of modeling languages include:
@@ -14,7 +14,7 @@ Entity-Relationship Modeling (ER): ER modeling is a technique used to model the 
 These are just a few examples of the many different types of modeling languages that are used in various fields. Each modeling language has its own strengths and weaknesses, and different languages may be more appropriate for different types of systems and processes.
 
 ---
-# UML
+## UML
 Unified Modeling Language (UML) is a standard visual modeling language widely used in software development to represent the structure and behavior of software systems. UML uses a set of symbols and notation to represent the elements and relationships within a software system. It provides a wide range of diagram types, including class diagrams, use case diagrams, sequence diagrams, state machine diagrams, and more, each representing a different aspect of a software system design. UML is widely used in software development, as it provides a common language for developers, designers and stakeholders, it can also be used to generate source code in various programming languages.
 
 Unified Modeling Language (UML) provides several types of diagrams that can be used to represent different aspects of a software system's design. The most commonly used UML diagrams are:
@@ -36,7 +36,7 @@ Deployment diagrams: Deployment diagrams are used to represent the physical depl
 Object diagrams: Object diagrams are used to represent instances of classes and their relationships. They show the specific objects that exist at a particular point in time.
 
 ----
-# StarUML
+## StarUML
 StarUML is a powerful software tool that allows software developers and designers to create and edit Unified Modeling Language (UML) diagrams. StarUML supports all UML diagram types, including class diagrams, use case diagrams, sequence diagrams, and state machine diagrams. This makes it a versatile tool that can be used for various stages of software development, from design and modeling to implementation and maintenance.
 
 One of the key features of StarUML is its user-friendly interface. The software has a clean and intuitive layout that makes it easy to navigate and find the tools you need. It also includes a wide range of tools and features that allow you to create and edit diagrams quickly and easily. For example, it has an automatic diagram layout feature that automatically arranges the elements in your diagram to make it look neat and organized. Additionally, the software includes a diagram validation feature that checks for errors and inconsistencies in your diagrams, which helps ensure that your diagrams are accurate and complete.
@@ -46,5 +46,20 @@ Another useful feature of StarUML is its code generation capabilities. The softw
 StarUML is also an open-source software, which means it is free to download and use. It is available for Windows, macOS, and Linux. This makes it accessible to a wide range of users, from students and hobbyists to professional software developers. Additionally, the open-source nature of the software also means that the community can contribute and enhance the features, making it constantly updated and improved.
 
 ---
-![[Pasted image 20230113071430.png]]
+
+
+| code                            | # tokens |
+| ------------------------------- | -------- |
+| `int main()`                    | 4        |
+| `{`                             | 1        |
+| `int a, b;`                     | 5        |
+| `float i ;`                     | 3        |
+| `printf("enter the elements");` | 5        |
+| `scanf("%d %d", &a, &b);`       | 9        |
+| `i = a+b;`                      | 6        |
+| `printf("sum = %d", a);`        | 7        |
+| `return 0;`                     | 3        |
+| `}`                             | 1        |
+| sum                             | 44       |
+<!-- TBLFM: @>$2=sum(@I..@-1) -->
 
