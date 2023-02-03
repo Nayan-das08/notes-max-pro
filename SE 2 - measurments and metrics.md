@@ -194,3 +194,34 @@ compute FP
 UFP = 424
 CAF = 0.65 + (0.01(4+5+2+0+30)) = 1.06
 FP = 449.44
+
+---
+
+## token count
+- *token*: operands and the operators used in the software/program
+- we can find
+	- **the size of vocabulary of the program, $n$**
+		- $n=n_1+n_2$
+		- $n_1$: no of unique operators
+		- $n_2$: no of unique operands
+	- **length of program, $N$**
+		- $N=N_1+N_2$
+		- $N_1$: total occurrences of operators
+		- $N_1$: total occurrences of operands
+	- **volume, $V$**
+		- $V=Nlog_2n$
+		- base 2 chosen for *bits*
+	- **potential volume, $V^*$**
+		- $V^*=(2+n_2^*)log(2+n_2^*)$
+		- $n_2^*=roundoff(log_2(n_2), 0)$ 
+	- **program level, $L$**
+		- $L=V^*/V$
+		- value will be 0 to 1
+		- $L=1$: program written in highest possible level
+	- **program difficulty, $D$**
+		- $D=1/L=D \times V$ 
+	- **effort, $E$**
+		- $E=V/L$
+	- **estimated program length**
+		- $N=n_1logn_1+n_2logn_2$
+

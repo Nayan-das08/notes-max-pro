@@ -162,7 +162,7 @@ I am certain that Nayan would be an excellent fit for the AI and Machine Learnin
 
 Sincerely,
 Dr. Krishna Kant Singh
-Professor of Deep Learning and Neural Network
+Professor, Dept. of Computer Science and Engineering
 Amity School of Engineering and Technology
 Amity University, Noida
 

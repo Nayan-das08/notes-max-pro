@@ -1,22 +1,21 @@
 {
 	"nodes":[
-		{"id":"1c4143ed866ab973","x":707,"y":-130,"width":449,"height":374,"type":"file","file":"Supervised Machine Learning.md"},
 		{"id":"22e1a2f895acf05e","x":-282,"y":333,"width":524,"height":400,"type":"file","file":"Machine Learning.md"},
 		{"id":"956ae810b046fc5c","x":89,"y":-453,"width":400,"height":400,"type":"file","file":"_AIML MOC.md"},
 		{"id":"fcbd7b06fa2b0ee2","x":-492,"y":-1,"width":419,"height":139,"type":"text","text":"# *Artificial Intelligence* and *Machine Learning*"},
-		{"id":"97f3a97f52288e80","x":1414,"y":23,"width":418,"height":442,"type":"text","text":"![[Supervised Machine Learning#Regression]]\n"},
 		{"id":"0cbc1ee4808852ff","x":960,"y":1142,"width":694,"height":486,"type":"file","file":"Multiple Linear Regression.md"},
 		{"id":"0176eef9c6394291","x":1521,"y":646,"width":387,"height":138,"type":"text","text":"![[Supervised Machine Learning#^5450a3]]"},
-		{"id":"476a43ca8fb26d53","x":2167,"y":506,"width":354,"height":178,"type":"text","text":"![[Supervised Machine Learning#^376c22]]"},
-		{"id":"05af23aaea7a20f7","x":-75,"y":1347,"width":634,"height":427,"type":"text","text":"## Vectorization\nWhen handling a number of computations, like in Multiple Linear Regression where a number of multiplications is to be done; instead of using indexing (in for loops) to calculate the value of \n$$\\begin{align}\nf_{W,b}(X)=W\\cdot X + b \\\\\nf_{W,b}(X)= \\left( \\sum^{n}_{j=1} w_j x_j \\right) + b\n\\end{align}$$\nwe can use vectorization in *python code* to implement parallel computation of arithmetic operations for all $j$ simultaneosly.\n\nThis can be done using `numpy.dot(W,X)` function in Numpy.\n\n"},
+		{"id":"476a43ca8fb26d53","x":2167,"y":506,"width":459,"height":178,"type":"text","text":"![[Supervised Machine Learning#^376c22]]"},
+		{"id":"05af23aaea7a20f7","x":-75,"y":1061,"width":634,"height":637,"type":"text","text":"## Vectorization\nWhen handling a number of computations, like in Multiple Linear Regression where a number of multiplications is to be done; instead of using indexing (in for loops) to calculate the value of \n$$\\begin{align}\nf_{W,b}(X)=W\\cdot X + b \\\\\nf_{W,b}(X)= \\left( \\sum^{n}_{j=1} w_j x_j \\right) + b\n\\end{align}$$\nwe can use vectorization in *python code* to implement parallel computation of arithmetic operations for all $j$ simultaneosly.\n\nThis can be done using `numpy.dot(W,X)` function in Numpy.\n\n"},
 		{"id":"72ebb3e3d6b2058b","x":-30,"y":1905,"width":604,"height":532,"type":"text","text":"## Feature Scaling\nWhen a feature of a model has a range of values that is very large (magnitude wise), the learning algorithms sets the corresponding weight very small, and vice versa.\n\n"},
 		{"id":"35afa7953c9f73f1","x":1866,"y":1142,"width":539,"height":406,"type":"file","file":"Simple Linear Regression.md"},
 		{"id":"54f6685e9a74b7e7","x":2755,"y":1019,"width":574,"height":400,"type":"file","file":"cost function.md"},
-		{"id":"855eedd3052faf86","x":1840,"y":1925,"width":559,"height":412,"type":"text","text":"![[gradient descent#^61f76d]]"},
-		{"id":"c0bdf6dcf747938d","x":2562,"y":1567,"width":527,"height":488,"type":"file","file":"gradient descent.md"},
 		{"id":"993f8ab72d7b3cfb","x":3373,"y":1708,"width":501,"height":377,"type":"text","text":"![[gradient descent#types of gradient descent]]"},
-		{"id":"7c63a8991f7afd28","x":1973,"y":2569,"width":250,"height":60,"type":"text","text":"# **Ou Yea** "},
-		{"id":"17cbb69ab34df1a6","x":960,"y":1774,"width":631,"height":616,"type":"text","text":"![[Multiple Linear Regression#gradient descent for multiple linear regression]]"}
+		{"id":"1c4143ed866ab973","x":707,"y":-130,"width":449,"height":374,"type":"file","file":"Supervised Machine Learning.md"},
+		{"id":"973ee40c93fc1cd9","x":1521,"y":93,"width":449,"height":374,"type":"file","file":"Supervised Machine Learning.md","subpath":"#Regression"},
+		{"id":"c23673a42e64e6d8","x":996,"y":1923,"width":623,"height":497,"type":"text","text":"![[Multiple Linear Regression#gradient descent for multiple linear regression]]"},
+		{"id":"5ead2b7f4683680a","x":1757,"y":1811,"width":648,"height":530,"type":"text","text":"![[gradient descent#gradient descent for simple linear regression]]"},
+		{"id":"c0bdf6dcf747938d","x":2649,"y":1683,"width":527,"height":488,"type":"file","file":"gradient descent.md"}
 	],
 	"edges":[
 		{"id":"6831132d061238f6","fromNode":"fcbd7b06fa2b0ee2","fromSide":"top","toNode":"956ae810b046fc5c","toSide":"left"},
@@ -25,14 +24,14 @@
 		{"id":"44ccb1ece13d1b33","fromNode":"0176eef9c6394291","fromSide":"bottom","toNode":"35afa7953c9f73f1","toSide":"top","label":"one variable"},
 		{"id":"5fed454c48a0158e","fromNode":"35afa7953c9f73f1","fromSide":"right","toNode":"54f6685e9a74b7e7","toSide":"left","label":"driven by"},
 		{"id":"1eaf908bf4d230dc","fromNode":"54f6685e9a74b7e7","fromSide":"bottom","toNode":"c0bdf6dcf747938d","toSide":"top","label":"works with"},
-		{"id":"9116bb401b7c500d","fromNode":"1c4143ed866ab973","fromSide":"bottom","toNode":"97f3a97f52288e80","toSide":"left","label":"problem type 1"},
-		{"id":"c8c6078d09433380","fromNode":"855eedd3052faf86","fromSide":"top","toNode":"35afa7953c9f73f1","toSide":"bottom"},
+		{"id":"9116bb401b7c500d","fromNode":"1c4143ed866ab973","fromSide":"bottom","toNode":"973ee40c93fc1cd9","toSide":"left","label":"problem type 1"},
 		{"id":"7eb7a4794cfbf428","fromNode":"c0bdf6dcf747938d","fromSide":"right","toNode":"993f8ab72d7b3cfb","toSide":"left"},
-		{"id":"921df404b2d3b2e1","fromNode":"c0bdf6dcf747938d","fromSide":"left","toNode":"855eedd3052faf86","toSide":"right"},
 		{"id":"42d4614159891050","fromNode":"0176eef9c6394291","fromSide":"bottom","toNode":"0cbc1ee4808852ff","toSide":"top","label":"multiple\nvariables"},
-		{"id":"9dffac325866f186","fromNode":"97f3a97f52288e80","fromSide":"bottom","toNode":"0176eef9c6394291","toSide":"top"},
-		{"id":"3ed03c03405f0359","fromNode":"97f3a97f52288e80","fromSide":"bottom","toNode":"476a43ca8fb26d53","toSide":"left"},
+		{"id":"9dffac325866f186","fromNode":"973ee40c93fc1cd9","fromSide":"bottom","toNode":"0176eef9c6394291","toSide":"top"},
+		{"id":"3ed03c03405f0359","fromNode":"973ee40c93fc1cd9","fromSide":"bottom","toNode":"476a43ca8fb26d53","toSide":"left"},
 		{"id":"a200bc3c41a65c48","fromNode":"05af23aaea7a20f7","fromSide":"right","toNode":"0cbc1ee4808852ff","toSide":"left","label":"used in"},
-		{"id":"87477d6920e7a48a","fromNode":"0cbc1ee4808852ff","fromSide":"bottom","toNode":"17cbb69ab34df1a6","toSide":"top"}
+		{"id":"9120a95037281268","fromNode":"0cbc1ee4808852ff","fromSide":"bottom","toNode":"c23673a42e64e6d8","toSide":"top"},
+		{"id":"16d7ed0d4ec41f7a","fromNode":"c0bdf6dcf747938d","fromSide":"left","toNode":"5ead2b7f4683680a","toSide":"right"},
+		{"id":"141343b304b12ae7","fromNode":"5ead2b7f4683680a","fromSide":"top","toNode":"35afa7953c9f73f1","toSide":"bottom"}
 	]
 }
