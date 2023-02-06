@@ -225,3 +225,45 @@ FP = 449.44
 	- **estimated program length**
 		- $N=n_1logn_1+n_2logn_2$
 
+---
+## Data structure metrics
+1. **amount of data**
+	- variables ($VARS$)
+	- operands ($h_2=VARS + CONSTANTS + LABELS$)
+	- total occurences of variables
+3. **data usage within module** 
+	- target software divided into small modules
+	- *live variables*: variables are *live* from its first to last reference in the module
+	- data usage is calculated for each module separately
+	- avg number of live variables for one module,  
+	- $$LV = \frac{\text{sum of count of live vars}}{\text{sum of count of exe statements}}$$
+	- $$\overline{LV}_{program}=\frac{\sum_{i=1}^{m}\bar{LV}_i}{m}$$
+4. **program weakness**
+	- code quality less -> less cohesiveness -> more effort required
+	- for entire code
+	- $$WP=\frac{\sum_{i=1}^{m}\overline{WP}_i}{m}$$
+	- for each module
+	- $$WM=\overline{LV}*Y\text{ for Y=no of live vars}$$
+5. **data sharing among modules**
+	- passing arguments by value and reference is referred here
+
+---
+## Information flow metrics
+- concerned with amt of data passing between modules
+- FAN IN: no of components that can call or pass control to (A)
+- FAN OUT: no of components called by (A)
+- simple model
+- $$IF(A) = FANin(A) \times FANSout(A)]^2$$
+- advanced model
+	- more concern on where data is going and coming from
+	- $$FANin = a + b + c + d$$
+		- a: no of compinents that *call* A
+		- b: no of parameters *passed to* A (higher)
+		- c: no of parameters *passed to* A (lower)
+		- d: no of data elements *read* by A
+	- $$FANout = e + f + g + h$$
+		- e: no of compinents that *called by* A
+		- f: no of parameters *passed from* A (higher)
+		- g: no of parameters *passed from* A (lower)
+		- h: no of data elements *written* by A
+	- use the simple model $IF(A)$ formula here
