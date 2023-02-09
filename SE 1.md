@@ -6,11 +6,52 @@ module  :
 ---
 #Unlinked 
 #incomplete 
-Jan 17, 2023
+2023-01-02
 
 >Links: [[SE MOC]]
 
-## heading
+## prototyping model
+- aelirer models needed definite designs
+- they lack customer interaction
+- enter, this one
+- cinverns the approval of customers
+- can;t move fwd till customer is satisdaied
+- time consuming
+- 4 types
+	- throwaway
+		- prepare something, dont like, throw, create from scratch again
+	- evolutionary
+		- dont throw, modify/refine
+- pahses
+	- initial req
+	- design and eval
+		- prototyping
+		- customer eval
+		- review and updation
+		- design
+	- dev
+	- test
+	- deploy/maintain
+
+## spiral model
+- concerns risk identification, analysis, prioritization, handling
+- simple figure = 4 quads
+	- req analysis
+	- coding and tesitn
+	- eval
+	- risk analysis and planning
+		- has to be done parallely along with all the phases
+
+## interative model
+- 3 iterations consisting of phases
+- modular
+- dont move till one module/iteration is satisfactory
+
+## incremental model
+- worst (more than waterfall? ou yea)
+- do all phases $n$ times
+- lot of deployment time
+
 ## CMM
 >how mature the organization is?
 - prev models don't consider the structure/characterisitics/standand of org
@@ -60,3 +101,13 @@ Jan 17, 2023
 > agile methodology
 
 ---
+
+
+
+
+
+
+
+## books
+- K. K. Aggarwal & Yogesh Singh, “Software Engineering”
+- R. S. Pressman, “Software Engineering – A practitioner’s approach”
