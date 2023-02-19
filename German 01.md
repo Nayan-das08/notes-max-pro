@@ -107,3 +107,114 @@ Q. Write some sentences in German using the prompts
 	- Ich habe keine Zeit zu essen
 12. Ich brauche deine Hilfe
 	- Ich brauche deine Hilfe, 
+
+---
+## Prateritum
+
+| present        | past            | meaning      |
+| -------------- | --------------- | ------------ |
+| kommen         | kam             | come         |
+| gehen          | ging            | go           |
+| fahren         | fuhr            | to drive     |
+| fliegen        | flog            | fly          |
+| sein           | war             | to be        |
+| bleiben        | bleib           | stay         |
+| springen       | sprung          | jump         |
+| rennen         | rannte          | run          |
+| essen          | $a\beta$        | eat          |
+| stehen         | stand           | stand        |
+| sagen          | sagte           | say          |
+| sehen          | sah             | see          |
+| schlafen       | schlief         |              |
+| sprechen       | sprach          | speak        |
+| suchen         | suchte          |              |
+| schreiben      | schreib         | write        |
+| spielen        | spielte         | play         |
+| singen         | sung            | sing         |
+| buchen         | buchte          |              |
+|                |                 |              |
+| besuchen       | besuchte        | visit        |
+| nennen         | nannte          | name         |
+| machen         | machte          | make         |
+| malen          | malte           | paint        |
+| trinken        | trank           | drink        |
+| tanzem         | tanzte          | dance        |
+| traumen        | traumte         |              |
+| kaufen         | kaufte          | buy          |
+| verkaufen      | verkaufte       | sell         |
+| kennen         | kannte          | know         |
+| kuchen         | kochte          | cook         |
+| ubersetzen     | ubersetzte      |              |
+| waschen        | wasche          | wash         |
+| wohnen         | wohnte          | live         |
+| leben          | lebte           | live         |
+| lieben         | liebte          | love         |
+| haben          | hatte           |              |
+| ha$\beta$en    | ha$\beta$te     | have         |
+| hoeren         | hoerte          | hear         |
+| haengen        | haengte         |              |
+| parken         | parkte          |              |
+|                |                 |              |
+| putzen         | putzte          |              |
+| nehmen         | nahm            | take         |
+| vergessen      | vergass         |              |
+| besuchen       | besuchte        |              |
+| unterrichten   | unterrichtete   |              |
+| antworten      | antwortete      | answer       |
+| gratulieren    | gratulierte     | congratulate |
+| glauben        | glaubte         | belive       |
+| gehoeren       | gehoerte        | belong       |
+| helfen         | half            | help         |
+| arbeiten       | arbeitete       | work         |
+| lachen         | lachte          | laugh        |
+| laufen         | lief            |              |
+| danken         | dankte          | thank        |
+| denken         | dachte          | think        |
+| passen         | passte          |              |
+| benutzen       | benutzte        | use          |
+| werfen         | wurf            | throw        |
+| warten         | wartete         |              |
+| fotografieren  | fotografierte   | click photo  |
+| folgen         | folgte          | follow       |
+|                |                 |              |
+| fragen         | fragte          | ask          |
+| halten         | hielte          | stop         |
+| schmecken      | schmeckte       |              |
+| bekommen       | bekam           |              |
+| geben          | gab             | give         |
+| schwimmen      | schwamm         | swim         |
+| arbeiten       |                 |              |
+| luegen         | laeste          |              |
+| loesen         | laeste          |              |
+| sitzen         | sa$\beta$       |              |
+| lachen         | lachte          |              |
+| studieren      | studierte       |              |
+| senden         | sendete         |              |
+| zeichnen       | zeichnete       |              |
+| bringen        | brang           |              |
+| treffen        | traff           |              |
+| zahlen         | zahlte          |              |
+| bezahlen       | nezahte         |              |
+| beginnen       | negann          |              |
+| lesen          | la$\beta$       |              |
+| lernen         | lernte          |              |
+| regnen         | regnate         |              |
+|                |                 |              |
+| rauchen        | rauchte         |              |
+| finden         | fand            |              |
+| erklaeren      | erklaerte       |              |
+| sterben        | starb           |              |
+| gewinnen       | gewann          |              |
+| fangen         | fing            |              |
+| rufen          | rief            |              |
+| anfangen       | fing...an       |              |
+| anrufen        | rief..an        |              |
+| ankommen       | kam..an         |              |
+| abfahren       | fuhr..ab        |              |
+| einladen       | lud..ein        |              |
+| aufmachen      | machte..auf     |              |
+| zumachen       | machte..zu      |              |
+| aufstehen      | stand..auf      |              |
+| fernsehen      | sah..fern       |              |
+| spazierengehen | ging..spazieren |              |
+
