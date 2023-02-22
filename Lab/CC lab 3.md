@@ -5,7 +5,7 @@ category: lab-file
 >%%Links: [[Lab Files]]%%
 
 # Experiment 3
-Jan 31, 2023
+Jan 24, 2023
 
 ## Objective
 To count the number of tokens in the following sample C program:

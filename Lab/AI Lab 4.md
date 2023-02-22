@@ -4,13 +4,12 @@ category: lab-file
 ---
 >%%Links: [[Lab Files]]%%
 
-# Experiment 2
+# Experiment 4
 Jan 12, 2023
 
 ## Objective
 To apply $A^*$ algorithm to solve the following 8-puzzle problem configuration:
 <center>start state</center>
-
 
 $$
 \begin{array}
@@ -33,150 +32,726 @@ $$\begin{array}
 $$
 
 ## Theory
-The water jug problem is a classic problem in mathematical and computer science that involves finding the steps required to measure a specific amount of water using two jugs with different capacities. The goal is to reach a certain target volume by filling and pouring water between the jugs, with the constraint that the jugs may only be filled or emptied entirely. 
+The 8-puzzle problem is a classic problem in artificial intelligence and computer science that involves a 3x3 grid of numbered tiles with one empty space. The goal is to rearrange the tiles from a scrambled initial state to a desired goal state using only legal moves, which involves sliding one tile into the empty space at a time. The problem is challenging because there are many possible configurations, and some are unsolvable.
 
-This problem can be viewed as a state space search problem, where each state is represented by the volumes of water in the two jugs and the operations are filling and emptying the jugs. The water jug problem can also be solved using search algorithms, such as breadth-first search or depth-first search and can be used to illustrate various concepts in artificial intelligence and algorithms.
+This problem is solved using the A* algorithm, which combines heuristic and cost-based search techniques. The algorithm estimates the distance between the current and goal states using a heuristic function and prioritizes nodes with the lowest total cost. The A* algorithm is effective and efficient, although it is not guaranteed to find the optimal solution for every initial state. Various extensions of the A* algorithm have been developed to solve more complex puzzles.
 
 ---
 ## Source Code
 ```
-# Water jug problem
-from collections import deque
+import copy
+import numpy as np
+import matplotlib.pyplot as plt
 
-# Jug capacities
-jug1 =int(input("Enter the capacity (in gallons) for jug 1: "))
-jug2 = int(input("Enter the capacity (in gallons) for jug 2: "))
+# ------------------
 
-# Target amount of water
-target =int(input("Enter the amount of water to be obtained (in gallons): "))
+start = [
+[2,8,3],
+[1,6,4],
+[7,0,5]
+]
 
-# Initial state
-init_state = (0, 0)
+goal = [
+[1,2,3],
+[8,0,4],
+[7,6,5]
+]
 
-# Visited states
-visited = set()
+# ------------------
 
-# Queue for BFS
-queue = deque([init_state])
-visited.add(init_state)
+n = 8+1
+m = int(n**0.5)
+dir = {0:'up', 1:'down', 2:'left', 3:'right', -1:'null'}
 
-# Function to check if a state is valid
-def is_valid(state):
-    if state[0] > jug1 or state[1] > jug2 or state[0] < 0 or state[1] < 0:
-        return False
-    return True
+def show_board(board, depth=1):
+	space = '    '*depth
 
-# Function to check if a state is goal
-def is_goal(state):
-    if (state[0] == target and state[1] == 0) or (state[0] == 0 and state[1] == target):
-        return True
-    return False
+	print(f'\n{space}+---+---+---+')
+	for i in range(m):
+		for j in range(m):
+			if j == 0:
+				print(space, end='')
+			if board[i][j] == 0:
+				print(f'|   ', end='')
+			else:
+				print(f'| {board[i][j]} ', end='')
+		print('|')
+		print(f'{space}+---+---+---+')
 
-def rule(state):
-    new_states = []
-    # Rule 1: Fill jug 1 (x,y) -> (jug1,y)
-    new_state = (jug1, state[1])
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 1: Fill jug 1")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 2: Fill jug 2 (x,y) -> (x,jug2)
-    new_state = (state[0], jug2)
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 2: Fill jug 2")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 3: Pour some water out of the jug 1 (x,y) -> (x-d,y) if x>0
-    new_state = (state[0]-min(state[0],jug2-state[1]), state[1]+min(state[0],jug2-state[1]))
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 3: Pour some water out of the jug 1")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 4: Pour some water out of the jug 2 (x,y) -> (x,y-d) if y>0
-    new_state = (state[0]+min(state[1],jug1-state[0]), state[1]-min(state[1],jug1-state[0]))
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 4: Pour some water out of the jug 2")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 5: Empty jug 1 (x,y) -> (0,y)
-    new_state = (0, state[1])
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 5: Empty jug 1")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 6: Empty jug 2 (x,y) -> (x,0)
-    new_state = (state[0], 0)
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 6: Empty jug 2")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 7: Pour water from jug 2 into jug 1 until the jug 1 is full (x,y) -> (jug1,y-(jug1-x)) if x+y>=jug1,y>0
-    new_state = (jug1, state[1]-min(state[1],jug1-state[0]))
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 7: Pour water from jug 2 into jug 1 until the jug 1 is full")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 8: Pour water from jug 1 into jug 2 until the jug 2 is full (x,y) -> (x-(jug2-y),jug2) if x+y>=jug2,x>0
-    new_state = (state[0]-min(state[0],jug2-state[1]), jug2)
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 8: Pour water from jug 1 into jug 2 until the jug 2 is full")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 9: Pour all water from the jug1 into the jug2 (x,y) -> (0,x+y) if x+y<=jug2,x>0
-    new_state = (0, state[0]+state[1])
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 9: Pour all water from the jug1 into the jug2")
-        new_states.append(new_state)
-        visited.add(new_state)
-    # Rule 10: Pour all water from the jug2 into the jug1 (x,y) -> (x+y,0) if x+y<=jug1,y>0
-    new_state = (state[0]+state[1], 0)
-    if new_state not in visited and is_valid(new_state):
-        print("Rule 10: Pour all water from the jug2 into the jug1")
-        new_states.append(new_state)
-        visited.add(new_state)
-    return new_states
+def get_blank_pos(board):
+	for i in range(m):
+		for j in range(m):
+			if board[i][j] == 0:
+				return i,j
 
-while queue:
-    state = queue.popleft()
-    if is_goal(state):
-        print("Found goal state:", state)
-        break
-    new_states = rule(state)
-    for new_state in new_states:
-        queue.append(new_state)
-        print(new_state)
+def swap(board, a,b, c,d):
+	temp = board[a][b]
+	board[a][b] = board[c][d]
+	board[c][d] = temp
 
+def get_opposite_move(move):
+	if move == 0:
+		return 1
+	elif move == 1:
+		return 0
+	elif move == 2:
+		return 3
+	elif move == 3:
+		return 2
+	
+def g_displaced_tiles(current, goal):
+	count = 0
+	for i in range(m):
+		for j in range(m):
+			if current[i][j] != goal[i][j]:
+				# and current[i][j] != 0:
+				# print(f'{i},{j} is diff')
+				count += 1
+	# print(f'no. of tiles displaced: {count}')
+	return count
+
+open_list = []
+closed_list = []
+edges = []
+nodes = 0
+labels = {} 
+
+def get_label(board):
+	# space = '    '*depth
+	label = ''
+	label += f'\n+---+---+---+\n'
+	for i in range(m):
+		for j in range(m):
+			# if j == 0:
+			# 	print(space, end='')
+			if board[i][j] == 0:
+				label += f'|   '#, end=''
+			else:
+				label += f'| {board[i][j]} '#, end=''
+		label += '|\n'
+		label += f'+---+---+---+\n'
+	return label
+
+def solve(current, goal, h, prev_move=-1, iteration=1, parent=0):
+	print(f'iteration = {iteration}')
+	prev_move = get_opposite_move(prev_move)
+	h += 1
+	space = '    '*h
+	# new = copy.deepcopy(current)
+	new = []
+	# g = []
+	# f = []
+	for i in range(4):
+		new.append(copy.deepcopy(current))
+		# g.append(np.inf)
+		# f.append(np.inf)
+	
+	show_board(current)
+	r, c = get_blank_pos(current)
+
+	global nodes
+	# up
+	if r-1 >= 0 and prev_move != 0:
+		swap(new[0], r,c, r-1,c)
+		g = g_displaced_tiles(new[0], goal)
+		f = g+h
+		nodes += 1
+		temp = {'board':new[0], 'g':g, 'h':h, 'f':f, 'dir_moved':0, 'node_number':nodes}
+		open_list.append(temp)
+		print('    up')
+		edges.append([parent, nodes])
+		labels[nodes] = get_label(new[0])
+
+	# down
+	if r+1 < m and prev_move != 1:
+		swap(new[1], r,c, r+1,c)
+		g = g_displaced_tiles(new[1], goal)
+		f = g+h
+		nodes += 1
+		temp = {'board':new[1], 'g':g, 'h':h, 'f':f, 'dir_moved':1, 'node_number':nodes}
+		open_list.append(temp)
+		print('    down')
+		edges.append([parent, nodes])
+		labels[nodes] = get_label(new[1])
+
+	# left
+	if c-1 >= 0 and prev_move != 2:
+		swap(new[2], r,c, r,c-1)
+		g = g_displaced_tiles(new[2], goal)
+		f = g+h
+		nodes += 1
+		temp = {'board':new[2], 'g':g, 'h':h, 'f':f, 'dir_moved':2, 'node_number':nodes}
+		open_list.append(temp)
+		print('    left')
+		edges.append([parent, nodes])
+		labels[nodes] = get_label(new[2])
+		
+	# right
+	if c+1 < m and prev_move != 3:
+		swap(new[3], r,c, r,c+1)
+		g = g_displaced_tiles(new[3], goal)
+		f = g+h
+		nodes += 1
+		temp = {'board':new[3], 'g':g, 'h':h, 'f':f, 'dir_moved':3, 'node_number':nodes}
+		open_list.append(temp)
+		print('    right')
+		edges.append([parent, nodes])
+		labels[nodes] = get_label(new[3])
+	
+	f_values = []
+
+	print(f'\nopen list:')
+	for i in range(len(open_list)):
+		show_board(open_list[i]['board'])
+		print(f'    g={open_list[i]["g"]}, h={open_list[i]["h"]}, f={open_list[i]["f"]}')
+		f_values.append(open_list[i]["f"])
+
+	
+	# among the open list
+	min_index = f_values.index(min(f_values))
+	chosen = open_list.pop(min_index)
+	closed_list.append(chosen)
+
+	print('\nchosen node')
+	print(f"g = {chosen['g']}, h = {chosen['h']}, f = {min(f_values)}")
+	show_board(chosen['board'])
+
+	print('\n-------------------------------------')	
+
+
+	if chosen['g'] == 0:
+		print(f'\n    GOAL  REACHED')
+		# print(f'     in {chosen["h"]:2} steps')
+		print(f'     in {iteration:2} steps')
+		show_board(chosen['board'])
+		return
+	else:
+		solve(chosen['board'], goal, chosen['h'], prev_move=chosen['dir_moved'], iteration=iteration+1, parent=chosen['node_number'])
+
+
+# --------------------------------------------------
+
+
+g = g_displaced_tiles(start, goal)
+h = 0
+
+# show_board(goal,0)
+# print("h=0")
+labels[0] = get_label(start)
+solve(start, goal, h)
+
+import networkx as nx
+from networkx.drawing.nx_pydot import graphviz_layout
+
+G = nx.Graph()
+G.add_edges_from(edges)
+pos = graphviz_layout(G, prog="dot")
+nx.draw_networkx(G=G, pos=pos, with_labels = True, node_size=1000)
+nx.draw_networkx_labels(G=G, pos=pos, labels=labels, font_size=5, font_family="Consolas",
+	bbox=dict(
+        facecolor="white",
+        edgecolor="white",
+        boxstyle="square, pad=0.25",
+    )
+)
+plt.show()
 ```
 
 ---
 ## Output
 ```
-Enter the capacity (in gallons) for jug 1: 4
-Enter the capacity (in gallons) for jug 2: 3
-Enter the amount of water to be obtained (in gallons): 2
-Rule 1: Fill jug 1
-Rule 2: Fill jug 2
-(4, 0)
-(0, 3)
-Rule 2: Fill jug 2
-Rule 3: Pour some water out of the jug 1
-(4, 3)
-(1, 3)
-Rule 4: Pour some water out of the jug 2
-(3, 0)
-Rule 6: Empty jug 2
-(1, 0)
-Rule 2: Fill jug 2
-(3, 3)
-Rule 3: Pour some water out of the jug 1
-(0, 1)
-Rule 4: Pour some water out of the jug 2
-(4, 2)
-Rule 1: Fill jug 1
-(4, 1)
-Rule 5: Empty jug 1
-(0, 2)
-Rule 3: Pour some water out of the jug 1
-(2, 3)
-Found goal state: (0, 2)
+iteration = 1
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 |   | 5 |
+    +---+---+---+
+    up
+    left
+    right
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=3, h=1, f=4
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+chosen node
+g = 3, h = 1, f = 4
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+iteration = 2
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    up
+    left
+    right
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 |   | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=2, f=6
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    |   | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=2, f=6
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 4 |   |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=2, f=7
+
+chosen node
+g = 4, h = 2, f = 6
+
+    +---+---+---+
+    | 2 |   | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+iteration = 3
+
+    +---+---+---+
+    | 2 |   | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    left
+    right
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    |   | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=2, f=6
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 4 |   |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=2, f=7
+
+    +---+---+---+
+    |   | 2 | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=3, h=3, f=6
+
+    +---+---+---+
+    | 2 | 3 |   |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+chosen node
+g = 4, h = 2, f = 6
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    |   | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+iteration = 4
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    |   | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    up
+    down
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 4 |   |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=2, f=7
+
+    +---+---+---+
+    |   | 2 | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=3, h=3, f=6
+
+    +---+---+---+
+    | 2 | 3 |   |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+    +---+---+---+
+    |   | 8 | 3 |
+    +---+---+---+
+    | 2 | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=3, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 7 | 1 | 4 |
+    +---+---+---+
+    |   | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+chosen node
+g = 3, h = 3, f = 6
+
+    +---+---+---+
+    |   | 2 | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+iteration = 5
+
+    +---+---+---+
+    |   | 2 | 3 |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    down
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 4 |   |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=2, f=7
+
+    +---+---+---+
+    | 2 | 3 |   |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+    +---+---+---+
+    |   | 8 | 3 |
+    +---+---+---+
+    | 2 | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=3, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 7 | 1 | 4 |
+    +---+---+---+
+    |   | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    |   | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=2, h=4, f=6
+
+chosen node
+g = 2, h = 4, f = 6
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    |   | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+iteration = 6
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    |   | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    down
+    right
+
+open list:
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    |   | 7 | 5 |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 6 | 4 |
+    +---+---+---+
+    | 7 | 5 |   |
+    +---+---+---+
+    g=6, h=1, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 1 | 4 |   |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=2, f=7
+
+    +---+---+---+
+    | 2 | 3 |   |
+    +---+---+---+
+    | 1 | 8 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+    +---+---+---+
+    |   | 8 | 3 |
+    +---+---+---+
+    | 2 | 1 | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=4, h=3, f=7
+
+    +---+---+---+
+    | 2 | 8 | 3 |
+    +---+---+---+
+    | 7 | 1 | 4 |
+    +---+---+---+
+    |   | 6 | 5 |
+    +---+---+---+
+    g=5, h=3, f=8
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    | 7 | 8 | 4 |
+    +---+---+---+
+    |   | 6 | 5 |
+    +---+---+---+
+    g=3, h=5, f=8
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    | 8 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+    g=0, h=5, f=5
+
+chosen node
+g = 0, h = 5, f = 5
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    | 8 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
+
+-------------------------------------
+
+    GOAL  REACHED
+     in  6 steps
+
+    +---+---+---+
+    | 1 | 2 | 3 |
+    +---+---+---+
+    | 8 |   | 4 |
+    +---+---+---+
+    | 7 | 6 | 5 |
+    +---+---+---+
 ```
+
+![[Figure_3.png|700]]
