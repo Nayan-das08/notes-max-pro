@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"text","text":"# Lab Work\n- CC\n\t- [ ] regex to CFG\n\t- [ ] left recursion\n- AI\n\t- [ ] *8-puzzle BFS*\n\t- [ ] *tic tac toe*\n- SE\n\t- [ ] *state diagram*\n- DIP\n\t1. [ ] imread/imshow\n\t2. [ ] histogram\n\t3. [ ] hist equalization sprecification","id":"b28f3d8db18f5b78","x":-780,"y":-220,"width":320,"height":580},
+		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n","id":"72f37c6e49649db2","x":-400,"y":-220,"width":335,"height":320},
+		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- SE \n\t- [ ] *assignment*","id":"226dcce66decfe7e","x":-20,"y":-220,"width":306,"height":360},
+		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-345,"y":-672,"width":280,"height":84},
+		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":680,"y":-672,"width":330,"height":102},
+		{"type":"text","text":"# Fourier Analysis\nFrom NPTEL\n\nBooks\n","id":"7777c21ec0437cae","x":540,"y":-220,"width":380,"height":401},
+		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":965,"y":-220,"width":260,"height":150},
+		{"type":"text","text":"# ML revision\n- basic data science activities\n\t- PCA\n\t- feature selection\n- algos\n\t- [x] linear regression\n\t- [x] logistic regression\n\t- [x] KNN\n\t- [ ] K means\n\t- [ ] SVM\n\t- [ ] XG Boost\n\t- [ ] Adaboost","id":"28dc236e18e72896","x":1260,"y":-220,"width":320,"height":601},
+		{"id":"12ed94511e33df0e","x":-280,"y":360,"width":360,"height":209,"type":"text","text":"# Complete *SE assignment* first"}
+	],
+	"edges":[
+		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
+		{"id":"7d2d5d3a6cc255a1","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"72f37c6e49649db2","toSide":"top"},
+		{"id":"67fd2417ddd006dd","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"226dcce66decfe7e","toSide":"top"},
+		{"id":"098fc97628bf786e","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"7777c21ec0437cae","toSide":"top"},
+		{"id":"906ea0d20b382bb3","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"5264f392c4f040b9","toSide":"top"},
+		{"id":"7f99b7510daf0335","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"28dc236e18e72896","toSide":"top"}
+	]
+}
