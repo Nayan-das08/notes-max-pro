@@ -1,6 +1,6 @@
 Module 1 and 2
 Assigned: February 15, 2023
-Deadline: Friday, March 24, 2023
+Deadline: Friday, February 27, 2023
 
 maintain punching file for all question and asnwer sheets
 
