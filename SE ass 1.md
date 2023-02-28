@@ -2,8 +2,6 @@ Module 1 and 2
 Assigned: February 15, 2023
 Deadline: Friday, February 27, 2023
 
-maintain punching file for all question and asnwer sheets
-
 1. describe the working of waterfall mode; with at least its 3 advantages. Design and explain any real world scenario of Software Development where the waterfall model will not be suitable as compare to other software life cycle models
 2. Suggest the most appropriate generic software process model that might be used as a base for managing the development of following systems. Explain your answer according to the type of system being developed.
 	1. a sys to control antilock braking in a car
