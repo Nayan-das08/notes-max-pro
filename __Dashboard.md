@@ -5,6 +5,13 @@
 list
 FROM [[College]]
 ```
+
+## Labs
+```dataview
+list
+FROM [[Lab Files]]
+```
+
 ---
 ## Other shit
 ```dataview
