@@ -1,11 +1,4 @@
----
-subject : rough
-category: notes
----
-Dec 18, 2022
-
->topic: 
->Links: [[rough]].
+>Links: [[rough notebooks]]
 
 
 

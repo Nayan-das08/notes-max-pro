@@ -1,14 +1,4 @@
----
-subject : SE
-category: 
-- lecture-notes
-module  : 
----
-#Unlinked 
-#incomplete 
-2023-01-02
-
->Links: [[SE MOC]]
+>Links: [[College]]
 
 ## prototyping model
 - aelirer models needed definite designs

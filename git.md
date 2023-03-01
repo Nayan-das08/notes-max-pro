@@ -1,7 +1,3 @@
----
-subject:  git
-category: notes
----
 Dec 18, 2022
 
 >Links: [[random CS topic]]

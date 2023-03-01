@@ -1,9 +1,5 @@
----
-subject : PES
-category: 
-- lecture-notes
-module  : 
----
+>Link: [[College]]
+
 ## "Hello World" programs in different languages
 ### python
 ```plain

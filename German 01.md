@@ -1,3 +1,5 @@
+>Link: [[College]]
+
 |           | mask  | fem   | neu   | plural |
 | --------- | ----- | ----- | ----- | ------ |
 | nominativ | der   | die   | das   | die    |

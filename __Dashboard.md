@@ -1,16 +1,10 @@
----
-subject : main dashboard
-category: personal
----
 >Links: [[personal]]
 
 ## College Notes
 ```dataview
-TABLE subject, tags, status
-FROM ""
-WHERE category="lecture-notes"
+list
+FROM [[College]]
 ```
-
 ---
 ## Other shit
 ```dataview
