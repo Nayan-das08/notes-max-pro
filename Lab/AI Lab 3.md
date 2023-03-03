@@ -5,7 +5,7 @@ category: lab-file
 >%%Links: [[Lab Files]]%%
 
 # Experiment 3
-Jan 12, 2023
+Feb 2, 2023
 
 ## Objective
 To perform Depth First Search (DFS) algorithm.
@@ -99,12 +99,6 @@ def dfs(stack, visited, edge_list, iter=0):
     else:
         return
 
-
-
-
-# ----------------------------
-
-
 edges = []
 nodes = [i for i in range(1,len(tree))]
 for i in range(1,len(tree)):
@@ -141,6 +135,10 @@ draw_graph(edges)
 ```
 
 ---
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## Output
 ```
 stack    : [1]
@@ -205,4 +203,5 @@ visited  : [1, 2, 3, 4, 7, 8, 9, 10, 11, 5, 6]
 order of traversal (as per DFS): [1, 4, 8, 7, 9, 11, 10, 3, 2, 6, 5]
 ```
 
-![[Figure_1.png]]
+
+<span class="centerImg">![[Figure_1.png|300]]</span>
