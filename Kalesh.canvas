@@ -3,13 +3,13 @@
 		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-1600,"y":-820,"width":520,"height":600},
 		{"type":"text","text":"# ML revision\n- [ ] basic data science activities\n\t- [ ] PCA\n\t- [ ] feature selection\n- [ ] algos\n\t- [x] linear regression\n\t- [x] logistic regression\n\t- [x] KNN\n\t- [ ] K means\n\t- [ ] SVM\n\t- [ ] XG Boost\n\t- [ ] Adaboost","id":"28dc236e18e72896","x":1160,"y":-340,"width":400,"height":601},
 		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1080,"y":-746,"width":400,"height":92},
-		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
+		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
 		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-780,"y":-746,"width":280,"height":84},
 		{"type":"text","text":"# Lab Work\n- CC\n\t1. [x] postfix\n\t2. [x] regex to DFA\n\t3. [x] token number\n\t4. [x] token type\n\t5. [ ] *regex to CFG*\n\t6. [ ] *left recursion*\n\t7. [ ] *remove ambiguity*\n- AI\n\t1. [x] logic gates, sets\n\t2. [x] water jug\n\t3. [ ] dfs\n\t4. [ ] 8-puzzle using A*\n\t5. [ ] *8-puzzle BFS*\n\t6. [ ] *tic tac toe*\n- SE\n\t1. [x] intro to StarUML\n\t2. [x] class diagrams\n\t3. [ ] use case diagrams\n\t4. [ ] *state diagram*\n- DIP\n\t1. [ ] imread/imshow\n\t2. [ ] histogram\n\t3. [ ] hist equalization sprecification\n\t4. [ ] bit plane slicing","id":"b28f3d8db18f5b78","x":-900,"y":-390,"width":400,"height":980},
 		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- AI \n\t- *assignment (Mar 6)*\n- SE \n\t- assignment","id":"226dcce66decfe7e","x":160,"y":-239,"width":306,"height":440},
 		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":-360,"y":-220,"width":360,"height":320},
 		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":760,"y":-390,"width":285,"height":201},
-		{"id":"d36f0458a41fc428","x":760,"y":17,"width":280,"height":184,"type":"text","text":"### Explore Google Data Analytics Course"}
+		{"type":"text","text":"### Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":760,"y":17,"width":280,"height":184}
 	],
 	"edges":[
 		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},

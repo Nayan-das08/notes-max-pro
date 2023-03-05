@@ -1,11 +1,13 @@
 {
 	"nodes":[
-		{"id":"c9d77334915b3272","x":-179,"y":-110,"width":299,"height":250,"type":"text","text":"# first note\n- This is a full fledged note\n- we can do everything we did in .md here"},
-		{"id":"88599a936fc4563d","x":240,"y":-260,"width":250,"height":60,"type":"text","text":"second note"},
-		{"id":"fb018c37e221b976","x":520,"y":-120,"width":400,"height":400,"type":"file","file":"git.md"}
+		{"id":"07f4c856d719f1af","x":220,"y":-257,"width":200,"height":60,"type":"text","text":"adds books to cart"},
+		{"id":"aa3ac08f655eb1c6","x":-280,"y":-257,"width":133,"height":60,"type":"text","text":"customer"},
+		{"id":"f036e2f038cf60ff","x":-40,"y":-257,"width":160,"height":60,"type":"text","text":"visits website"},
+		{"id":"a8dcdedf2e802f41","x":500,"y":-257,"width":180,"height":60,"type":"text","text":"order accepted"}
 	],
 	"edges":[
-		{"id":"e38bfa58c9c231b3","fromNode":"c9d77334915b3272","fromSide":"right","toNode":"88599a936fc4563d","toSide":"left"},
-		{"id":"6a813cf362ab162e","fromNode":"fb018c37e221b976","fromSide":"left","toNode":"88599a936fc4563d","toSide":"bottom"}
+		{"id":"eea96994d72613dc","fromNode":"aa3ac08f655eb1c6","fromSide":"right","toNode":"f036e2f038cf60ff","toSide":"left"},
+		{"id":"4d3a0e0e664c8acd","fromNode":"f036e2f038cf60ff","fromSide":"right","toNode":"07f4c856d719f1af","toSide":"left"},
+		{"id":"b99ce3f4aa05a744","fromNode":"07f4c856d719f1af","fromSide":"right","toNode":"a8dcdedf2e802f41","toSide":"left"}
 	]
 }

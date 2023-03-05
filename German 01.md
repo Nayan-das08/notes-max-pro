@@ -185,22 +185,22 @@ Q. Write some sentences in German using the prompts
 | bekommen       | bekam           |              |
 | geben          | gab             | give         |
 | schwimmen      | schwamm         | swim         |
-| arbeiten       |                 |              |
-| luegen         | laeste          |              |
-| loesen         | laeste          |              |
-| sitzen         | sa$\beta$       |              |
-| lachen         | lachte          |              |
-| studieren      | studierte       |              |
-| senden         | sendete         |              |
-| zeichnen       | zeichnete       |              |
-| bringen        | brang           |              |
-| treffen        | traff           |              |
-| zahlen         | zahlte          |              |
-| bezahlen       | nezahte         |              |
-| beginnen       | negann          |              |
-| lesen          | la$\beta$       |              |
-| lernen         | lernte          |              |
-| regnen         | regnate         |              |
+| arbeiten       |                 | work         |
+| luegen         | laeste          | lay          |
+| loesen         | laeste          | solve        |
+| sitzen         | sa$\beta$       | sit          |
+| lachen         | lachte          | laugh        |
+| studieren      | studierte       | to study     |
+| senden         | sendete         | send         |
+| zeichnen       | zeichnete       | draw         |
+| bringen        | brang           | bring        |
+| treffen        | traff           | meet         |
+| zahlen         | zahlte          | pay          |
+| bezahlen       | nezahte         | pay          |
+| beginnen       | negann          | begin        |
+| lesen          | la$\beta$       | read         |
+| lernen         | lernte          | learn        |
+| regnen         | regnate         | rain         |
 |                |                 |              |
 | rauchen        | rauchte         |              |
 | finden         | fand            |              |
@@ -219,4 +219,30 @@ Q. Write some sentences in German using the prompts
 | aufstehen      | stand..auf      |              |
 | fernsehen      | sah..fern       |              |
 | spazierengehen | ging..spazieren |              |
+
+---
+Ich bin ein Student. Ich bin 20 Jahre alt. Mein Vater ist Lehrer und Mutter ist eine Hausfrau. Beide sind flei$\beta$ig. MeinVater hat ein Haus. Es ist neu. Ich habe einen Bruder und eine Schwester. Mein Bruder ist Pilot und er hat ein Auto. Mein Bruder und Schwester sind sehr hilfsbereit. Ich habe viele Freunde aber Tom ist mein bester Freund. Er hat ist auch 20 Jahre alt. Sein Bater ist Doktor. Seine Eltern sind sehr gut. Tom hat viele neue Bucher. Sie sind sehr interessant. Tom ist sehr aktiv. Tom hat eine Freunde. Sie ist Maria. Maria hat ein Auto. Es ist neu. Ich habe eine Kleine Familie und einen bester Freunde. Ich bin sehr glucklich. Meine Familie und mein bester Freund snd die beste in der Welt.
+
+I am a student. I am 20 years old. My father is a teacher and mother is a housewife. Both are hardworking. My father has a house. It's new. I have a brother and a sister. My brother is a pilot and he has a car. My brother and sister are very helpful. I have many friends but Tom is my best friend. He is also 20 years old. His father is a doctor. His parents are very good. Tom has many new books. They are very interesting. Tom is very active. Tom has friends. she is mary Maria has a car. It's new. I have a small family and a best friend. I am very happy. My family and my best friend are the best in the world.
+
+---
+## Praeteritum (Past) Konjugation
+|     | sein | war   | haben | hatte   |
+| --- | ---- | ----- | ----- | ------- |
+| ich | bin  | war   |       | hatte   |
+| du  | bist | warst |       | hattest |
+| er  | ist  | war   |       | hatte   |
+| sie | ist  | war   |       | hatte   |
+| es  | ist  | war   |       | hatte   |
+| ihr |      | wart  |       | hattet  |
+| Wir | sind | waren |       | hatten  |
+| Sie | sind | waren |       | hatten  |
+| sie | sind | waren |       | hatten  |
+
+| present                     | Past                         |
+| --------------------------- | ---------------------------- |
+| Ich bin ein Student         | Ich war ein Student          |
+| Paul ist mein bester Freund | Paul war mein bester Freunde |
+| Wir sind gute Freunde       | Wir waren gute Freunde       |
+|                             |                              |
 
