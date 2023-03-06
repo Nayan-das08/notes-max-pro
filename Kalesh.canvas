@@ -5,11 +5,13 @@
 		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1080,"y":-746,"width":400,"height":92},
 		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
 		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-780,"y":-746,"width":280,"height":84},
-		{"type":"text","text":"# Lab Work\n- CC\n\t1. [x] postfix\n\t2. [x] regex to DFA\n\t3. [x] token number\n\t4. [x] token type\n\t5. [ ] *regex to CFG*\n\t6. [ ] *left recursion*\n\t7. [ ] *remove ambiguity*\n- AI\n\t1. [x] logic gates, sets\n\t2. [x] water jug\n\t3. [ ] dfs\n\t4. [ ] 8-puzzle using A*\n\t5. [ ] *8-puzzle BFS*\n\t6. [ ] *tic tac toe*\n- SE\n\t1. [x] intro to StarUML\n\t2. [x] class diagrams\n\t3. [ ] use case diagrams\n\t4. [ ] *state diagram*\n- DIP\n\t1. [ ] imread/imshow\n\t2. [ ] histogram\n\t3. [ ] hist equalization sprecification\n\t4. [ ] bit plane slicing","id":"b28f3d8db18f5b78","x":-900,"y":-390,"width":400,"height":980},
+		{"type":"text","text":"# Lab Work\n- CC\n\t1. [x] postfix\n\t2. [x] regex to DFA\n\t3. [x] token number\n\t4. [x] token type\n\t5. [ ] *regex to CFG*\n\t6. [ ] left recursion\n\t7. [ ] *remove ambiguity*\n- AI\n\t1. [x] logic gates, sets\n\t2. [x] water jug\n\t3. [ ] dfs\n\t4. [ ] 8-puzzle using A*\n\t5. [ ] *8-puzzle BFS*\n\t6. [ ] *tic tac toe*\n- SE\n\t1. [x] intro to StarUML\n\t2. [x] class diagrams\n\t3. [x] use case diagrams\n\t4. [x] state diagram\n\t5. [x] object diagram\n\t6. [ ] activity diagram\n- DIP\n\t1. [ ] *imread/imshow*\n\t2. [ ] *histogram*\n\t3. [ ] *hist equalization sprecification*\n\t4. [ ] *bit plane slicing*\n\t5. [ ] *fourier transform*","id":"b28f3d8db18f5b78","x":-900,"y":-390,"width":400,"height":980},
 		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- AI \n\t- *assignment (Mar 6)*\n- SE \n\t- assignment","id":"226dcce66decfe7e","x":160,"y":-239,"width":306,"height":440},
 		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":-360,"y":-220,"width":360,"height":320},
 		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":760,"y":-390,"width":285,"height":201},
-		{"type":"text","text":"### Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":760,"y":17,"width":280,"height":184}
+		{"type":"text","text":"### Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":760,"y":17,"width":280,"height":184},
+		{"id":"10b9dda0c276ad5f","x":735,"y":-873,"width":206,"height":206,"type":"text","text":"# image to LaTeX"},
+		{"id":"e70a11e44a4d9da4","x":-1400,"y":320,"width":353,"height":230,"type":"text","text":">[!NOTE]\n>- [ ] *not complete*\n>- [ ] complete but not checked\n>- [x] checked"}
 	],
 	"edges":[
 		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
@@ -18,6 +20,8 @@
 		{"id":"906ea0d20b382bb3","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"5264f392c4f040b9","toSide":"top"},
 		{"id":"7f99b7510daf0335","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"28dc236e18e72896","toSide":"top"},
 		{"id":"d987048fd3205ccd","fromNode":"72f37c6e49649db2","fromSide":"top","toNode":"04a5685dbc78f873","toSide":"left"},
-		{"id":"7a23854013b0ebf6","fromNode":"28dc236e18e72896","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"right"}
+		{"id":"7a23854013b0ebf6","fromNode":"28dc236e18e72896","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"right"},
+		{"id":"4e353b48db09c0b7","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"10b9dda0c276ad5f","toSide":"right"},
+		{"id":"4f961c7a14568d82","fromNode":"e70a11e44a4d9da4","fromSide":"right","toNode":"b28f3d8db18f5b78","toSide":"left"}
 	]
 }
