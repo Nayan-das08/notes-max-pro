@@ -5,7 +5,7 @@ category: personal
 > Links: [[personal]]
 
 # courses
-## Machine Learning
+## Machine Learning and Data Science
 1. **Machine Learning Specialization**
 	- [Coursera](https://www.coursera.org/specializations/machine-learning-introduction) 
 	- Andrew Ng - DeepLearning.AI
@@ -13,11 +13,21 @@ category: personal
 	- [ ] Course 2 - Advanced Learning Algorithms
 	- [ ] Course 3 - Unsupervised Learning, Recommenders, Reinforcement Learning
 
-2. **IBM Machine Learning Professional Certificate**
+2. **Applied Data Science with Python Specialization**
+	- Michigan University
+	- [Coursera](https://www.coursera.org/specializations/data-science-python)
+	- for data science
+
+3. **Data Science Specialization**
+	- Johns Hopkins
+	- [Coursera](https://www.coursera.org/specializations/jhu-data-science)
+	- for reference
+
+4. **IBM Machine Learning Professional Certificate**
 	- [Coursera](https://www.coursera.org/professional-certificates/ibm-machine-learning) 
 	- for reference
 
-3. **Machine Learning A-Z™- Hands-On Python & R In Data Science**
+5. **Machine Learning A-Z™- Hands-On Python & R In Data Science**
 	- [Udemy](https://www.udemy.com/course/machinelearning/) 
 	- for reference
 
