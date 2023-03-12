@@ -17,6 +17,12 @@ category: personal
 	- Michigan University
 	- [Coursera](https://www.coursera.org/specializations/data-science-python)
 	- for data science
+	- [ ] Course 1 - Introduction to Data Science in Python
+	- [ ] Course 2 - Applied Plotting, Charting & Data Representation in Python
+	- [ ] Course 3 - Applied Machine Learning in Python
+	- [ ] Course 4 - Applied Text Mining in Python
+	- [ ] Course 5 - Applied Social Network Analysis in Python
+
 
 3. **Data Science Specialization**
 	- Johns Hopkins

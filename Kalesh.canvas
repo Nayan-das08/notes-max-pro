@@ -1,17 +1,23 @@
 {
 	"nodes":[
-		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-1600,"y":-820,"width":520,"height":600},
-		{"type":"text","text":"# ML revision\n- [ ] basic data science activities\n\t- [ ] PCA\n\t- [ ] feature selection\n- [ ] algos\n\t- [x] linear regression\n\t- [x] logistic regression\n\t- [x] KNN\n\t- [ ] K means\n\t- [ ] SVM\n\t- [ ] XG Boost\n\t- [ ] Adaboost","id":"28dc236e18e72896","x":1160,"y":-340,"width":400,"height":601},
+		{"type":"text","text":"# ML revision\n- [ ] EDA\n- [ ] PCA\n- [ ] feature selection\n\t- [ ] various tests\n- [x] linear regression\n- [x] logistic regression\n- [x] KNN\n- [ ] K means\n- [ ] SVM\n- [ ] XG Boost\n- [ ] Adaboost\n- [ ] Decision Trees\n","id":"28dc236e18e72896","x":1160,"y":-340,"width":400,"height":601,"color":"2"},
 		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1080,"y":-746,"width":400,"height":92},
 		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
 		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-780,"y":-746,"width":280,"height":84},
 		{"type":"text","text":"# Lab Work\n- CC\n\t1. [x] postfix\n\t2. [x] regex to DFA\n\t3. [x] token number\n\t4. [x] token type\n\t5. [ ] *regex to CFG*\n\t6. [ ] left recursion\n\t7. [ ] *remove ambiguity*\n- AI\n\t1. [x] logic gates, sets\n\t2. [x] water jug\n\t3. [ ] dfs\n\t4. [ ] 8-puzzle using A*\n\t5. [ ] *8-puzzle BFS*\n\t6. [ ] *tic tac toe*\n- SE\n\t1. [x] intro to StarUML\n\t2. [x] class diagrams\n\t3. [x] use case diagrams\n\t4. [x] state diagram\n\t5. [x] object diagram\n\t6. [ ] activity diagram\n- DIP\n\t1. [ ] *imread/imshow*\n\t2. [ ] *histogram*\n\t3. [ ] *hist equalization sprecification*\n\t4. [ ] *bit plane slicing*\n\t5. [ ] *fourier transform*","id":"b28f3d8db18f5b78","x":-900,"y":-390,"width":400,"height":980},
-		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- AI \n\t- *assignment (Mar 6)*\n- SE \n\t- assignment","id":"226dcce66decfe7e","x":160,"y":-239,"width":306,"height":440},
+		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- AI \n\t- *assignment (Mar 10)*\n- SE \n\t- *assignment (Mar 10)*","id":"226dcce66decfe7e","x":160,"y":-239,"width":306,"height":440},
 		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":-360,"y":-220,"width":360,"height":320},
 		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":760,"y":-390,"width":285,"height":201},
-		{"type":"text","text":"### Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":760,"y":17,"width":280,"height":184},
-		{"id":"10b9dda0c276ad5f","x":735,"y":-873,"width":206,"height":206,"type":"text","text":"# image to LaTeX"},
-		{"id":"e70a11e44a4d9da4","x":-1400,"y":320,"width":353,"height":230,"type":"text","text":">[!NOTE]\n>- [ ] *not complete*\n>- [ ] complete but not checked\n>- [x] checked"}
+		{"type":"text","text":"# image to LaTeX","id":"10b9dda0c276ad5f","x":735,"y":-873,"width":206,"height":206},
+		{"type":"text","text":">[!NOTE]\n>- [ ] *not complete*\n>- [ ] complete but not checked\n>- [x] checked","id":"e70a11e44a4d9da4","x":-1400,"y":320,"width":353,"height":230},
+		{"type":"text","text":"# Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":660,"y":261,"width":280,"height":219,"color":"2"},
+		{"type":"text","text":"# take up Johns Hopkins or IBM ML spec after DeepLearning.AI","id":"1019456cda101e7f","x":844,"y":680,"width":402,"height":240,"color":"2"},
+		{"type":"text","text":"### for EDA (in order of rigour)\n1.  *Python for Data Analysis* by Wes McKinney\n2. *Python Data Science Handbook* by Jake VanderPlas\n3. *Practical Statistics for Data Scientists* by Peter Bruce, Andrew Bruce","id":"64523602c50280c1","x":1880,"y":56,"width":347,"height":320,"color":"2"},
+		{"type":"text","text":"### for PCA\n- start with *Statistical Learning  with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani","id":"92da78658291a744","x":2053,"y":543,"width":348,"height":274,"color":"2"},
+		{"type":"text","text":"# complete DeepL.AI","id":"6cf7d287c83b821a","x":1360,"y":542,"width":216,"height":138,"color":"2"},
+		{"type":"text","text":"# *Urgent (needs immediate attention)*\n\n- SE assignment\n- AI assignment\n- HVCO Poster\n- Paper\n- LSTM","id":"1f72206ccb5200cd","x":-260,"y":301,"width":479,"height":379},
+		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":99,"y":-1603,"width":520,"height":600},
+		{"id":"24c40518f784d511","x":-1605,"y":-622,"width":558,"height":583,"type":"text","text":"# minors bish\n\n- AI\n\t- [ ] mod 1 \n\t- [ ] mod 2\n- CC\n\t- [ ] mod 1\n\t- [ ] mod2\n- SE\n\t- [ ] mod 1\n\t- [ ] mod 2\n- DIP\n\t- [ ] before fourier\n- AIML\n\t- [ ] ANN\n\t- [ ] CNN\n\t- [ ] RNN"}
 	],
 	"edges":[
 		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
@@ -22,6 +28,12 @@
 		{"id":"d987048fd3205ccd","fromNode":"72f37c6e49649db2","fromSide":"top","toNode":"04a5685dbc78f873","toSide":"left"},
 		{"id":"7a23854013b0ebf6","fromNode":"28dc236e18e72896","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"right"},
 		{"id":"4e353b48db09c0b7","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"10b9dda0c276ad5f","toSide":"right"},
-		{"id":"4f961c7a14568d82","fromNode":"e70a11e44a4d9da4","fromSide":"right","toNode":"b28f3d8db18f5b78","toSide":"left"}
+		{"id":"4f961c7a14568d82","fromNode":"e70a11e44a4d9da4","fromSide":"right","toNode":"b28f3d8db18f5b78","toSide":"left"},
+		{"id":"a1143006192d460d","fromNode":"28dc236e18e72896","fromSide":"right","toNode":"64523602c50280c1","toSide":"left"},
+		{"id":"5bae7bfcc55ac584","fromNode":"64523602c50280c1","fromSide":"bottom","toNode":"92da78658291a744","toSide":"top"},
+		{"id":"114352f11c0a96a5","fromNode":"1019456cda101e7f","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"bottom","label":"after this"},
+		{"id":"bd2686764ec500b7","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"6cf7d287c83b821a","toSide":"top","label":"first priority"},
+		{"id":"6221089250943f47","fromNode":"6cf7d287c83b821a","fromSide":"bottom","toNode":"1019456cda101e7f","toSide":"right","label":"then"},
+		{"id":"ddb0f3a60afb717c","fromNode":"6cf7d287c83b821a","fromSide":"right","toNode":"64523602c50280c1","toSide":"left","label":"side by side"}
 	]
 }

@@ -61,8 +61,8 @@ let us be at some value of $w$ that is not the minima. Our intuition for gradien
 now 
 $$
 \begin{align}
-\frac{\partial}{\partial w}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{w,b}(x^{(i)})-{y}^{(i)})x^{(i)}\\
-\frac{\partial}{\partial b}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{w,b}(x^{(i)})-{y}^{(i)})
+&\frac{\partial}{\partial w}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{w,b}(x^{(i)})-{y}^{(i)})x^{(i)}\\
+&\frac{\partial}{\partial b}J(w,b)=\frac{1}{m}\sum^{m}_{i=1}(f_{w,b}(x^{(i)})-{y}^{(i)})
 \end{align}
 $$
 ## types of gradient descent
