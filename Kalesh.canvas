@@ -17,7 +17,7 @@
 		{"type":"text","text":"# complete DeepL.AI","id":"6cf7d287c83b821a","x":1360,"y":542,"width":216,"height":138,"color":"2"},
 		{"type":"text","text":"# *Urgent (needs immediate attention)*\n\n- SE assignment\n- AI assignment\n- HVCO Poster\n- Paper\n- LSTM","id":"1f72206ccb5200cd","x":-260,"y":301,"width":479,"height":379},
 		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":99,"y":-1603,"width":520,"height":600},
-		{"id":"24c40518f784d511","x":-1605,"y":-622,"width":558,"height":583,"type":"text","text":"# minors bish\n\n- AI\n\t- [ ] mod 1 \n\t- [ ] mod 2\n- CC\n\t- [ ] mod 1\n\t- [ ] mod2\n- SE\n\t- [ ] mod 1\n\t- [ ] mod 2\n- DIP\n\t- [ ] before fourier\n- AIML\n\t- [ ] ANN\n\t- [ ] CNN\n\t- [ ] RNN"}
+		{"type":"text","text":"# minors bish\n\n- AI\n\t- [ ] mod 1 \n\t- [ ] mod 2\n- CC\n\t- [ ] mod 1\n\t- [ ] mod2\n- SE\n\t- [ ] mod 1\n\t- [ ] mod 2\n- DIP\n\t- [ ] before fourier\n- AIML\n\t- [ ] ANN\n\t- [ ] CNN\n\t- [ ] RNN","id":"24c40518f784d511","x":-1605,"y":-622,"width":558,"height":583}
 	],
 	"edges":[
 		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
