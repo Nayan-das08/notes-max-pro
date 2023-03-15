@@ -28,7 +28,7 @@
 		{"type":"file","file":"gradient descent.md","id":"c0bdf6dcf747938d","x":2801,"y":1500,"width":527,"height":488},
 		{"type":"file","file":"screenshots/Pasted image 20230312144702.png","id":"15d224b9fb475c34","x":2080,"y":-100,"width":759,"height":317},
 		{"type":"file","file":"Logistic Regression.md","id":"59a338dfada827d5","x":2920,"y":-1073,"width":679,"height":620},
-		{"type":"file","file":"Logistic Regression.md","id":"c3f11a7d714f6d35","x":3080,"y":-206,"width":665,"height":538,"subpath":"#cost function for logistic regression"},
+		{"type":"file","file":"Logistic Regression.md","subpath":"#cost function for logistic regression","id":"c3f11a7d714f6d35","x":3080,"y":-206,"width":665,"height":538},
 		{"type":"file","file":"screenshots/Pasted image 20230312131823.png","id":"e13c667c9d042035","x":4080,"y":-1036,"width":650,"height":430}
 	],
 	"edges":[
