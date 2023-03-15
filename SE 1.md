@@ -1,5 +1,33 @@
 >Links: [[College]]
 
+- mod 1
+	- life cycle models
+	- CMM
+	- quality models
+	- agile
+- mod 2
+	- metrics
+	- FP
+	- COCOMO
+
+---
+- waterfall model
+	- when *requirements are well understood*, fixed and the technology is stable
+- v shaped
+	- when *testing is critical* and the testing phase is emphasized
+- prototype
+	- when *requirements are unclear* and prototypes need to be shown
+- spiral 
+	- when the project is complex and high risk
+	- requirements are unclear
+	- when constant feedback is needed.
+- iterative 
+	- when requirements are not well understood,
+	- there is a need to get a working prototype quickly.
+- incremental
+	- when there are changing requirements 
+	- when the technology is not well understood
+
 ## prototyping model
 - aelirer models needed definite designs
 - they lack customer interaction
