@@ -14,6 +14,7 @@
 
 ## terms
 1. measure
+	- a measure provides a quantitative indication of the extent, amountm dimension, capacity, or size of some attribute of the product or process
 2. measurement
 	- act of determining measure
 3. metric
@@ -53,8 +54,19 @@
 	- to obtain estimations for software dev process
 
 ### product metrics
-- 
-2. project metrics
+- descirbe effectiveness ofprocesses that produce software
+- eg
+	- effort
+	- time
+	- no of defects found
+
+### project metrics
+- describe the project characteristics and execution
+- eg
+	- no of software developers
+	- staffing pattern
+	- cost and schedule
+	- productivity
 
 ## factors affecting software quality
 1. product

@@ -108,15 +108,70 @@
 
 ---
 ## software quality
->conformance to req and/or fitness of use
+- conformance to req and/or fitness of use
 - customer satisfaction + internal parameter checks
-- quality models
-	- McCall's
-	- Boehm's
-	- ISO 9000
 
-> [!NOTE]
-> agile methodology
+### quality models
+- **McCall's**
+	- three perspectives
+		- *product revision*
+			1. maintainability
+			2. flexibility
+			3. testability
+		- *product transition*
+			1. portability
+			2. reusability
+			3. interoperability
+		- *product operation*
+			1. correctness
+			2. reliability
+			3. efficiency
+			4. integrity
+			5. usabillity
+
+- **Boehm's**
+	- seven quality factors
+		1. portability
+		2. reliability
+		3. efficiency
+		4. usability
+		5. testability
+		6. understandability
+		7. flexibility
+
+- **ISO 9000**
+	- guidelines for maintaining a quality system
+	- *ISO 9001* for orgs in design, development, production, servicing
+	- *ISO 9002* for orgs in production
+	- *ISO 9003* for orgs in installation and testing
+	- main requirements of ISO 9001
+		1. management responsibility
+		2. quality system
+		3. contract reviews
+		4. design control
+		5. document control
+		6. purchasing
+		7. purchaser supplied products
+		8. product identification
+		9. process control
+		10. inspection and testing
+		11. inspection, measuring, test quipment
+		12. inspection and test status
+		13. control of noncomforming product
+		14. corrective action
+		15. handling
+		16. quality records
+		17. quality audits
+		18. training
+	- feautures of ISO 9001
+		- all docs should e properly managed
+		- proper plans should be prepared
+		- imp docs be checked for effectiveness
+		- product should be tested against specification
+		- org aspects should be addressed
+
+## agile methodology
+
 
 ---
 
