@@ -21,7 +21,7 @@ which gives us the decision boundary
 ## cost function for logistic regression
 
 we cannot simply use cost function of Linear Regression i.e.
-$$J(W,b)=\frac{1}{m}\sum_{i=1}^{m}(f_{W,b}(X^{(i)})-y^{(i)})^2$$
+$$J(W,b)=\frac{1}{2m}\sum_{i=1}^{m}(f_{W,b}(X^{(i)})-y^{(i)})^2$$
 because the function when plotted against $W$ or $b$ shows several local minima, which cannot be optimized.
 
 Thus we use Logistic loss function to calculate the cost
