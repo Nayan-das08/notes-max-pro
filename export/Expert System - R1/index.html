@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Expert System R1
+An Introduction
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## What is an Expert System?
+- Expert systems are computer programs that mimic human expertise in a specific domain.
+
+- They use knowledge and rules to solve problems and make decisions.
+
+- Examples of expert systems include medical diagnosis systems, financial planning systems, and legal decision-making systems.
+
+- Expert systems are important in various fields as they can provide accurate and consistent advice, even in complex situations.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Introduction to Expert System R1
+
+- Expert System R1 is a rule-based expert system development tool.
+
+- It was developed by Roger Schank and his colleagues at Yale University in the 1980s.
+
+- Expert System R1 is designed to be easy to use and allows developers to create expert systems quickly.
+
+- Some of the features of Expert System R1 include a user-friendly interface, a powerful inference engine, and the ability to create complex rules.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Architecture of Expert System R1
+
+- Expert System R1 has a modular architecture that consists of four main components: Input/output module, Rule Base, Working Memory, and Inference Engine.
+
+- The Input/output module is responsible for receiving input from the user and displaying output.
+
+- The Rule Base contains the knowledge and rules that the expert system uses to make decisions.
+
+- The Working Memory is where the expert system stores information about the problem it is solving.
+
+- The Inference Engine is the part of the system that performs the reasoning and decision-making process.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Working of Expert System R1
+
+- Expert System R1 uses rule-based reasoning to make decisions.
+
+- The inference engine applies the rules in the Rule Base to the information in the Working Memory to arrive at a conclusion.
+
+- Expert System R1 can use forward or backward chaining to infer new information and make decisions.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Knowledge Representation in Expert System R1
+
+- Expert System R1 represents knowledge using rules.
+
+- The knowledge acquisition process involves capturing knowledge from experts and encoding it as rules.
+
+- The knowledge base contains the facts and information that the expert system uses to solve problems, while the rule base contains the rules that the expert system uses to reason about the facts.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Applications of Expert System R1
+
+- Expert System R1 can be used in a variety of domains, including healthcare, finance, and law.
+
+- One example of a successful implementation of Expert System R1 is the medical diagnostic system MYCIN, which was used to diagnose and treat bacterial infections.
+
+- Other applications of Expert System R1 include credit risk analysis, fraud detection, and insurance underwriting.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Advantages and Disadvantages of Expert System R1
+
+- Advantages of Expert System R1 include its ability to provide accurate and consistent advice, its ease of use, and its ability to handle complex problems.
+- Limitations of Expert System R1 include its reliance on expert knowledge, the difficulty of acquiring and encoding knowledge, and its inability to learn from experience.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Future Scope of Expert System R1
+
+- Current research trends in Expert System R1 include the integration of machine learning and natural language processing.
+
+- There is also potential for the development of hybrid systems that combine the strengths of rule-based and machine learning-based approaches.
+
+- The future of Expert System R1 looks promising as it continues to evolve and adapt to new technologies and applications.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 20pt; font-family: Consolas" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Conclusion
+
+- Expert System R1 is a rule-based expert system development tool that has been widely used in various domains.
+
+- Its modular architecture, user-friendly interface, and powerful inference engine make it an effective tool for developing expert systems.
+
+- Although Expert System R1 has some limitations, such as its reliance on expert knowledge and the difficulty of acquiring and encoding knowledge, it remains an important tool for solving complex problems and providing accurate advice.
+
+- As technology advances, there is potential for the development of even more powerful and versatile expert systems.
+
+- In conclusion, Expert System R1 is a valuable tool for creating rule-based expert systems and has made significant contributions to the field of artificial intelligence.
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
