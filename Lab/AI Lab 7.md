@@ -8,7 +8,7 @@ category: lab-file
 Mar 2, 2023
 
 ## Objective
-To create aa program to solve Cryptarithmetic Problems.
+To create a program to solve Cryptarithmetic Problems.
 
 ## Theory
 Cryptarithmetic problems are mathematical puzzles in which the digits are replaced by letters of the alphabets. The goal is to decipher the alphabet by using standard arithmetic rules.

@@ -6,3 +6,4 @@
 | RAM       | 16gb               |
 | GPU       | NVIDIA             |
 | Storage   | SSD, 512gb-1tb     |
+
