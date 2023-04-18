@@ -5,7 +5,7 @@ category: lab-file
 >%%Links: [[Lab Files]]%%
 
 # Experiment 6
-Jan 31, 2023
+Feb 21, 2023
 
 ## Objective
 To remove left recursion from a grammar.
@@ -245,6 +245,10 @@ int main()
 
 ```
 ---
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## Output
 ```plain
 Input Grammar:

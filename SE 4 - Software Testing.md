@@ -58,6 +58,7 @@ how to determine total number of test cases
 >$n$ is number of inputs
 
 how testing is shown / performed
+
 | test id case | input    | expected output |
 | ------------ | -------- | --------------- |
 | 1            | $a_1$, $b_1$ | $o_1$                |
@@ -66,18 +67,84 @@ how testing is shown / performed
 
 >[!HW]
 >find limitations of BVA method
+>ans: *Boolean inputs*
 
 limitations: 
 - no invalid test cases are taken
 	- solution: **Robustness Testing**
 	- $\text{input = \{min-, min, min+, norm, max-, max, max+\}}$ 
+	- no of test cases: $6n+1$
 
 **Worst Case Testing**
 cartesian product of ?
 
+> question 1
+>Consider a program for the determination of nature of roots of a quadratic equation. Input is a triple positive integer: a, b, c and values are from interval $[0,100]$, program output may have one of the following words: not quad, real roots, imaginary roots, equal roots
+
+design the boundary value test cases
+
+| test case | a   | b   | c   | expected output |
+| --------- | --- | --- | --- | --------------- |
+| 1         | 0   | 50  | 50  | not quad        |
+| 2         | 1   | 50  | 50  | real roots      |
+| ...       |     |     |     |                 |
+| 13        |     |     |     |                 |
+
+- no of test cases = $4(3)+1$ = 13
+- distribution of test values for **a**: $\{0,1,50,99,100\}$
+- keep values of **b** and **c** as middle value
+- change only one variable at a time, keep others constant
+
+>question 2
+>consider a program for determining the previous date. Its input is a triple of day, month, year with the values in the range
+>- $1 \le month \le 12$
+>- $1 \le day \le 31$
+>- $1900 \le year \le 2025$
+>outputs: valid date, invalid date
+
+distribution of test values
+
+| input | values                         |
+| ----- | ------------------------------ |
+| month | $\{1,2,6,11,12\}$              |
+| day   | $\{1,2,15,30,31\}$             |
+| year  | $\{1900,1901,1962,2024,2025\}$ |
+
+| test case | month | day | year | expected outcome |
+| --------- | ----- | --- | ---- | ---------------- |
+| 1         | 1     | 15  | 1962 | valid            |
+| 2         | 2     | 15  | 1962 | valid            |
+| 3         | 6     | 15  | 1962 | valid            |
+| 4         | 11    | 15  | 1962 | valid            |
+| 5         | 12    | 15  | 1962 | valid            |
+| 6         | 6     | 1   | 1962 |                  |
+| 7         | 6     | 2   | 1962 |                  |
+| 8         | 6     | 30  | 1962 |                  |
+| 9         | 6     | 31  | 1962 |                  |
+| 10        | 6     | 15  | 1900 |                  |
+| 11        | 6     | 15  | 1901 |                  |
+| 12        | 6     | 15  | 2024 |                  |
+| 13        | 6     | 15  | 2025 |                  |
+
+
 ### Equivalence Class Partition (ECP)
-### Decision Tree Based Testing (DTBT)
+- input domain of the program is divided into finite no of equivalence classes
+- equivalence classes are identified by taking each input condition and dividing it into valid and invalid classes.
+	- eg: for a from 0 to 50, 40 is valid, but less than 0 and greater than 50 is invalid
+	- valid: $[0 \le a \le 50]$ 
+	- invalid: $[a < 0]$ and $[a > 50]$ 
+- no test cases = no of classes
+- redundancy
+	- when using nominal value, redundant cases will arise
+	- won't arrive when use value other than nominal 
+- advantage: 
+	- less no of test cases
+
+### Decision Table Based Testing (DTBT)
+
+
 ### Cost Effect Graphing Testing (CEGT)
 
 ## white Box Testing
 - we will check the structure of the software
+- also known as structural 

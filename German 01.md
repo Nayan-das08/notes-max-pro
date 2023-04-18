@@ -1,5 +1,15 @@
 >Link: [[College]]
 
+Ü = 0220
+ü = 0252
+Ä = 0196
+ä = 0228
+Ö = 0214
+ö = 0246
+ß = 0223
+
+
+
 |           | mask  | fem   | neu   | plural |
 | --------- | ----- | ----- | ----- | ------ |
 | nominativ | der   | die   | das   | die    |
@@ -356,3 +366,20 @@ I am a student. I am 20 years old. My father is a teacher and mother is a housew
 18.  Sie hat letzten Monat einen Marathon gelaufen und den ersten Platz belegt!
 19.  Er hat gestern Morgen seinen Hund im Park spazieren geführt.
 20.  Sie sind gestern Nachmittag im Einkaufszentrum einkaufen gegangen.
+
+---
+
+## Machen Sie Die Saetze mit wenn, weil und dass
+1. Alle wissen es Ein Jahr hat 12 Monate
+	- Alle wissen es daß ein Jahr 12 Monate *hat*.
+2. Ich gehe zu meiner Mutter. Sie ist Krank.
+	- Ich gehe ze meiner Mutter, weil sie krank *ist*.
+3. Wir fahren nach Goa. Wir haben Zeit und Geld.
+	- Wir fahren nach Goa, wenn wir Zeit und Geld *haben*.
+4. Der Gast muss ein Taxi nehmen. Er hat einen Termin.
+	- Der Gast muss ein Taxi nehmen, weil er einen Termin *hat*.
+5. Wir Kann ich meine Hausaufgabe fertig machen. Du spielt laut Musik
+	- Wir Kann ich meine Hausaufgabe fertig machen, wenn du laut Musik *spielst*.
+6. Ich habe Keine Idee. Wie viel kostet das Handy?
+	- Ich habe keine Idee, daß wie viel das Handy kostet.
+7. Die Kinder können nicht draußen spielen
