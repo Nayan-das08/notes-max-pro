@@ -11,13 +11,10 @@ close all;
 clear;
 A1 = imread('medical_images\3.png');
 A2 = imread('medical_images\2.jpg');
-
 B1 = im2gray(A1);
 B2 = im2gray(A2);
-
 C1 = negative(B1);
 C2 = negative(B2);
-
 subplot(2,2,1)
 imshow(B1)
 title('original image 1')
@@ -30,7 +27,6 @@ title('original image 2')
 subplot(2,2,4)
 imshow(C2)
 title('negative image 2')
-
 function y=negative(x)
     y=x;
     for i=1:size(x,1)
@@ -42,4 +38,4 @@ end
 ```
 
 ## Output
-<span class="centerImg">![[lab2 output.png]]</span>
+![[lab2 output.png|700]]

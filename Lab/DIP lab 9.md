@@ -46,8 +46,6 @@ end
 
 subplot(r,c,3)
 imshow(H);
-...mesh(H);
-...imagesc(H);
 title("Ideal Low Pass Filter")
 
 X = C.*H;
@@ -57,6 +55,9 @@ subplot(r,c,4)
 imshow(Y);
 title("Filtered Image")
 ```
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ## Output
-<span class="centerImg">![[lab9 output 1.png]]</span>
+![[lab9 output 1.png|800]]

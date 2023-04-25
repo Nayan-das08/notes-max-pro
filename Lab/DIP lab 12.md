@@ -1,35 +1,83 @@
 # Experiment 12
-Mar 17, 2023
+Mar 3, 2023
 
 ## Aim
-Write a program for generating noise PDFs for uniform, Rayleigh and Exponential Noise.
+Write a program for Butterworth high pass filter.
 
 ## Source Code
 ```
-% Uniform noise
-u_min = 0;  % Minimum value
-u_max = 1;  % Maximum value
-u_pdf = @(x) (x >= u_min & x <= u_max) ./ (u_max - u_min);
+clc;
+close all;
+clear;
+A = imread("medical_images\1.png");
+A = im2gray(A);
 
-% Rayleigh noise
-r_sigma = 1;  % Scale parameter
-r_pdf = @(x) (x >= 0) .* (x / r_sigma^2) .* exp(-x.^2 / (2 * r_sigma^2));
+r = 3;
+c = 2;
 
-% Exponential noise
-e_lambda = 1;  % Rate parameter
-e_pdf = @(x) (x >= 0) .* e_lambda .* exp(-e_lambda * x);
+subplot(r,c,1)
+imshow(A);
+title("Original image")
 
-% Plot the PDFs
-x = linspace(0, 3, 1000);
-figure;
-plot(x, u_pdf(x), 'LineWidth', 2);
-hold on;
-plot(x, r_pdf(x), 'LineWidth', 2);
-plot(x, e_pdf(x), 'LineWidth', 2);
-legend('Uniform', 'Rayleigh', 'Exponential');
-xlabel('x');
-ylabel('Probability Density');
+d = size(A);
+M = d(1);
+N = d(2);
+
+B = fft2(A);
+C = fftshift(B);
+
+subplot(r,c,2)
+imshow(B);
+title("Fourier Transformed Shifted Image")
+
+D0 = 120;
+n = 1;
+H = zeros(d);
+
+for u = 1:d(1)
+    for v = 1:d(2)
+        D = ((u - M/2)^2 + (v - N/2)^2)^0.5;
+        H(u, v) = 1 / (1 + (D / D0)^(2*-n));  % Butterworth filter equation
+    end
+end
+
+subplot(r,c,3)
+imshow(H);
+str = sprintf("Butterworth High Pass Filter (n=%d)", n);
+title(str)
+
+X = C.*H;
+Y = abs(ifft2(X));
+
+subplot(r,c,4)
+imshow(Y);
+title("Filtered Image")
+
+...--------------------------
+
+D0 = 120;
+n = 5;
+H = zeros(d);
+
+for u = 1:d(1)
+    for v = 1:d(2)
+        D = ((u - M/2)^2 + (v - N/2)^2)^0.5;
+        H(u, v) = 1 / (1 + (D / D0)^(2*-n));  % Butterworth filter equation
+    end
+end
+
+subplot(r,c,5)
+imshow(H);
+str = sprintf("Butterworth High Pass Filter (n=%d)", n);
+title(str)
+
+X = C.*H;
+Y = abs(ifft2(X));
+
+subplot(r,c,6)
+imshow(Y);
+title("Filtered Image")
 ```
 
 ## Output
-<span class="centerImg">![[lab12 output.png]]</span>
+![[lab13 output 1.png|800]]

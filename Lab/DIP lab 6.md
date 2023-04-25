@@ -11,13 +11,10 @@ close all;
 clear;
 A = imread('medical_images\3.png');
 ...A2 = imread('medical_images\2.jpg');
-
 B = im2gray(A);
 ...B2 = im2gray(A2);
-
 x=2;
 y=5;
-
 A0 = double(B);
 A1 = mod(A0,2);%Least Significant Layer
 A2 = mod(floor(A0/2),2);
@@ -69,6 +66,9 @@ subplot(x,y,10);
 imshow(uint8(Image));
 title('Combined Image');
 ```
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ## Output
-<span class="centerImg">![[lab6 output.png]]</span>
+![[lab6 output.png|1000]]

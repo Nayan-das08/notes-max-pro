@@ -1,56 +1,83 @@
-# Experiment 10
-Mar 24, 2023
+# Experiment 13
+Mar 10, 2023
 
 ## Aim
-Write a program for smoothening of image using 3x3, 5x5, 7x7, 15x15 low pass filter.
+Write a program for Gaussian low pass filter.
 
 ## Source Code
 ```
 clc;
-clear all;
 close all;
+clear;
+A = imread("medical_images\1.png");
+A = im2gray(A);
 
-% Reading input image
-I = imread('medical_images\3.png');
+r = 3;
+c = 2;
 
-% Convert input image to grayscale
-I_gray = rgb2gray(I);
+subplot(r,c,1)
+imshow(A);
+title("Original image")
 
-% Display original image
-figure(1);
-subplot(2,3,1);
-imshow(I_gray);
-title('Original Image');
+d = size(A);
+M = d(1);
+N = d(2);
 
-% Create different sizes of low pass filters
-h_3 = ones(3,3)/9;
-h_5 = ones(5,5)/25;
-h_7 = ones(7,7)/49;
-h_15 = ones(15,15)/225;
+B = fft2(A);
+C = fftshift(B);
 
-% Apply different filters on input image
-I_3 = imfilter(I_gray, h_3);
-I_5 = imfilter(I_gray, h_5);
-I_7 = imfilter(I_gray, h_7);
-I_15 = imfilter(I_gray, h_15);
+subplot(r,c,2)
+imshow(B);
+title("Fourier Transformed Shifted Image")
 
-% Display smoothened images
-subplot(2,3,2);
-imshow(I_3);
-title('3x3 filter');
+D0 = 120;
+sigma = 30;  % Standard deviation of the Gaussian distribution
+H = zeros(d);
 
-subplot(2,3,3);
-imshow(I_5);
-title('5x5 filter');
+for u = 1:d(1)
+    for v = 1:d(2)
+        D = ((u - M/2)^2 + (v - N/2)^2)^0.5;
+        H(u, v) = exp(-(D^2) / (2 * sigma^2));  % Gaussian filter equation
+    end
+end
 
-subplot(2,3,4);
-imshow(I_7);
-title('7x7 filter');
+subplot(r,c,3)
+imshow(H);
+str = sprintf("Gaussian Low Pass Filter (sigma=%d)", sigma);
+title(str)
 
-subplot(2,3,5);
-imshow(I_15);
-title('15x15 filter');
+X = C.*H;
+Y = abs(ifft2(X));
+
+subplot(r,c,4)
+imshow(Y);
+title("Filtered Image")
+
+...--------------------------
+
+D0 = 120;
+sigma = 100;  % Standard deviation of the Gaussian distribution
+H = zeros(d);
+
+for u = 1:d(1)
+    for v = 1:d(2)
+        D = ((u - M/2)^2 + (v - N/2)^2)^0.5;
+        H(u, v) = exp(-(D^2) / (2 * sigma^2));  % Gaussian filter equation
+    end
+end
+
+subplot(r,c,5)
+imshow(H);
+str = sprintf("Gaussian Low Pass Filter (sigma=%d)", sigma);
+title(str)
+
+X = C.*H;
+Y = abs(ifft2(X));
+
+subplot(r,c,6)
+imshow(Y);
+title("Filtered Image")
 ```
 
 ## Output
-<span class="centerImg">![[lab13 output.png]]</span>
+![[lab11 output 1.png|800]]

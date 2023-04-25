@@ -20,5 +20,4 @@ title('image 2');
 ```
 
 ## Output
-<span class="centerImg">![[Pasted image 20230419023256.png]]</span>
-<span class="centerImg">![[Pasted image 20230419023240.png]]</span>
+![[Pasted image 20230419023256.png|500]]![[Pasted image 20230419023240.png|500]]

@@ -58,6 +58,9 @@ function y=gray_level_slicing(x)
     end
 end
 ```
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ## Output
-<span class="centerImg">![[lab8 output.png]]</span>
+![[lab8 output.png|800]]
