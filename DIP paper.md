@@ -1,8 +1,11 @@
--   digital image processing
--   astronomical photographs
--   James Webb Space Telescope
--   Hubble Space Telescope
--   image enhancement
+>%%Links: [[research work]]%%
+
+**keywords**
+digital image processing
+astronomical photographs
+James Webb Space Telescope
+Hubble Space Telescope
+image enhancement
 
 # Abstract
 The James Webb Space Telescope (JWST) and the Hubble Space Telescope (HST) collected data that was utilised to create high-resolution astronomical photographs. This review paper discusses several digital image processing techniques employed for those images. The study gives a general review of imaging technology, including the difficulties in processing the data once an image has been captured. After that, it investigates various image-processing methods, providing a framework for using intensity scaling, colour, and composition to generate contrasts in images that emphasise scientific information in detail. The study contrasts the effectiveness of each strategy using actual astronomical data while also outlining the benefits and drawbacks of each method. The exploration of the potential applications of digital image processing in astronomy and numerous examples of processing applied to astronomical bodies round out the paper's conclusion. Overall, this review paper offers a thorough road map for astronomers and researchers interested in enhancing the resolution and calibre of astronomical photographs by making use of digital image processing techniques.

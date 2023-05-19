@@ -1,57 +1,32 @@
->Links: [[rough notebooks]]
+# Cloud Security 
+Course Title: Cloud Security 
+Module I Security and Cryptographic Systems 20 % Confidentiality, privacy, integrity, authentication, non-repudiation, availability, access control, defence in depth, least privilege, importance of security in the cloud, Importance in PaaS, IaaS and SaaS, Symmetric cryptography, stream ciphers, block ciphers, modes of operation, public key cryptography, hashing, digital signatures, public-key infrastructures, key management, X.509 certificates, OpenSSL. Module II Multi-tenancy Issues 25% Isolation of users/VMs from each other, Virtualization System Security Issues: e.g. ESX and ESXi Security, ESX file system security, storage considerations, backup and recovery; Virtualization System Vulnerabilities: Management console vulnerabilities, management server vulnerabilities, administrative VM vulnerabilities, guest VM vulnerabilities, hypervisor vulnerabilities, hypervisor escape vulnerabilities, configuration issues, malware (botnets etc). Module III Virtualization System-Specific Attacks and Support 25% Guest hopping, attacks on the VM (delete the VM, attack on the control of the VM, code or file injection into the virtualized file structure), VM migration attack, hyperjacking. Technologies for Virtualization-Based Security Enhancement: IBM security virtual server protection, virtualization-based sandboxing; Storage Security: HIDPS, log management, Data Loss Prevention. Location of the Perimeter. Module IV Legal and Compliance Issues 20% Responsibility, ownership of data, right to penetration test. Local laws, examination of modern Security Standards (eg PCIDSS), Standards to deal with cloud services and virtualization, compliance for the cloud provider vs. compliance for the customer. AWS Organizations-Identify different support plan levels and their associated service levels, Support Services-prices associated with each of the support plans. Module V Cloud Security for Industry 10% Benefits of AWS Security, AWS Security Platform, Expert Guidance (Security Support, professional Services), AWS Global Infrastructure, AWS Compliance, Vulnerability Reporting, AWS Partner Network, Software-defined Cloud Manufacturing for Industry 4.0, AWS Manufacturing, Explore manufacturing processes in the cloud, AWS for manufacturing benefits, Industry Oriented Case Studies in Manufacturing (Xilinx case study, The Kellogg Company case study, SKF case study, Kemppi case study, iRobot case study, National Instruments case study etc).
 
+# Cyber Security 
+Course Title: Cyber Security 
+Module I : Introduction to Cyberspace Descriptors/Topics 20 : Definition of Netizen, Malware and its existence, Definition of Security hole, Security Patch, Viruses, Worms, Trojan Horses, Bot Networks, Social Engineering, Avoiding Malwares, Spyware, Adware, Keyboard Loggers, Rogue Software and Scareware, Ransomware, White Hat Search Engine Optimization, Current and Fulltime Threats, Hackers, Hacker’s tools, E-Mail and SPAM, Spoofing, Spammer’s tools, SPIM, Cyberbullies, Online Reputation Attacks, Phishing, Cyber stalkers Module II The Security Environment 20 Descriptors/Topics Threats, vulnerabilities, and consequences, Advanced persistent threats, The state of security today, Why security matters, introduction to cryptography, Access Control, Software Development Security, Introduction to Cybersecurity and its importance Module III Principles of Cybersecurity 20 Descriptors/Topics The interrelated components of the computing environment, Cybersecurity models (the CIA triad, the star model, the Parkerian hexad), computer security, information security, and information assurance Module IV : Organizational Implications 20 L T P/S SW/F W TOTAL CREDIT UNITS 3 - - - 3 Descriptors/Topics Cost of Cybercrimes and IPR Issues: Lesson for Organizations, Web Threats for Organizations: The Evils and Perils, Security and Privacy Implications from Cloud Computing, Social Media Marketing: Security Risk and Perils for Organization, Social Computing and the Associated Challenges for Organizations, Protecting People’s Privacy in the Organization, Organizational Guidelines for Internet Usage, Safe Computing Guidelines and Computer Usage Policy, Incident Handling: An Essential Component, Intellectual Property in the Cyberspace of Cybersecurity, Importance of Endpoint Security in Organizations. Module V : Cybersecurity Management 20 Descriptors/Topics Cybersecurity Management Concepts, Security governance, Management models, roles, and functions, Enterprise Roles and Structures, Information security roles and positions, Strategic planning and security strategy, The information security lifecycle, The System Security Plan (SSP)
 
+# Statistical tools
+Course Title: Introduction to statistical tools in research 
+Module I Introduction to Statistic Introduction to Statistic:, Variables, Quantitative, Qualitative, Group, Dependent, Independent, STATISTICS: DESCRIPTIVE AND INFERENTIAL STATISTICS Parametric and non parametric test, Sample size, frequency etc. Bar Graph ,Histogram, Box plot, Scatterplot, Mean, Median, Mode, Range, Variance, Standard, skewness, Correlation, Chi-square, regression, error, accuracy, precision Module II Introduction to statistic in Matlab Statistic and machine learning tool in Matlab, multidimensional data analysis, Statistics and Machine Learning, feature selection, stepwise regression, principal component analysis (PCA), regularization, supervised and unsupervised machine learning support vector machines (SVMs), boosted and bagged decision trees, k-nearest neighbor, k-means, k-medoids, hierarchical clustering, Gaussian mixture models, and hidden Markov models. Module III Introduction to R Qualitative Data, Quantitative Data, Numerical Measures, Probability Distributions Interval Estimation, Hypothesis Testing, Type II Error, Inference About Two Populations, Goodness of Fit, Analysis of Variance, Non-parametric Methods, Simple Linear Regression, Multiple Linear Regression, Logistic Regression Module IV Introduction to SPSS SPSS ,SPSS Syntax Introduction SPSS Output Viewer Window, Simple Overview Statistical Comparison Tests, SPSS Variable Types and Formats SPSS – Combining Data with Syntax and Output ,SPSS missing Module V Introduction to SAS SAS environment, Accessing , managing and manipulating data, creating graphs, Performing statistical analysis: t-test, Anova, linear regression ,Time series analysis
 
-## [5]
-The author Kim, Liu Z.[5] provided an overview of breakthroughs in fire detection systems throughout the last decade. They focused on numerous promising monitoring technologies (e.g., computer vision system, decentralised optical fibre thermal sensor, and so on), signal processing and surveillance technologies (for example, real-time automation over the Internet), and embedded fire detection systems. 
-
-The author Kim, Liu Z.[5] provided an overview of breakthroughs in fire detection systems throughout the last decade. The various monitoring systems discussed included physical sensor technologies like detectors for heat, smoke, flame and gas which have high tendency for flagging false positives; signal processing solutions for surveillance which involves computer vision technologies for monitoring via video and other media; and embedded fire detection systems, where the system has all the control to take decisions based on data collected in real-time and communicate with other components of the system to raise alert. Another important argument raised against embedded systems is that emergency situations may crash other systems, ultimately highlighting a drawback which needs to be considered.
-
----
-## [6]
-Traditional fire alarm systems used physical sensors to find fires, which led to the creation of false alarms, as was addressed by Celik et al. [6]. The example of a person smoking and the creation of an alert is highlighted. Computer vision technology was used, which helped to bridge typical gaps in learning and emerged as a trustworthy platform for picture detection.
-
-The drawback of false alarms in physical sensor based alarm system is addressed thoroughly by Celik et. al. [6]. The example of a person smoking and the creation of an alert is highlighted. To tackle this issue, computer vision technology is used along with the stand-alone system to reduce false alarms. The algorithm employed consists of two parts. The first part is fire colour modelling where the model is trained to learn the fire pixels by testing on video sequences of different types of fire. For this, the model requires RGB data  to be converted into CIE $L*a*b*$ format. The second part is the moving pixel detection which involves analysing the pattern in which selected fire pixels move throughout the stationary frame. This image processing, although yielding good results is a computationally complex task, and this is when the smoke is not considered for early warning signs.
-
----
-## [7]
-New developments in clip generated fire detection were given by the authors Çetin et al. [7]. For fire detection, surveillance systems and the unique intent of infrared surveillance cameras can be used. Authors also discussed the importance of sophisticated video processing tools to detect and investigate uncontrolled flame propagation
-
-
-
-
-The goal of this paper is to provide a summary of the work done on video fire detection. In general, this work deals with the analysis of digital signals for the detection of threats or punctures. The work involves many steps, but all of it worked together to create a working video fire detection system.
-
-The first step in this process is to process the digital signal. This means taking into account the quality of the signal, the its source, and any noise. Next, there is a step where the digital signal is processed so that it includes all free space on both sides of the fire. This space is filled with data (usually Bits wide), which is processed further by a Checker box (CBO) which takes into account the size of the data set. Finally
+# Natural Language Processing 
+Course Title: Introduction to Natural Language Processing 
+Module I Sound Biology of Speech Processing; Place and Manner of Articulation; Word Boundary Detection; Argmax based computations; HMM and Speech Recognition. Module II Words and Word Forms Morphology fundamentals; Morphological Diversity of Indian Languages; Morphology Paradigms; Finite State Machine Based Morphology; Automatic Morphology Learning; Shallow Parsing; Named Entities; Maximum Entropy Models; Random Fields. Module III Structures Theories of Parsing, Parsing Algorithms; Robust and Scalable Parsing on Noisy Text as in Web documents; Hybrid of Rule Based and Probabilistic Parsing; Scope Ambiguity and Attachment Ambiguity resolution. Module IV Meaning Lexical Knowledge Networks, Wordnet Theory; Indian Language Wordnets and Multilingual Dictionaries; Semantic Roles; Word Sense Disambiguation; WSD and Multilinguality; Metaphors; Coreferences. Module V Web 2.0 Applications Sentiment Analysis; Text Entailment; Robust and Scalable Machine Translation; Question Answering in Multilingual Setting; Cross Lingual Information Retrieval (CLIR)
 
 ---
-Front matter
-- [ ] **subject**
-	- name of the subject
-		- *college notes*: name of the course
-		- *other*: name of the subject matter
-	- eg: 
-		- AIML, 
-		- software-engg, 
-		- networks, 
-		- git, 
-		- internship, 
-		- sheebu-project, 
-		- etc
-- [ ] **category**
-	- what type of content is there in the file
-	- eg: 
-		- personal, 
-		- MOC, 
-		- lecture-notes, 
-		- notes, 
-		- lab-file
+# Cryptography
+Course Title: Applied Cryptography
+Module I Introduction and Mathematical Foundations Descriptors/Topics Overview on Modern Cryptography, Number Theory, Probability and Information Theory, Classical Cryptosystems, Cryptanalysis of Classical Cryptosystems, Shannon’s Theory Module II Symmetric Key Ciphers Symmetric Key Ciphers, Modern Block Ciphers (DES),AES, Linear Cryptanalysis, Differential Cryptanalysis. ,Other Cryptanalysis techniques, Overview on S-Box Design Principles, Modes of operation of Block Ciphers, Stream Ciphers Module III Hash Functions and MACs Hash functions: The Merkle Damgard Construction, Message Authentication Codes (MACs), Asymmetric Key Ciphers: More Number Theoretic Results, The RSA Cryptosystem, Primality Testing, Factoring Algorithms Module IV Digital Signatures The Discrete Logarithm Problem (DLP) and the Diffie Hellman Key Exchange algorithm, Signature schemes, Elliptic curve based cryptography Module V Network Security Secret Sharing Schemes, Kerberos, PGP, Intruders, Firewalls, Viruses
 
+# Data Mining and Business Intelligence
+Course Title: Data Mining and Business Intelligence
+Module I Data Mining: Data mining approaches and methods: concept description, classification, association rules, clustering, Mining complex types of data, Research trends in data warehousing and data mining. Objectives of Data Mining the Technical context for Data Mining, machine learning, decision support and computer technology. Module II Data Mining Techniques and A1 algorithms Process of data mining, algorithms, Data base segmentation or clustering, predictive Modeling, Link Analysis, Data Mining Techniques, Automatic Cluster Detection, Decision trees and Neural Networks. Module III Classification and Predictions What is Classification & Prediction, Issues regarding Classification and prediction, Decision tree, Bayesian Classification, Classification by Back propagation, Multilayer feed-forward Neural Network, Back propagation Algorithm, Classification methods K-nearest neighbor classifiers, Genetic Algorithm. Module IV Business Intelligence and Analytics Definition of Problem (Corporate problems & Issues), BI Architecture spread sheets, concept of dashboard, OLAP, decision engineering, LIS, BI Tools concept of dashboard, BI Analytics discriminate analysis and logistic regression, cluster analysis, principle component analysis. Module V Data Mining for Business Intelligence Applications Data mining for business applications like Balanced Scorecard, Fraud Detection, Click stream Mining, Market Segmentation, retail industry, telecommunications industry, banking & finance and CRM etc.
 
+---
+Course Title: Product Management and Research
+Module 1: Product User Research & Usability Testing Introduction to User Research - Importance and Methods Surveys - Quantitative Research (Tools) User Interviews and Focus Group Discussions Develop User Personas for your Product User Journey Mapping Affinity Mapping Introduction to Usability Testing Usability Testing Techniques Low Fidelity Testing Conducting Usability Audits Module II: Agile Product Management & Minimum Viable Product Epics, User Stories Acceptance Criteria Jira For Pms Agile Estimates and Agile Estimation Techniques Roadmapping and Prioritization The Scrum Framework and Scrum Roles Introduction To MVP MVP vs MDP How to run experiments to test your MVP? Module III: Technology for PM Basics Of Internet Front End; Back End; Tech Stacks Choosing The Right Tech Stack What are API's, Types of API and its Functions Module IV: Product Analytics A/B Testing, Multivariate Testing Segmentation and Funnel Analysis Google Analytics Cohort Analysis and Web Analytics Product & Engagement Analytics Module V: Product Planning, Launch & Pricing Strategies Product Release Planning 30 Strategic Planning And Product Positioning Content Creation And Distribution Adoption & Retention Measure and Risk Mitigation 
 
+Course Title: Big Data Architecture
+not needed, i am taking this course
 
-```dataview
-table subject, category
-from ""
-where subject="AIML"
-```

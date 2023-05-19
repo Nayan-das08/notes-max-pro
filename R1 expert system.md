@@ -1,3 +1,5 @@
+>Link: [[College]]
+
 ## Adersh
 Now, what is an expert system? Let's examine the phrase itself.
 "Expert" "System".

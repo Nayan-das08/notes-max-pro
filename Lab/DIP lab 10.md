@@ -1,3 +1,5 @@
+>%%Links: [[Lab Files]]%%
+
 # Experiment 10
 Feb 24, 2023
 

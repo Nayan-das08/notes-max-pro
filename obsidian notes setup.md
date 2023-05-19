@@ -1,3 +1,5 @@
+>%%Links: [[misc]]%%
+
 1. open terminal/cmd
 2. got to the directory where u want notes folder
 3. run `git clone https://github.com/Nayan-das08/notes-max-pro`

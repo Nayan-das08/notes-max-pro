@@ -1,7 +1,3 @@
----
-subject: 
-category: lab-file
----
 >%%Links: [[Lab Files]]%%
 
 # Experiment 1A

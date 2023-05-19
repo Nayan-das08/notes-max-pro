@@ -1,3 +1,5 @@
+>Link: [[College]]
+
 fundamentals about software testing
 what is ST, why, what should we test, who should test
 

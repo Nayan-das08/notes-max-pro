@@ -1,8 +1,4 @@
----
-subject : AIML
-category: MOC
----
->Links: [[__Dashboard]], [[CSE roadmap]]
+>Links: [[CSE roadmap]]
 
 
 ## notes associated with the topic

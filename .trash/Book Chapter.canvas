@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"type":"text","text":"# available topics\n- ML models for drug target identification\n- AI models for drug property prediction\n- AI models for drug resistance prediction\n- deep learning models for target protein structure prediction\n- AI based personalized drug treatment\n- **ML models for drug efficacy metrics** \n- AI models for bio-pharmaceutical properties prediction\n- ML applications for drug repurposing","id":"496bc8096920234d","x":-508,"y":-214,"width":488,"height":434}
+	],
+	"edges":[]
+}

@@ -13,10 +13,3 @@ FROM [[Lab Files]]
 ```
 
 ---
-## Other shit
-```dataview
-TABLE subject
-FROM ""
-WHERE category="MOC" AND file.name!="MOC template"
-```
-

@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"type":"text","text":"# ML revision\n- [ ] EDA\n- [ ] PCA\n- [ ] feature selection\n\t- [ ] various tests\n- [x] linear regression\n- [x] logistic regression\n- [x] KNN\n- [ ] K means\n- [ ] SVM\n- [ ] XG Boost\n- [ ] Adaboost\n- [ ] Decision Trees\n","id":"28dc236e18e72896","x":1160,"y":-340,"width":400,"height":601,"color":"2"},
 		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1080,"y":-746,"width":400,"height":92},
 		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
 		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-780,"y":-746,"width":280,"height":84},
@@ -10,17 +9,18 @@
 		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":760,"y":-390,"width":285,"height":201},
 		{"type":"text","text":"# image to LaTeX","id":"10b9dda0c276ad5f","x":735,"y":-873,"width":206,"height":206},
 		{"type":"text","text":">[!NOTE]\n>- [ ] *not complete*\n>- [ ] complete but not checked\n>- [x] checked","id":"e70a11e44a4d9da4","x":-1400,"y":320,"width":353,"height":230},
-		{"type":"text","text":"# Explore Google Data Analytics Course","id":"d36f0458a41fc428","x":660,"y":261,"width":280,"height":219,"color":"2"},
-		{"type":"text","text":"# take up Johns Hopkins or IBM ML spec after DeepLearning.AI","id":"1019456cda101e7f","x":844,"y":680,"width":402,"height":240,"color":"2"},
-		{"type":"text","text":"### for EDA (in order of rigour)\n1.  *Python for Data Analysis* by Wes McKinney\n2. *Python Data Science Handbook* by Jake VanderPlas\n3. *Practical Statistics for Data Scientists* by Peter Bruce, Andrew Bruce","id":"64523602c50280c1","x":1880,"y":56,"width":347,"height":320,"color":"2"},
-		{"type":"text","text":"### for PCA\n- start with *Statistical Learning  with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani","id":"92da78658291a744","x":2053,"y":543,"width":348,"height":274,"color":"2"},
-		{"type":"text","text":"# complete DeepL.AI","id":"6cf7d287c83b821a","x":1360,"y":542,"width":216,"height":138,"color":"2"},
 		{"type":"text","text":"# *Urgent (needs immediate attention)*\n\n- SE assignment\n- AI assignment\n- HVCO Poster\n- Paper\n- LSTM","id":"1f72206ccb5200cd","x":-260,"y":301,"width":479,"height":379},
-		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":99,"y":-1603,"width":520,"height":600},
-		{"type":"text","text":"# minors bish\n\n- AI\n\t- [ ] mod 1 \n\t- [ ] mod 2\n- CC\n\t- [ ] mod 1\n\t- [ ] mod2\n- SE\n\t- [ ] mod 1\n\t- [ ] mod 2\n- DIP\n\t- [ ] before fourier\n- AIML\n\t- [ ] ANN\n\t- [ ] CNN\n\t- [ ] RNN","id":"24c40518f784d511","x":-1605,"y":-622,"width":558,"height":583},
-		{"type":"text","text":"## CC\n- [ ] mod 1\n\t- [ ] lexical analyzer theory\n\t- [ ] TOC\n\t\t- [ ] NFA w/ e to NFA w/o e\n\t\t- [ ] NFA w/o e to DFA\n\t\t- [ ] DFA optimization\n\t\t- [ ] Meale Moore *(maybe)*\n- [ ] mod 2\n\t- [ ] Top down parsing\n\t\t- [ ] **predictive parsing**\n\t\t\t- [ ] FIRST and FOLLOW\n\t\t\t- [ ] predictive parsing table\n\t\t\t- [ ] LL(1) grammar criterion\n\t\t\t- [ ] predictive parsing\n\t- [ ] bottom up parsing\n\t\t- [ ] shift reduce parsing\n\t\t- [ ] **operator parsing**\n\t\t\t- [ ] precedance method\n\t\t\t- [ ] standard method\n\t\t\t\t- [ ] leading and trailing\n\t\t\t- [ ] operator parsing table\n\t\t\t- [ ] operator parsing\n\t- [ ] **SLR Parsing**\n\t\t- [ ] canonical LR(0) collection\n\t\t- [ ] closure and goto\n\t\t- [ ] DFA\n\t\t- [ ] SLR parsing table\n\t\t- [ ] SLR parsing","id":"bdb5b0a51f601b87","x":-780,"y":-1880,"width":460,"height":945},
-		{"type":"text","text":"## AI mod 1\n- mod 1\n\t- basic theory\n\t- expert systems\n\t- teminologies\n\t- problem solving\n\t- state space representation\n\t- problems\n\t\t- 8 puzzle \n\t\t- water jug\n\t\t- crypt-arithmetic\n\t- production systems\n\t- control strategies\n\t- search strategies\n\t\t- brute force\n\t\t\t- BFS and DFS\n\t\t- heurestic\n\t\t\t- hill climbing\n\t\t\t- best first search\n\t\t\t- A*\n\t\t\t- AO*\n\t\t\t- constraint satisfaction\n\t- game playing strategies\n\t\t- minimax\n\t\t- alpha beta pruning\n\t- means end analysis","id":"bef85af76eaed866","x":-1440,"y":-1880,"width":480,"height":945},
-		{"type":"text","text":"## AI mod 2\n- mod 2\n\t- knowledge representation\n\t\t- propositional logic\n\t\t- WFF\n\t\t- canonical/normal forms\n\t\t- predicate logic\n\t\t- clausal form\n\t- horn clause\n\t- unification process\n\t- resolution principle","id":"c96a3b4a765a4fd2","x":-2020,"y":-1880,"width":460,"height":435}
+		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-1743,"y":-704,"width":520,"height":600},
+		{"type":"text","text":"#  Google Advanced Data Analytics","id":"d36f0458a41fc428","x":1400,"y":406,"width":320,"height":179,"color":"2"},
+		{"type":"text","text":"## After this","id":"ac761a83122f6906","x":1080,"y":664,"width":161,"height":117},
+		{"type":"text","text":"# Johns Hopkins or IBM ML spec","id":"1019456cda101e7f","x":1452,"y":664,"width":338,"height":160,"color":"2"},
+		{"type":"text","text":"# complete DeepL.AI","id":"6cf7d287c83b821a","x":1504,"y":880,"width":216,"height":138,"color":"2"},
+		{"type":"text","text":"# MLOps or DevOps","id":"4827b49dd4d45d49","x":640,"y":776,"width":234,"height":160,"color":"2"},
+		{"type":"text","text":"# GANs","id":"8581ad545726b0bf","x":685,"y":541,"width":219,"height":139,"color":"2"},
+		{"type":"text","text":"# NLP","id":"1a53496facbe1c5e","x":955,"y":1018,"width":180,"height":130,"color":"2"},
+		{"type":"text","text":"## for PCA\n- start with *Statistical Learning  with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani","id":"92da78658291a744","x":2253,"y":719,"width":348,"height":274,"color":"2"},
+		{"type":"text","text":"## for EDA (in order of rigour)\n1.  *Python for Data Analysis* by Wes McKinney\n2. *Python Data Science Handbook* by Jake VanderPlas\n3. *Practical Statistics for Data Scientists* by Peter Bruce, Andrew Bruce","id":"64523602c50280c1","x":2080,"y":211,"width":347,"height":341,"color":"2"},
+		{"type":"text","text":"# ML revision\n- [ ] EDA\n- [ ] PCA\n- [ ] feature selection\n\t- [ ] various tests\n- [x] linear regression\n- [x] logistic regression\n- [x] KNN\n- [ ] K means\n- [ ] SVM\n- [ ] XG Boost\n- [ ] Adaboost\n- [ ] Decision Trees\n","id":"28dc236e18e72896","x":1135,"y":-390,"width":400,"height":601,"color":"2"}
 	],
 	"edges":[
 		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
@@ -29,14 +29,21 @@
 		{"id":"906ea0d20b382bb3","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"5264f392c4f040b9","toSide":"top"},
 		{"id":"7f99b7510daf0335","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"28dc236e18e72896","toSide":"top"},
 		{"id":"d987048fd3205ccd","fromNode":"72f37c6e49649db2","fromSide":"top","toNode":"04a5685dbc78f873","toSide":"left"},
-		{"id":"7a23854013b0ebf6","fromNode":"28dc236e18e72896","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"right"},
 		{"id":"4e353b48db09c0b7","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"10b9dda0c276ad5f","toSide":"right"},
 		{"id":"4f961c7a14568d82","fromNode":"e70a11e44a4d9da4","fromSide":"right","toNode":"b28f3d8db18f5b78","toSide":"left"},
 		{"id":"a1143006192d460d","fromNode":"28dc236e18e72896","fromSide":"right","toNode":"64523602c50280c1","toSide":"left"},
 		{"id":"5bae7bfcc55ac584","fromNode":"64523602c50280c1","fromSide":"bottom","toNode":"92da78658291a744","toSide":"top"},
-		{"id":"114352f11c0a96a5","fromNode":"1019456cda101e7f","fromSide":"left","toNode":"d36f0458a41fc428","toSide":"bottom","label":"after this"},
-		{"id":"bd2686764ec500b7","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"6cf7d287c83b821a","toSide":"top","label":"first priority"},
-		{"id":"6221089250943f47","fromNode":"6cf7d287c83b821a","fromSide":"bottom","toNode":"1019456cda101e7f","toSide":"right","label":"then"},
-		{"id":"ddb0f3a60afb717c","fromNode":"6cf7d287c83b821a","fromSide":"right","toNode":"64523602c50280c1","toSide":"left","label":"side by side"}
+		{"id":"bd2686764ec500b7","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"6cf7d287c83b821a","toSide":"top"},
+		{"id":"ddb0f3a60afb717c","fromNode":"d36f0458a41fc428","fromSide":"right","toNode":"64523602c50280c1","toSide":"left","label":"side by side"},
+		{"id":"d71aaa48b77b6c7b","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"d36f0458a41fc428","toSide":"top"},
+		{"id":"40ee8992653d103e","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"1019456cda101e7f","toSide":"top"},
+		{"id":"0c9bc9403ee9ddd0","fromNode":"1019456cda101e7f","fromSide":"right","toNode":"64523602c50280c1","toSide":"left"},
+		{"id":"6ec5694263caaf3d","fromNode":"6cf7d287c83b821a","fromSide":"right","toNode":"64523602c50280c1","toSide":"left"},
+		{"id":"bfe1ccce63539633","fromNode":"d36f0458a41fc428","fromSide":"left","toNode":"ac761a83122f6906","toSide":"right"},
+		{"id":"72ee1d8a9bec2d98","fromNode":"1019456cda101e7f","fromSide":"left","toNode":"ac761a83122f6906","toSide":"right"},
+		{"id":"445fac5ee01526f3","fromNode":"6cf7d287c83b821a","fromSide":"left","toNode":"ac761a83122f6906","toSide":"right"},
+		{"id":"fa4b7dab7bcc0c2f","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"8581ad545726b0bf","toSide":"right"},
+		{"id":"a4369de76c74ec2c","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"4827b49dd4d45d49","toSide":"right"},
+		{"id":"3f6dc72aa411d554","fromNode":"ac761a83122f6906","fromSide":"bottom","toNode":"1a53496facbe1c5e","toSide":"top"}
 	]
 }
