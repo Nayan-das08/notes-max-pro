@@ -1,3 +1,4 @@
+# Ethics notes
 # module 1: Philosophy and Ethics
 ## Philosophy
 ### Definition of Philosophy 
