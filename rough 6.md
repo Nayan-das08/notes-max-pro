@@ -1,46 +1,48 @@
-- [x] **ANN**
-	- [x] historical models
-		- [x] MP Neuron
-		- [x] Hebbian Learning
-	- [x] Perceptron Model with normal learning
-	- [x] BPNN
-- [ ] **CNN**
-	- [x] motivation
-	- [x] architecture
-		- [x] convolution, padding, pooling
-		- [x] batch normalization
-		- [x] activation functions
-	- [x] math
-		- [x] feed-forward
-		- [x] back prop
-		- [x] matrix size calculation
-		- [x] no. of parameters
-	- [x] code
-	- [x] applications
-	- [x] drawbacks
-- [ ] **RNN**
-	- [x] motivation
-	- [x] architecture
-		- [x] prev time stamp connections
-		- [x] activation functions
-	- [x] math
-		- [x] feed-forward
-		- [x] back prop
-	- [ ] code
-	- [x] applications
-	- [x] drawbacks
-- [x] **LSTM**
-	- [x] motivation
-	- [x] architecture
-		- [x] gates
-		- [x] activation functions
-- [ ] **Transformers**
-	- [ ] motivation
-	- [ ] architecture
-		- [ ] encoder
-		- [ ] decoder
-		- [ ] self attention
-		- [ ] activation functions
-- [ ] **GANs**
-	- [ ] architecture
-- [x] **derivative of all activation functions**
+- [ ] **mod 1**
+	- [x] SDLCs
+	- [x] CMM
+	- [x] Software quality
+	- [x] agile
+- [ ] **mod 2**
+	- [x] size oriented metrics
+	- [x] token count based
+	- [x] data structure metrics
+	- [x] info flow metrics
+	- [x] functional points
+	- [x] cost estimation
+		- [x] single and multivariate models
+	- [x] COCOMO
+		- [x] basic
+		- [x] intermediate
+		- [x] organic
+		- [x] semi-detached
+		- [x] embedded
+	- [ ] Putnam
+	- [ ] risk management
+- [ ] **mod 3**
+	- [ ] requirements
+		- [ ] functional
+		- [ ] non functional
+		- [ ] SRS
+	- [ ] design
+		- [ ] detailed
+		- [ ] object oriented
+		- [ ] internal class
+		- [ ] SDD
+	- [ ] DFD
+	- [x] cohesion, coupling
+- [ ] **mod 4**
+	- [ ] failure and faults
+	- [ ] reliability models
+		- [ ] basic
+		- [ ] poisson
+	- [ ] alpha, beta, acceptance
+	- [ ] functional: black box testing
+		- [ ] BVA
+		- [ ] Equivalence class testing
+		- [ ] decision table 
+	- [ ] structural: white box testing
+		- [ ] path testing
+	- [ ] rest
+- [ ] **mod 5**
+	- [ ] UML diagrams

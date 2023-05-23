@@ -29,7 +29,7 @@ The architecture of Recurrent Neural Networks (RNNs) consists of recurrent conne
 RNNs are designed to process sequences by maintaining information from previous time steps. This is achieved through recurrent connections, where the output of a neuron at a particular time step is fed back as an input to the network at the next time step. This feedback loop allows RNNs to capture the temporal dependencies in sequential data.
 
 Mathematically, at each time step t, an RNN takes an input vector x(t) and combines it with the output vector from the previous time step h(t-1) to produce an output vector h(t). The output at each time step is then used as input for the next time step. The recurrent connections ensure that information from past time steps influences the network's current state and future predictions.
-    
+
 ### Memory Cells
 Memory cells are the fundamental building blocks of RNNs that enable them to store and utilize information over multiple time steps. They are responsible for maintaining an internal state or memory that captures the context and history of the sequential data.
 

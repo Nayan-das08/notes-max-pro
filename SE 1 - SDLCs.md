@@ -29,18 +29,18 @@
 	- when the technology is not well understood
 
 ## prototyping model
-- aelirer models needed definite designs
+- earlier models needed definite designs
 - they lack customer interaction
 - enter, this one
-- cinverns the approval of customers
-- can;t move fwd till customer is satisdaied
+- concerns the approval of customers
+- can't move fwd till customer is satisfied
 - time consuming
 - 4 types
 	- throwaway
-		- prepare something, dont like, throw, create from scratch again
+		- prepare something, don't like, throw, create from scratch again
 	- evolutionary
 		- dont throw, modify/refine
-- pahses
+- phases
 	- initial req
 	- design and eval
 		- prototyping
@@ -70,9 +70,10 @@
 - do all phases $n$ times
 - lot of deployment time
 
+---
 ## CMM
 >how mature the organization is?
-- prev models don't consider the structure/characterisitics/standand of org
+- prev models don't consider the structure/characteristics/standard of org
 - this models the level of the org
 - how much can they handle
 - 5 levels
@@ -83,7 +84,7 @@
 		- resulting effort becomes chaotic
 		- called *chaotic level*
 		- success only due to some individuals
-	2. **repatable**
+	2. **repeatable**
 		- basic project management practices (cost and schedule) are followed
 		- use cost estimation techniques
 		- focus on same kinds of problems
@@ -91,7 +92,7 @@
 		- processes for *management* are mainained along with that for development
 		- common org wide understanding of activities, etc
 		- *product qualities* are not defined
-	4. quantitatively managed
+	4. **quantitatively managed**
 		- focus on software metrics
 		- 2 types of metrics collected
 			- *product metrics*
@@ -102,7 +103,7 @@
 			- *process metrics* (testing)
 				- avg defect correction time
 				- avg no of defects found per hour of inspection
-	5. optimizing
+	5. **optimizing**
 		- have everything
 - customer side constraints force them to move down the levels
 
@@ -113,6 +114,7 @@
 
 ### quality models
 - **McCall's**
+	- ![[Pasted image 20230524005555.png]]
 	- three perspectives
 		- *product revision*
 			1. maintainability
@@ -163,15 +165,33 @@
 		16. quality records
 		17. quality audits
 		18. training
-	- feautures of ISO 9001
-		- all docs should e properly managed
+	- features of ISO 9001
+		- all docs should be properly managed
 		- proper plans should be prepared
 		- imp docs be checked for effectiveness
 		- product should be tested against specification
 		- org aspects should be addressed
 
 ## agile methodology
+Agile methodologies refer to a set of software development approaches that prioritize flexibility, collaboration, and iterative development. These methodologies emphasize adaptive planning, continuous improvement, and rapid delivery of working software. Here are some key aspects of agile methodologies:
 
+- **Iterative and Incremental Development**: Agile methodologies break the project into smaller iterations or increments, with each iteration delivering a working version of the software. This allows for early and frequent delivery of valuable functionality.
+
+- **Adaptive Planning**: Agile methodologies embrace change by acknowledging that requirements can evolve over time. Instead of rigidly following a predefined plan, agile teams continuously refine and adjust their plans based on feedback, new insights, and changing priorities.
+
+- **Cross-Functional and Collaborative Teams**: Agile promotes close collaboration among team members from different disciplines, such as developers, testers, designers, and stakeholders. The emphasis is on effective communication, shared ownership, and collaboration to achieve project goals.    
+
+- **Continuous User Involvement**: Agile methodologies emphasize the involvement of users or stakeholders throughout the development process. Regular feedback and close collaboration help ensure that the delivered software meets the users' needs and expectations.
+
+- **Emphasis on Communication**: Agile methodologies prioritize effective and transparent communication within the team and with stakeholders. Frequent meetings, such as daily stand-ups and regular retrospectives, facilitate information sharing, issue resolution, and alignment.
+   
+- **Embracing Change**: Agile methodologies recognize that change is inevitable and welcome it as an opportunity to enhance the product. Changes can be accommodated at any stage of development, and feedback from users or stakeholders is incorporated iteratively.
+
+- **Continuous Improvement**: Agile methodologies foster a culture of continuous improvement. Regular retrospectives allow the team to reflect on their processes, identify areas of improvement, and implement changes to enhance productivity, quality, and team dynamics.
+
+- **Agile Frameworks**: Several frameworks fall under the agile umbrella, including *Scrum*, *Kanban*, Extreme Programming (*XP*), and *Lean* Software Development. Each framework provides specific practices, roles, and ceremonies to guide the implementation of agile principles.
+
+Agile methodologies aim to deliver value early and often, promote collaboration and adaptability, and improve overall project success by embracing change and customer feedback. They have gained popularity due to their ability to address the challenges of rapidly evolving requirements and dynamic business environments.
 
 ---
 

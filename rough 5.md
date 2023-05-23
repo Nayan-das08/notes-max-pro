@@ -51,14 +51,15 @@ bohot difficult
 | FC-10               | 10           | 5770                |
 
 ## ques 24
-| Layer     | Output Shape | Number of Parameters |
-|-----------|--------------|----------------------|
-| Input     | 32x32x1      | -                   |
-| Conv5-10  | 28x28x10     | 260                  |
-| Pool2     | 14x14x10     | 0                    |
-| Conv5-10  | 10x10x10     | 2,510                |
-| Pool2     | 5x5x10       | 0                    |
-| FC-10     | 10           | 2,510                |
+
+| Layer    | Output Shape | Number of Parameters |
+| -------- | ------------ | -------------------- |
+| Input    | 32x32x1      | -                    |
+| Conv5-10 | 28x28x10     | 260                  |
+| Pool2    | 14x14x10     | 0                    |
+| Conv5-10 | 10x10x10     | 2,510                |
+| Pool2    | 5x5x10       | 0                    |
+| FC-10    | 10           | 2,510                |
 
 ## ques 25
 1. **Oversampling the minority class**

@@ -50,11 +50,11 @@
 ### process metrics
 - measures such as overall dev time, type of methodology used
 - collected across *all projects* over *long period of time*
-- to provie *indicators* that lead to *long-term software process* imporovement
+- to provide *indicators* that lead to *long-term software process* improvement
 	- to obtain estimations for software dev process
 
 ### product metrics
-- descirbe effectiveness ofprocesses that produce software
+- describe effectiveness of processes that produce software
 - eg
 	- effort
 	- time
@@ -71,8 +71,8 @@
 ## factors affecting software quality
 1. product
 2. people
-3. technology
-4. process
+3. process
+4. technology
 
 ## example
 - 2 team, 2 diff projects
@@ -91,7 +91,7 @@
 
 ## Size oriented Metrics
 - while calc LOC
-	- dont include header files
+	- don't include header files
 	- dont include comment and blank lines
 - with LOC
 	- errors per KLOC
@@ -144,11 +144,20 @@
 
 
 CAF
-1. does the system require reliable backup and recovery
-2. is data comm required
-3. are there distribute processing functions
-4. is performance critical
-5. will the system run in an existing heavily utilized operational evnt
+1. does the system require reliable backup and recovery?
+2. is data communication required?
+3. are there distribute processing functions?
+4. is performance critical?
+5. will the system run in an existing heavily utilized operational environment?
+6. Does the system require on line data entry? 
+7. Does the on line data entry require the input transaction to be built over multiple screens or operations? 
+8. Are the master files updated on line?
+9. Is the inputs, outputs, files, or inquiries complex? 
+10. Is the internal processing complex? 
+11. Is the code designed to be reusable? 
+12. Are conversion and installation included in the design? 
+13. Is the system designed for multiple installations in different organizations? 
+14. Is the application designed to facilitate change and ease of use by the user?
 
 ---
 consider project
@@ -267,11 +276,11 @@ FP = 449.44
 - FAN IN: no of components that can call or pass control to (A)
 - FAN OUT: no of components called by (A)
 - simple model
-- $$IF(A) = FANin(A) \times FANSout(A)]^2$$
+- $$IF(A) = [FANin(A) \times FANSout(A)]^2$$
 - advanced model
 	- more concern on where data is going and coming from
-	- $$FANin = a + b + c + d$$
-		- a: no of compinents that *call* A
+	- $$FANin = a + b + c + d$$n
+		- a: no of components that *call* A
 		- b: no of parameters *passed to* A (higher)
 		- c: no of parameters *passed to* A (lower)
 		- d: no of data elements *read* by A

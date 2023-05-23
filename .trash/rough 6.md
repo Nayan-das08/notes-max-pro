@@ -1,0 +1,46 @@
+- [x] **ANN**
+	- [x] historical models
+		- [x] MP Neuron
+		- [x] Hebbian Learning
+	- [x] Perceptron Model with normal learning
+	- [x] BPNN
+- [ ] **CNN**
+	- [x] motivation
+	- [x] architecture
+		- [x] convolution, padding, pooling
+		- [x] batch normalization
+		- [x] activation functions
+	- [x] math
+		- [x] feed-forward
+		- [x] back prop
+		- [x] matrix size calculation
+		- [x] no. of parameters
+	- [x] code
+	- [x] applications
+	- [x] drawbacks
+- [ ] **RNN**
+	- [x] motivation
+	- [x] architecture
+		- [x] prev time stamp connections
+		- [x] activation functions
+	- [x] math
+		- [x] feed-forward
+		- [x] back prop
+	- [ ] code
+	- [x] applications
+	- [x] drawbacks
+- [x] **LSTM**
+	- [x] motivation
+	- [x] architecture
+		- [x] gates
+		- [x] activation functions
+- [ ] **Transformers**
+	- [ ] motivation
+	- [ ] architecture
+		- [ ] encoder
+		- [ ] decoder
+		- [ ] self attention
+		- [ ] activation functions
+- [ ] **GANs**
+	- [ ] architecture
+- [x] **derivative of all activation functions**
