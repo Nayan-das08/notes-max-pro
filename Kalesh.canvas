@@ -1,16 +1,5 @@
 {
 	"nodes":[
-		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1080,"y":-746,"width":400,"height":92},
-		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":66,"y":-935,"width":494,"height":415},
-		{"type":"text","text":"# ***To-do mf***","id":"e979b33e24de5a17","x":-780,"y":-746,"width":280,"height":84},
-		{"type":"text","text":"# Lab Work\n- CC\n\t1. [x] postfix\n\t2. [x] regex to DFA\n\t3. [x] token number\n\t4. [x] token type\n\t5. [ ] *regex to CFG*\n\t6. [ ] left recursion\n\t7. [ ] *remove ambiguity*\n- AI\n\t1. [x] logic gates, sets\n\t2. [x] water jug\n\t3. [ ] dfs\n\t4. [ ] 8-puzzle using A*\n\t5. [ ] *8-puzzle BFS*\n\t6. [ ] *tic tac toe*\n- SE\n\t1. [x] intro to StarUML\n\t2. [x] class diagrams\n\t3. [x] use case diagrams\n\t4. [x] state diagram\n\t5. [x] object diagram\n\t6. [ ] activity diagram\n- DIP\n\t1. [ ] *imread/imshow*\n\t2. [ ] *histogram*\n\t3. [ ] *hist equalization sprecification*\n\t4. [ ] *bit plane slicing*\n\t5. [ ] *fourier transform*","id":"b28f3d8db18f5b78","x":-900,"y":-390,"width":400,"height":980},
-		{"type":"text","text":"# college\n- DIP\n\t- [ ] relation between pixels\n\t- [ ] frequency domain\n- AI \n\t- *assignment (Mar 10)*\n- SE \n\t- *assignment (Mar 10)*","id":"226dcce66decfe7e","x":160,"y":-239,"width":306,"height":440},
-		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":-360,"y":-220,"width":360,"height":320},
-		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":760,"y":-390,"width":285,"height":201},
-		{"type":"text","text":"# image to LaTeX","id":"10b9dda0c276ad5f","x":735,"y":-873,"width":206,"height":206},
-		{"type":"text","text":">[!NOTE]\n>- [ ] *not complete*\n>- [ ] complete but not checked\n>- [x] checked","id":"e70a11e44a4d9da4","x":-1400,"y":320,"width":353,"height":230},
-		{"type":"text","text":"# *Urgent (needs immediate attention)*\n\n- SE assignment\n- AI assignment\n- HVCO Poster\n- Paper\n- LSTM","id":"1f72206ccb5200cd","x":-260,"y":301,"width":479,"height":379},
-		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-1743,"y":-704,"width":520,"height":600},
 		{"type":"text","text":"#  Google Advanced Data Analytics","id":"d36f0458a41fc428","x":1400,"y":406,"width":320,"height":179,"color":"2"},
 		{"type":"text","text":"## After this","id":"ac761a83122f6906","x":1080,"y":664,"width":161,"height":117},
 		{"type":"text","text":"# Johns Hopkins or IBM ML spec","id":"1019456cda101e7f","x":1452,"y":664,"width":338,"height":160,"color":"2"},
@@ -20,17 +9,21 @@
 		{"type":"text","text":"# NLP","id":"1a53496facbe1c5e","x":955,"y":1018,"width":180,"height":130,"color":"2"},
 		{"type":"text","text":"## for PCA\n- start with *Statistical Learning  with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani","id":"92da78658291a744","x":2253,"y":719,"width":348,"height":274,"color":"2"},
 		{"type":"text","text":"## for EDA (in order of rigour)\n1.  *Python for Data Analysis* by Wes McKinney\n2. *Python Data Science Handbook* by Jake VanderPlas\n3. *Practical Statistics for Data Scientists* by Peter Bruce, Andrew Bruce","id":"64523602c50280c1","x":2080,"y":211,"width":347,"height":341,"color":"2"},
-		{"type":"text","text":"# ML revision\n- [ ] EDA\n- [ ] PCA\n- [ ] feature selection\n\t- [ ] various tests\n- [x] linear regression\n- [x] logistic regression\n- [x] KNN\n- [ ] K means\n- [ ] SVM\n- [ ] XG Boost\n- [ ] Adaboost\n- [ ] Decision Trees\n","id":"28dc236e18e72896","x":1135,"y":-390,"width":400,"height":601,"color":"2"}
+		{"type":"text","text":"# ML revision\n- [ ] EDA\n- [ ] PCA\n- [ ] feature selection\n\t- [ ] various tests\n- [x] linear regression\n- [x] logistic regression\n- [x] KNN\n- [ ] K means\n- [ ] SVM\n- [ ] XG Boost\n- [ ] Adaboost\n- [ ] Decision Trees\n","id":"28dc236e18e72896","x":1560,"y":-399,"width":400,"height":601,"color":"2"},
+		{"type":"text","text":"# ***Miscellaneuous***","id":"d659a809f057a9b9","x":1520,"y":-749,"width":270,"height":92},
+		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":-179,"y":44,"width":360,"height":320},
+		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":-649,"y":569,"width":322,"height":415},
+		{"id":"19750ffd4e477733","x":181,"y":541,"width":248,"height":144,"type":"text","text":"# think about *how you can get an S6 lite*"},
+		{"id":"4232518100a3c0ef","x":683,"y":0,"width":362,"height":202,"type":"text","text":"<div style=\"text-align:center; font-family: Latin Modern Math; font-size:50;\">Don't Forget About</div>\n"},
+		{"type":"text","text":"# Things to do *that i must not forget* during the *summer break*","id":"62de61ac8d8cc8bd","x":181,"y":-434,"width":316,"height":180},
+		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-649,"y":-698,"width":520,"height":600},
+		{"id":"dd3312cbeabfcdfd","x":855,"y":-360,"width":200,"height":213,"type":"text","text":"## study \n- [ ] Fuzzy logic\n- [ ] statistics\n- [ ] GANs\n- [ ] NLP"},
+		{"type":"text","text":"## start with the *LaTex project*","id":"36d51f5e483d9f96","x":756,"y":-657,"width":198,"height":121},
+		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":1115,"y":-561,"width":285,"height":201}
 	],
 	"edges":[
-		{"id":"790b87f2d2038af9","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"b28f3d8db18f5b78","toSide":"top"},
-		{"id":"7d2d5d3a6cc255a1","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"72f37c6e49649db2","toSide":"top"},
-		{"id":"67fd2417ddd006dd","fromNode":"e979b33e24de5a17","fromSide":"bottom","toNode":"226dcce66decfe7e","toSide":"top"},
 		{"id":"906ea0d20b382bb3","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"5264f392c4f040b9","toSide":"top"},
 		{"id":"7f99b7510daf0335","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"28dc236e18e72896","toSide":"top"},
-		{"id":"d987048fd3205ccd","fromNode":"72f37c6e49649db2","fromSide":"top","toNode":"04a5685dbc78f873","toSide":"left"},
-		{"id":"4e353b48db09c0b7","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"10b9dda0c276ad5f","toSide":"right"},
-		{"id":"4f961c7a14568d82","fromNode":"e70a11e44a4d9da4","fromSide":"right","toNode":"b28f3d8db18f5b78","toSide":"left"},
 		{"id":"a1143006192d460d","fromNode":"28dc236e18e72896","fromSide":"right","toNode":"64523602c50280c1","toSide":"left"},
 		{"id":"5bae7bfcc55ac584","fromNode":"64523602c50280c1","fromSide":"bottom","toNode":"92da78658291a744","toSide":"top"},
 		{"id":"bd2686764ec500b7","fromNode":"28dc236e18e72896","fromSide":"bottom","toNode":"6cf7d287c83b821a","toSide":"top"},
@@ -44,6 +37,14 @@
 		{"id":"445fac5ee01526f3","fromNode":"6cf7d287c83b821a","fromSide":"left","toNode":"ac761a83122f6906","toSide":"right"},
 		{"id":"fa4b7dab7bcc0c2f","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"8581ad545726b0bf","toSide":"right"},
 		{"id":"a4369de76c74ec2c","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"4827b49dd4d45d49","toSide":"right"},
-		{"id":"3f6dc72aa411d554","fromNode":"ac761a83122f6906","fromSide":"bottom","toNode":"1a53496facbe1c5e","toSide":"top"}
+		{"id":"3f6dc72aa411d554","fromNode":"ac761a83122f6906","fromSide":"bottom","toNode":"1a53496facbe1c5e","toSide":"top"},
+		{"id":"84af07293e8f62aa","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"36d51f5e483d9f96","toSide":"left"},
+		{"id":"85814149da5e601c","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"dd3312cbeabfcdfd","toSide":"left"},
+		{"id":"f909a69209445f24","fromNode":"04a5685dbc78f873","fromSide":"top","toNode":"72f37c6e49649db2","toSide":"left"},
+		{"id":"38b8cc986f4fd11d","fromNode":"4232518100a3c0ef","fromSide":"left","toNode":"72f37c6e49649db2","toSide":"right"},
+		{"id":"477b447168184835","fromNode":"4232518100a3c0ef","fromSide":"left","toNode":"19750ffd4e477733","toSide":"top"},
+		{"id":"7dc58a6bad677a43","fromNode":"4232518100a3c0ef","fromSide":"top","toNode":"62de61ac8d8cc8bd","toSide":"bottom"},
+		{"id":"5994a7d31e8ee7ca","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"36d51f5e483d9f96","toSide":"right"},
+		{"id":"f996074ab480d1aa","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"5264f392c4f040b9","toSide":"left"}
 	]
 }
