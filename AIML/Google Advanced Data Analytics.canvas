@@ -1,1 +1,21 @@
-{}
+{
+	"nodes":[
+		{"id":"03af2c6c8e8dbdfe","x":-711,"y":87,"width":211,"height":91,"type":"text","text":"## Data Professionals"},
+		{"id":"0081be453aa2764c","x":-490,"y":260,"width":300,"height":140,"type":"text","text":"meaningful contributions to organizations by finding ***action oriented solutions within data***"},
+		{"type":"text","text":"# Data Science","id":"0b5ef843a2614120","x":-550,"y":-220,"width":220,"height":60},
+		{"type":"text","text":"# Data Analytics","id":"d5625cf16c37191e","x":-440,"y":-20,"width":250,"height":60},
+		{"type":"text","text":">How can we take all the data that already exists and translate it into meaningful and actionable insights?","id":"83e0711815a6d56c","x":53,"y":-20,"width":267,"height":175},
+		{"type":"text","text":"businesses rely on **data professionals** to *acquire*, *organize* and *interpret* data which ","id":"458c797af756852c","x":-100,"y":295,"width":306,"height":159},
+		{"id":"9a0c5113dca259b3","x":18,"y":-490,"width":302,"height":330,"type":"text","text":"- aimed to create methods to *capture*, *process* and *organize* data\n- uncover *actionable insights*\n- establish best way to *present data*\n- rely on *statistics* and *data modelling*"},
+		{"id":"46e253551681e159","x":-605,"y":-720,"width":327,"height":300,"type":"text","text":"- discipline aimed at *making data more useful*\n- use raw data to develop new ways to *model data*\n- produces insights on *which questions should be asked about data*\n- use advanced techniques to *make predictions*"}
+	],
+	"edges":[
+		{"id":"868f7b4d592b00cb","fromNode":"d5625cf16c37191e","fromSide":"right","toNode":"83e0711815a6d56c","toSide":"left"},
+		{"id":"388e5519aa55e124","fromNode":"83e0711815a6d56c","fromSide":"bottom","toNode":"458c797af756852c","toSide":"top","label":"to do so"},
+		{"id":"f81777707398b075","fromNode":"03af2c6c8e8dbdfe","fromSide":"right","toNode":"0081be453aa2764c","toSide":"top"},
+		{"id":"38b99f8f7d3e61d2","fromNode":"0b5ef843a2614120","fromSide":"top","toNode":"46e253551681e159","toSide":"bottom"},
+		{"id":"1eff0bcf1c1ad205","fromNode":"d5625cf16c37191e","fromSide":"top","toNode":"0b5ef843a2614120","toSide":"bottom","label":"falls under"},
+		{"id":"6839d64037a72f92","fromNode":"d5625cf16c37191e","fromSide":"right","toNode":"9a0c5113dca259b3","toSide":"left"},
+		{"id":"d2d7c8dbb61e90c9","fromNode":"9a0c5113dca259b3","fromSide":"top","toNode":"46e253551681e159","toSide":"right","label":"same fundamental goal"}
+	]
+}

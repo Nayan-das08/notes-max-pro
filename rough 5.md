@@ -1,5 +1,5 @@
-- [ ] **mod 1**
-	- [ ] about AI
+- [x] **mod 1**
+	- [x] about AI
 	- [x] problem solving
 	- [x] state space representation
 	- [x] problems
@@ -22,66 +22,66 @@
 		- [x] alpha-beta pruning
 	- [x] problem solving
 		- [x] Means end analysis
-- [ ] **mod 2**
-	- [ ] propositional logic
-		- [ ] inference rules
-	- [ ] first order predicate logic
-	- [ ] skolemization
-	- [ ] clausal form / CNF
-	- [ ] horn clause
-	- [ ] unification
-	- [ ] refutation / resolution
-	- [ ] type of knowledge structure
-		- [ ] weak slot
-			- [ ] semantic net
-			- [ ] frames
-		- [ ] strong slot
-			- [ ] scripts
-			- [ ] conceptual dependency
-	- [ ] forward chaining
-	- [ ] backward chaining
-- [ ] **mod 3**
-	- [ ] conceptual dependency
-	- [ ] scripts
-	- [ ] bag of words
-	- [ ] tokenization
-	- [ ] stop words removal
-	- [ ] stemming
-	- [ ] lemmatization
-	- [ ] topic modelling
-	- [ ] syntactic processing
-		- [ ] grammar
-	- [ ] semantic processing
-		- [ ] semantic role labelling
-		- [ ] word sense disambiguation
-		- [ ] named entity recognition
-	- [ ] transition networks
-		- [ ] recursive 
-		- [ ] augmented
+- [x] **mod 2**
+	- [x] propositional logic
+		- [x] inference rules
+	- [x] first order predicate logic
+	- [x] skolemization
+	- [x] clausal form / CNF
+	- [x] horn clause
+	- [x] unification
+	- [x] resolution / proof by refutation
+	- [x] type of knowledge structure
+		- [x] weak slot
+			- [x] semantic net
+			- [x] frames
+		- [x] strong slot
+			- [x] conceptual dependency
+			- [x] scripts
+	- [x] forward chaining
+	- [x] backward chaining
+- [x] **mod 3**
+	- [x] conceptual dependency
+	- [x] scripts
+	- [x] bag of words
+	- [x] tokenization
+	- [x] stop words removal
+	- [x] stemming
+	- [x] lemmatization
+	- [x] topic modelling
+	- [x] syntactic processing
+		- [x] grammar
+	- [x] semantic processing
+		- [x] semantic role labelling
+		- [x] word sense disambiguation
+		- [x] named entity recognition
+	- [x] transition networks
+		- [x] recursive 
+		- [x] augmented
 - [ ] **mod 4**
-	- [ ] expert system
-	- [ ] need
-	- [ ] characteristics
-	- [ ] history
-	- [ ] components
-		- [ ] knowledge base
-		- [ ] UI
-		- [ ] inference engine
-		- [ ] explanation facility
-		- [ ] knowledge acquisition facility
-			- [ ] protocol generation
-			- [ ] protocol analysis
-			- [ ] hierarchy generation
-			- [ ] matrix based
-			- [ ] sorting techniques
-			- [ ] Limited-information and constrained processing tasks
-			- [ ] Diagram-based techniques
-		- [ ] external interface
-	- [ ] MYCIN
-	- [ ] R1
-	- [ ] bayesian network
-	- [ ] certainty factor
-	- [ ] belief function
-	- [ ] fuzzy logic
-- [ ] **mod 5**
-	- [ ] robotics
+	- [x] expert system
+	- [x] need
+	- [x] characteristics
+	- [x] history
+	- [x] components
+		- [x] knowledge base
+		- [x] UI
+		- [x] inference engine
+		- [x] explanation facility
+		- [x] knowledge acquisition facility
+			- [x] protocol generation
+			- [x] protocol analysis
+			- [x] hierarchy generation
+			- [x] matrix based
+			- [x] sorting techniques
+			- [x] Limited-information and constrained processing tasks
+			- [x] Diagram-based techniques
+		- [x] external interface
+	- [x] MYCIN
+	- [x] R1
+	- [x] bayesian network
+	- [x] certainty factor
+	- [x] belief function
+	- [x] fuzzy logic
+- [x] **mod 5**
+	- [x] robotics
