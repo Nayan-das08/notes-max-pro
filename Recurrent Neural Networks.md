@@ -1,3 +1,4 @@
+%%>Links: [[random CS topic]]%%
 <div style="text-align:center; font-family: Latin Modern Math; font-size:50;">
 Recurrent Neural Networks
 </div>

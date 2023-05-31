@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"91d2feae6961cdba","x":100,"y":-554,"width":920,"height":714,"type":"file","file":"NTP summary.md"},
+		{"id":"713eaf1293eeb250","x":-774,"y":-240,"width":392,"height":280,"type":"text","text":"# study\n- NTP - network time protocols\n\t- \n- type of attacks\n- how can we identify auto DDOS attacks in this type of traffic"},
+		{"id":"5dd3724083dc4538","x":-352,"y":-314,"width":294,"height":429,"type":"text","text":"# to do\n\n- [ ] study NTP from binder\n- [ ] cross reference with cmd outputs (page 1)\n- [ ] try syncing device to NTP servers\n- [ ] email papers read"},
+		{"id":"e1a5610598a2c28a","x":-604,"y":-500,"width":444,"height":136,"type":"text","text":"<h1 style=\"text-align:center;\">Hybrid Deep Learning-Based NTP Traffic Analysis for DDoS Attack Identification</h1>"}
+	],
+	"edges":[]
+}

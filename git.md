@@ -1,5 +1,3 @@
-Dec 18, 2022
-
 >Links: [[random CS topic]]
 
 ![[Pasted image 20221203213144.png]]
