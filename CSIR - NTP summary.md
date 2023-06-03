@@ -1,4 +1,5 @@
-# NTP summary
+Date: 01/06/2023
+%%# NTP summary%%
 ## basics
 - Network Time Protocol is a widely used protocol to synchronize computer clocks in the Internet
 - computer clocks become inconsistent with each other after some time even after initialization with same time. 
@@ -90,6 +91,81 @@ When using NTP, it is important to assess the timekeeping function. The NTP perf
 	- RMS average of the most recent offset differences
 	- represents the nominal error in estimating offset
 
+## NTP header
+
+| Name      | Formula   | Description           |
+| --------- | --------- | --------------------- |
+| leap      | leap      | leap indicator (LI)   |
+| version   | version   | version number (VN)   |
+| mode      | mode      | mode                  |
+| stratum   | stratum   | stratum               |
+| precision | rho       | precision exponent    |
+| poll      | poll      | poll exponent         |
+| rootdelay | delta_r   | root delay            |
+| rootdisp  | epsilon_r | root dispersion       |
+| refid     | refid     | reference ID          |
+| reftime   | reftime   | reference timestamp   |
+| org       | T1        | origin timestamp      |
+| rec       | T2        | receive timestamp     |
+| xmt       | T3        | transmit timestamp    |
+| dst       | T4        | destination timestamp |
+| keyid     | keyid     | key ID                |
+| dgst      | dgst      | message digest        |
+
+- **leap indicator (LI)**
+	- warning of an impending leap second to be inserted or deleted in the last minute of the current month
+- **version number (VN)**
+	- NTP version number, currently 4
+- **mode**
+	- 0-7 values for association modes
+- **stratum**
+	- 0 = unspecified or invalid
+	- 1 = primary server
+	- 2-15 = secondary server
+	- 16 = unsynchronized
+	- 17-255 = reserved
+	- as stratum number increases, its accuracy degrades
+	- *primary server*
+		- synchronized to a reference clock directly traceable to UTC (eg: GPS)
+		- can provide synchronization to one or more clients
+	- *secondary server*
+		- synchronized to primary or secondary servers
+		- has one or more upstream servers
+		- has one or more downstream servers (clients)
+- **poll**
+	- maximum interval between successive messages, in log2 seconds
+- **precision exponent**
+	- precision of the system clock, in log2 seconds
+	- eg: a value of -18 corresponds to a precision of about one microsecond
+- **root delay**
+	- Total round-trip delay to the reference clock.
+- **root dispersion**
+	- Total dispersion to the reference clock.
+- **reference ID**
+	- ASCII code identifying the particular server or reference clock
+- **reference timestamp**
+	- Time when the system clock was last set or corrected
+- **origin timestamp (T1)**
+	- Time at the client when the request departed for the server
+- **receive timestamp (T2)**
+	- Time at the server when the request arrived from the client
+- **transmit timestamp (T3)**
+	- Time at the server when the response left for the client
+- **destination timestamp (T4)**
+	- Time at the client when the reply arrived from the server
+	- not included as a header field; it is determined upon arrival of the packet and made available in the packet buffer data structure
+- **key ID**
+	- used by the client and server to designate a secret 128-bit MD5 key
+- **message digest**
+	- MD5 hash computed over the key followed by the NTP packet header and extensions fields
+- offset = $\theta$ = $\frac{(T2-T1)+(T3-T4)}{2}$
+- round-trip delay = $\delta$ = (T4 - T1) - (T3-T2)
+- correction
+	- dest_time(T4) + offset($\theta$) = tx_time(T3) + delay($\delta$)/2
+	- correction = dest_time(T4) - tx_time(T3) = delay($\delta$)/2 - offset($\delta$)
+
+---
+
 - NTP from RFC-5905: NTP Specification document
 	- protocol association modes and their affects
 	- terminologies like time offset
@@ -101,3 +177,19 @@ When using NTP, it is important to assess the timekeeping function. The NTP perf
 	- packet header
 - created a python program using ntplib library to display ntp header for an NTP request
 - having difficulty in capturing packets using scapy and pcapy due to system configurations.
+
+
+
+NCITR
+
+
+- NTP in terms of National time-keeping
+- uncertainty vs error
+- type 1 type 2 error
+- calibration cert
+- NTP service models
+	- performance
+	- script - 
+	- identify servers
+	- sync multiple times during the day
+	- gather data about response, performance
