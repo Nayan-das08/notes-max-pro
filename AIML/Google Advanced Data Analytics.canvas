@@ -2,7 +2,6 @@
 	"nodes":[
 		{"type":"group","id":"c6fd79a2ed87c6c0","x":-800,"y":480,"width":715,"height":633,"label":"Application areas"},
 		{"type":"text","text":"# Data Science","id":"0b5ef843a2614120","x":-520,"y":-325,"width":220,"height":60},
-		{"type":"text","text":"## examples of application areas","id":"ab22348f9d4f61fd","x":-492,"y":237,"width":274,"height":81},
 		{"type":"text","text":"## business intelligence\n- perform predictive analysis\n- these analyses help org. to determine likely future trends\n- create tables, reports and dashboards","id":"669462b22bed9a60","x":-2080,"y":278,"width":316,"height":273},
 		{"type":"text","text":"## data Scientist and data analyst\n- uncover trends, patterns and insights from data\n- employ advanced modelling and statistical analytics techniques","id":"812888d387623679","x":-1764,"y":-160,"width":308,"height":276},
 		{"type":"text","text":"# Data Professionals","id":"03af2c6c8e8dbdfe","x":-1367,"y":-391,"width":221,"height":125},
@@ -10,18 +9,20 @@
 		{"type":"text","text":"meaningful contributions to organizations by finding ***action oriented solutions within data***","id":"0081be453aa2764c","x":-1187,"y":-162,"width":300,"height":140},
 		{"type":"text","text":"- aimed to create methods to *capture*, *process* and *organize* data\n- uncover *actionable insights*\n- establish best way to *present data*\n- rely on *statistics* and *data modelling*","id":"9a0c5113dca259b3","x":18,"y":-490,"width":302,"height":330},
 		{"type":"text","text":"# Data Analytics","id":"d5625cf16c37191e","x":-403,"y":8,"width":250,"height":60},
-		{"type":"text","text":"businesses rely on **data professionals** to *acquire*, *organize* and *interpret* data which ","id":"458c797af756852c","x":-137,"y":280,"width":306,"height":159},
 		{"type":"text","text":"- discipline aimed at *making data more useful*\n- use raw data to develop new ways to *model data*\n- produces insights on *which questions should be asked about data*\n- use advanced techniques to *make predictions*","id":"46e253551681e159","x":-464,"y":-772,"width":327,"height":300},
-		{"type":"text","text":"## Aggregate Information\n- data from a significant number of users that has *eliminated personal information*\n- industries are using this more and more\n- since other info is removed, it can have data of a lot more users\n\t- hence, **more diverse**","id":"5ae978a7046ba45f","x":1140,"y":622,"width":428,"height":321},
+		{"type":"text","text":"## data collection / gathering\n- it is a human process\n- the process can be informed by different backgrounds, experiences, beliefs and worldviews\n- these **biases** can affect how data is collected and shared\n\t- this affects how business decisions are made ","id":"ec6a459c50caad7d","x":753,"y":-319,"width":340,"height":390},
+		{"type":"text","text":"## examples of application areas","id":"ab22348f9d4f61fd","x":-492,"y":237,"width":274,"height":81},
+		{"type":"text","text":"businesses rely on **data professionals** to *acquire*, *organize* and *interpret* data which ","id":"458c797af756852c","x":-137,"y":280,"width":306,"height":159},
 		{"type":"text","text":"# Data","id":"a34b74a94f1f87fe","x":440,"y":193,"width":140,"height":70},
 		{"type":"text","text":"## sample\na segment of population that is representative of the entire population","id":"deda0d32e6af6c7c","x":460,"y":443,"width":220,"height":220},
 		{"type":"text","text":"## types of data","id":"bd4b0d2c310169f6","x":780,"y":409,"width":143,"height":69},
-		{"type":"text","text":"## data collection / gathering\n- it is a human process\n- the process can be informed by different backgrounds, experiences, beliefs and worldviews\n- these **biases** can affect how data is collected and shared\n\t- this affects how business decisions are made ","id":"ec6a459c50caad7d","x":753,"y":-319,"width":340,"height":390},
 		{"type":"text","text":">How can we take all the data that already exists and translate it into meaningful and actionable insights?","id":"83e0711815a6d56c","x":53,"y":-20,"width":267,"height":175},
-		{"type":"text","text":"## Personally Identifiable Information (*PII*)\n- information that permits the identity of an individual to be inferred by either direct or indirect means\n- often associated with *medical*, *financial* and *employment* records\n\t- hence, **sensitive**\n\n**examples**:\n- biometrics records\n- usernames\n- national identification numbers","id":"000a1ec688673d40","x":1175,"y":68,"width":416,"height":455},
 		{"type":"text","text":"## finance\n- assess risk\n- monitor markets\n- reduce fraud\n- create a more stable financial system","id":"aaa688b073e8e6a0","x":-780,"y":500,"width":316,"height":252},
 		{"type":"text","text":"## healthcare\n- wearable tech\n- process clinical data\n- increase early detection\n- improve diagnosis\n- create individualized wellness plans","id":"c274850b09197d01","x":-421,"y":667,"width":316,"height":290},
-		{"type":"text","text":"## manufacturing\n- predict when to perform preventative measures\n- maximize quality assurance\n- respond to logical issues\n- enable clear communication","id":"b4f03fc11303254f","x":-780,"y":801,"width":316,"height":292}
+		{"type":"text","text":"## manufacturing\n- predict when to perform preventative measures\n- maximize quality assurance\n- respond to logical issues\n- enable clear communication","id":"b4f03fc11303254f","x":-780,"y":801,"width":316,"height":292},
+		{"type":"text","text":"## Aggregate Information\n- data from a significant number of users that has *eliminated personal information*\n- industries are using this more and more\n- since other info is removed, it can have data of a lot more users\n\t- hence, **more diverse**","id":"5ae978a7046ba45f","x":1140,"y":622,"width":428,"height":321},
+		{"type":"text","text":"## Personally Identifiable Information (*PII*)\n- information that permits the identity of an individual to be inferred by either direct or indirect means\n- often associated with *medical*, *financial* and *employment* records\n\t- hence, **sensitive**\n\n**examples**:\n- biometrics records\n- usernames\n- national identification numbers","id":"000a1ec688673d40","x":1175,"y":68,"width":416,"height":455},
+		{"id":"6348a1654b231c3a","x":-1600,"y":765,"width":245,"height":384,"type":"text","text":"# PACE\n\n- **P**\n- **A**\n- **C**\n- **E**"}
 	],
 	"edges":[
 		{"id":"868f7b4d592b00cb","fromNode":"d5625cf16c37191e","fromSide":"right","toNode":"83e0711815a6d56c","toSide":"left"},
