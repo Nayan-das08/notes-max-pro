@@ -24,8 +24,8 @@ To counter the escalating threat posed by NTP-based DDoS attacks, this research 
 # Theoretical Background
 - how accurate time is obtained
 	- mention UTC, atomic clocks, cesium-133
-	- mention primary and secondary servers
 - how NTP works
+	- mention primary and secondary servers
 	- requests and response
 	- terminologies
 		- offset
