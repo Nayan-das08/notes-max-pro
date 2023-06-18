@@ -1,9 +1,3 @@
----
-subject : AIML
-category: notes
----
-Dec 24, 2022
-
 >%%Links: [[_AIML MOC]]%%
 
 According to the gradient descent algorithm, the parameter of the model (variables on which cost function depends) should be updated as

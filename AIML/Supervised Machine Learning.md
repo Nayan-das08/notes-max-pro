@@ -1,9 +1,4 @@
----
-subject : AIML
-category: notes
----
-Dec 18, 2022
-%%Links: [[_AIML MOC]]%%
+>%%Links: [[_AIML MOC]]%%
 
 ## what is it?
 Refers to the algorithms that learn by learning **how to map vector of inputs $X$ to output label $y$.**

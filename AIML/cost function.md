@@ -1,9 +1,3 @@
----
-subject : AIML
-category: notes
----
-Dec 18, 2022
-
 >%%Links: [[_AIML MOC]]%%
 
 ## need?
