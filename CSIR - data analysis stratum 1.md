@@ -69,9 +69,15 @@
 - this value is a result of the method of data collection
 
 ### precision
-- higher precision servers are superior
+- influences the timekeeping accuracy of the NTP server
+- lower value indicates higher precision
+- higher precision leads to more accurate time value 
+- better performance from the server
+- better infrastructure
+- higher precision servers are preferred by secondary servers when selecting the upstream server to synchronize with
 
 ### poll
+- helps regulate the rate/frequency at which the client can send requests to the server to synchronize its time
 
 ### rootdelay
 
