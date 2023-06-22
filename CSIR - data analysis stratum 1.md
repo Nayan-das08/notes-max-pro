@@ -72,26 +72,15 @@
 - higher precision servers are superior
 
 ### poll
-- 
 
 ### rootdelay
-- 
 
 ### rootdisp
-- 
 
 ### refid
 
 ### reftime
 
-### org
+### offset
 
-### rec
-
-### xmt
-
-### dst
-
-
-
-
+### round trip delay

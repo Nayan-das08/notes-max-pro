@@ -54,28 +54,92 @@ The client device which requires the time synchronization sends a request packet
 Time synchronization is needed by a device when the system clock is at a different timestamp than a server clock. This difference is called offset and is represented by Greek symbol theta. It indicates whether the client's clock is running ahead (positive offset) or behind (negative offset) the server's clock. It is computed by comparing the timestamp of the client's request packet with the corresponding timestamp in the server's reply packet. Another important parameter which is calculated after the response packet is received by the client is delay, denoted by Greek symbol delta. This represents the round-trip-time (RTT) or round-trip-delay (RTD) between the client and the server, i.e., the time it takes for the client's request packet to reach the server and for the server's reply packet to return to the client. It provides for an estimate of the network delay or latency between the two entities and is calculated by subtracting the transmission timestamp in the client's request packet from the reception timestamp in the server's reply packet. These two help in calculating the correct time at the client side by incorporating the delay and offset and helps in evaluating the performance of the NTP server and the network infrastructure between the client and the server.
 
 ## Working of NTP amplification attacks
-%%NTP amplification is a form of Distributed Denial-of-Service attack. In this, the attacker overwhelms the target network by 
+NTP amplification attacks by design are not very complex, but are extremely effective in causing disruption in victim network's traffic. As discussed earlier, it is a type of DDoS attack which exploits the NTP server which are vulnerable to such attacks with the help of command "monlist", which allows the client to request the list of IP address of the last 600 users which availed NTP services from the server. The command is a functionality introduced in the older version of the protocol and is responsible for the significantly amplified response which is directed towards the target. 
 
+The attacker first identifies the vulnerable servers which are publicly available. Once the list is sourced, the attacker then creates the request packets to be sent to the NTP server while spoofing the source IP address as the target network's IP address. This creates the illusion of requests coming from the target's IP address, while the requests actually originate from the attacker's IP address. This helps in concealing the identity of the attacker as the responses are never traced back to the malicious system. These request packets typically are transmitted in large quantities over a period of time from a distributed system of compromised computers called botnets, so that the number of requests sent can be maximized so that the amount of traffic directed towards the target IP address is significantly huge. 
 
-
-Another form of cyber-attack which is the most devastating and most commonly observed is NTP amplification, a type of Distributed Denial-of-Service or DDoS attack. This involves the attacker exploiting the design of the NTP protocol to overwhelm the target or victim network by redirecting an amplified volume of traffic towards it. The attacker typically uses networks of compromised computers, also known as botnets to launch the attack from a distributed source. These are able to cause significant disruption to the victim network's traffic as the amplification factor for request to response is substantially huge, reaching upwards till 200, leading to severe degradation or complete loss of services. This can result in extended downtime, financial losses, reputational damage, and disruption of critical business operations.%%
+The response from the NTP servers on these malicious requests contains the requested list of the last 600 IP address that have interacted with the server. This resulting reply packet is substantially larger in size than the request packet, giving extremely high amplification factor. DDoS attacks like these which implement amplification are very difficult to identify as they appear like genuine traffic and do not present themselves as outliers. Thus, detection of such attacks is pertinent so that the attackers do not exploit the NTP servers to overburden the victim network's infrastructure.
 
 ---
 # Methodology
 ## Analysis
+The methodology employed for conducting the comparative study between NTP stratum 1 and stratum 2 server responses involved a systematic approach to gather and analyze data. This section outlines the steps undertaken to ensure a robust and reliable investigation. 
+
+Firstly, a comprehensive list of servers was compiled using web scraping techniques from the support.ntp.org website, which served as the primary data source. The collected server information included hostname, IP address, geographical location, and stratum level. Once the list was compiled, requests were sent to the NTP servers using appropriate protocols, and the corresponding responses were collected. This process allowed for a direct comparison of the response behavior of stratum 1 and stratum 2 servers. The subsequent sections provide further details on each step of the methodology, including the specific procedures and tools used in the study.
+
 ### Compiling a List of Servers
+In order to begin with the analysis, a comprehensive list of NTP servers must be created. The list was essential to ensure for a diverse and representative sample of servers for our analysis. At first, we need to find a reliable source which can provide the aforementioned list of servers with the required details. After evaluating multiple sites, support.ntp.org was chosen as the source. The website was listed in several official NTP websites which provide documentation and maintenance for the protocol. It contained the details of about 1600 servers, with information like hostname and IP address, stratum level, location of the server and their access policy. These details are also collected as they helped in filtering the list into required classes.
+
+The details about each server was available with its own URL. To collect the details from the website about a particular server, the corresponding site has to be visited. Thus, a web scraping technique was utilized for the process of collection of data from the source. The Python script for scraping consisted of several sections like obtaining the HTML script for the website, filtering through the tags to reach the desired fields, obtaining the value from the field into a dictionary format in Python and treating non-responsive URLs and empty fields. After collecting the information about all the available servers in the form of list of dictionaries, write the elements of the list into a CSV file so that it can be filtered with the help of pandas Python library. 
+
+After reopening the file as a DataFrame with the help of ISO-8859-1 encoding, only those servers are selected for the analysis which have open access policy and then are split on the basis of stratum levels into two different CSV files. Out of 1599 servers in the master list, 1359 servers had open access policy, out of which 209 belonged to stratum 1, 346 belonged to stratum 2 and 809 servers were inactive. The active servers were filtered and placed in new CSV files. Now using these two lists of active servers, requests needed to be sent so that responses can be collected.
+
 ### Sending Requests to NTP servers
+The requests to the NTP servers are sent in such a way so that the response with the NTP Header containing the corresponding time synchronization information can be accessed. For this, we utilize the ntplib Python library. It enables us to send an NTP request to the required server and receive the response with all the required fields of the NTP Header. 
+
+For sending a request, a NTPClient object has to be instantiated. Using this object NTP requests can be sent using `NTPClient.request(server)` method. We need to read the CSV file to retrieve the list of appropriate stratum level servers and get the list of hostnames. The elements in this list are used to set the server argument in the `request()` method. 
+
+```python
+import ntplib
+
+server = 'time.nplindia.org'
+ntp_client = ntplib.NTPClient()
+ntp_response = ntp_client.request(server)
+
+data = []
+dic = {}
+
+dic['server'] = server
+dic['leap'] = response.leap
+dic['version'] = response.version
+dic['mode'] = response.mode
+...
+data.append(dic)
+```
+
 ### Collecting the corresponding responses
+We invoke the request method for all the available server hostnames using a loop and store the response obtained from the server in a list of dictionary format. In some of the iterations, there might not be any response from the NTP server. In such a case, the fields of the NTP Header in the dictionary must be filled with blank string so that the instances of non-responsive requests will be noted during the analysis.
+
+The obtained list of replies from the servers are then stored in a CSV file with append mode argument as the responses have to be collected on a regular basis. The python script to send requests and store responses is automated and scheduled to run 3 times a day at equal intervals to represent the performance throughout the day. 
+
+```python
+file = 'data.csv'
+with open(file, 'a', newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames = col)
+    writer.writerows(data)
+```
 
 ## Detection Model
 ### Dataset Used
-### Proposed Model
+### Implemented Model
 
 ---
 # Result and Discussion
 ## Analysis
+### General Inference
+
+
+### Inference from each parameter
+### Comparison study between Stratum 1 and Stratum 2
 
 ## Detection Model
 
 ---
 # Conclusion
+
+---
+NTP amplification attacks are a type of Distributed Denial of Service (DDoS) attack that exploit vulnerable NTP servers to overwhelm a target with a large volume of network traffic. These attacks take advantage of the monlist command, which is a feature of older versions of NTP that allows a client to request a list of the last 600 IP addresses that have communicated with the NTP server.
+
+The attack begins with the attacker identifying NTP servers that have the monlist feature enabled. This can be done through scanning techniques or by leveraging publicly available lists of vulnerable servers. Once the vulnerable servers are identified, the attacker spoofs the source IP address of their malicious traffic to make it appear as if the requests are coming from the target's IP address.
+
+The attacker then sends a series of crafted requests to the identified NTP servers, making use of the monlist command. These requests are designed to elicit responses from the NTP servers that are significantly larger than the original request, creating an amplification effect. The response from the NTP server can be several times larger than the request, thereby generating a massive amount of traffic directed towards the target.
+
+The IP address spoofing technique is a crucial component of NTP amplification attacks. By spoofing the source IP address, the attacker conceals their identity and makes it appear as if the target is initiating the requests. This not only makes it difficult to trace the attacker but also increases the impact on the target, as the responses from the NTP servers are directed towards the target's IP address. This can overwhelm the target's network capacity and disrupt its normal functioning.
+
+The monlist command plays a central role in NTP amplification attacks. It allows an attacker to send a small query to an NTP server, requesting a list of the last 600 IP addresses that have interacted with the server. The server then responds with a list that includes the IP addresses along with additional information, resulting in a larger response packet. This amplification factor, where the response is significantly larger than the request, is what makes NTP servers attractive for attackers.
+
+To mitigate NTP amplification attacks, it is essential to secure NTP servers by disabling the monlist command and updating to newer versions of NTP that do not support this feature. Network administrators should also implement strict ingress and egress filtering to prevent IP address spoofing and monitor their network for any suspicious traffic patterns.
+
+Furthermore, Internet Service Providers (ISPs) play a vital role in combating NTP amplification attacks. By filtering outbound traffic from their networks to block spoofed IP addresses, ISPs can prevent attackers from utilizing their infrastructure to launch these attacks.
+
+Overall, NTP amplification attacks exploit vulnerable NTP servers by leveraging the monlist command, IP address spoofing, and the amplification effect of the server's response. Understanding these attack techniques and implementing appropriate security measures are crucial for defending against such DDoS attacks.

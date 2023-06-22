@@ -39,6 +39,13 @@
 	- collect NTP information for all the servers
 
 ### week 3
+- troubleshooted the python script for send and receiving NTP requests. 
+- streamlined the process of saving to CSV file
+- performed statistical analysis on data regarding responses from NTP servers
+- cleaned the NTP response data of outliers
+- preprocessed the NTP attack dataset
+- explored initial models on NTP attack dataset
+
 ### week 4
 
 Project Progress Schedule (PERT Chart)
@@ -95,10 +102,25 @@ achievements:
 ---
 ## week 3: 12/06/2023 - 18/06/2023
 ### Target For The Week
+Clean, preprocess and analyse the collected data on responses from NTP servers, explore the DDoS attack dataset, apply initial models on the DDoS dataset and check performance.
 
 ### Achievements
+Troubleshooted the python script for send and receiving NTP requests, performed statistical analysis on data regarding responses from NTP servers, cleaned the NTP response data of outliers, preprocessed the NTP attack dataset, explored initial models on NTP attack dataset.
 
 ### Future Work Plans
+Complete NTP stratum level analysis, finalize the DDoS attack detection dataset and deep learning model, obtain performance metrics for the models in various environments.
+
+targets:
+- Clean, preprocess, and analyze the collected data on responses from NTP servers and analyze data using descriptive statistics, visualization, and correlation analysis to understand patterns and characteristics.
+- Explore the DDoS attack dataset by examining the target variable distribution, identify class imbalance, identify features correlated with attacks, and understand normal/attack traffic characteristics.
+- Apply initial models on the DDoS dataset like traditional ML models and evaluate performance using classification metrics to establish baseline and guide model refinement or selection.
+
+achievements:
+- Troubleshooted the Python script for sending and receiving NTP requests by identified and resolved errors or bugs in the script responsible for null value being recorded for valid responses.
+- Performed statistical analysis on data regarding responses from NTP servers using techniques such as mean, median, standard deviation, and visualization to analyze the collected NTP response data, uncovering insights into distribution and variability.
+- Cleaned the NTP response data of outliers using interquartile range and boxplots to remove or handle them, improving data quality for further analysis.
+- Prepared the NTP attack dataset for modeling by performing data normalization and feature scaling to ensure the data is in a suitable format for training machine learning models.
+- Selected and applied initial machine learning models and assessed their performance for determining a baseline for further model refinement or selection.
 
 
 ---
