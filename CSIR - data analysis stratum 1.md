@@ -78,15 +78,36 @@
 
 ### poll
 - helps regulate the rate/frequency at which the client can send requests to the server to synchronize its time
+- large poll value means less network traffic load on the server, but results in less accurate time keeping
+- attackers choose servers with low poll values so that the server can respond to malicious packets more frequently
 
 ### rootdelay
+- total round trip delay, as per the server (estimated)
+- represents the time taken to receive the request and to transmit the response to the client
+- lower value indicates less delay in the receiving and transmission by the server, thus more accurate time 
+- very small for server 1
+- the delay accumulates as the hierarchy of the stratums is expanded
+- causes less accurate time in lower hierarchy servers
 
 ### rootdisp
+- represents the estimated maximum error associated with the server clock
+- provides indication of the stability or quality of time source
+- dispersion, just like round trip delay, increases as we move further down the hierarchy
 
 ### refid
+- represents the reference clock for the server with a unique ID
+- the interpretation of the value changes for each stratum
+- shows the distribution of reference clocks for both stratums
+- stratum 1 has less reference clocks but they are stratum 0 clocks, hence the most accurate in the hierarchy
+- stratum 2 has several reference clocks but they are stratum 1 and other stratum 2 clocks, thus the accuracy is decreased
+- helps assess the quality of time keeping servers used across the stratums
 
 ### reftime
+- the timestamp at which the server clock was last updated
+- gives the relevance of the server clock's accuracy as the offset between the server clock and the accurate time value increases over time.
+- more recently and frequently updated clocks give more accurate time
 
 ### offset
+
 
 ### round trip delay
