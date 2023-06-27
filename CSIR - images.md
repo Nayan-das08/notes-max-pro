@@ -1,0 +1,30 @@
+- methodology
+	- analysis
+		- [x] code snippets for python scripts
+	- model
+		- [x] table of features
+		- [x] model architecture
+		- [x] train test split
+- results
+	- analysis
+		- no
+			- leap
+			- version
+			- mode
+			- stratum
+			- rootdelay
+			- rootdisp
+			- rtd
+			- reftime
+			- other timestamps
+			- refid
+		- yes
+			- [x] trend of null responses
+			- [x] version number table
+			- [x] poll
+			- [x] precision
+			- [x] offset
+	- model
+		- [x] accuracy vs epochs
+		- [x] loss vs epochs
+		- [x] confusion matrix with heatmap
