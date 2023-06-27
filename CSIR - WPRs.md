@@ -47,6 +47,12 @@
 - explored initial models on NTP attack dataset
 
 ### week 4
+- performed further preprocessing on the NTP attack dataset
+- separated data of interest from various attack datasets from the same source
+- performed training and testing on several models and finalized an LSTM-based model for classification
+- obtained evaluation metrics for the model on various testing sets
+- compiled the project report with all the results and included detailed discussions about the methodologies and outcomes involved
+
 
 Project Progress Schedule (PERT Chart)
 1. week 1: understanding NTP and components
@@ -126,9 +132,31 @@ achievements:
 ---
 ## week 4: 19/06/2023 - 25/06/2023
 ### Target For The Week
+Finalize the model for classification of NTP DDoS attacks against benign communication records, prepare testing sets with varying distributions, train the model and evaluate the performance of the model with commonly known metric and techniques. 
 
 ### Achievements
+Performed further preprocessing on the NTP attack dataset, separated data of interest from various attack datasets from the same source, performed training and testing on several models and finalized an LSTM-based model for classification, obtained evaluation metrics for the model on various testing sets, compiled the project report with all the results and included detailed discussions about the methodologies and outcomes involved.
 
 ### Future Work Plans
+Automate the collection of the NTP server responses on a remote system, collect a more comprehensive dataset for DDoS attacks using packet capturing and port mirroring techniques from an NTP server, train the dataset on a more efficient network models, like Transformers or Gated Recurrent Units, deploying the model on the remote system configured with the switch so that model can parse through the incoming traffic and detect any anomalies. 
+
+- performed further preprocessing on the NTP attack dataset
+- separated data of interest from various attack datasets from the same source
+- performed training and testing on several models and finalized an LSTM-based model for classification
+- obtained evaluation metrics for the model on various testing sets
+- compiled the project report with all the results and included detailed discussions about the methodologies and outcomes involved
+
+targets:
+- Finalize the model for classification of NTP DDoS attacks against benign communication records after conducting preliminary experiments. Optimize the architecture, hyperparameters, and any other relevant settings of the chosen model to achieve the best possible performance in distinguishing between NTP DDoS attacks and benign network traffic.
+- Prepare testing sets with varying distributions to assess the model's robustness and generalization capability. Create subsets of data that represented different scenarios, such as varying attack intensities, different time periods, or different geographical locations. 
+- Train the finalized model using the prepared training dataset, which contained labeled examples of NTP DDoS attacks and benign communication records. Adjust the model's parameters based on the provided labels, and iteratively update the model's internal representations to optimize its performance.
+- Evaluate the performance of the model with commonly known metrics and techniques after training. Compute accuracy, precision, recall, F1 score, and area under the receiver operating characteristic curve (AUC-ROC). 
+
+achievements:
+- Performed further preprocessing on the NTP attack dataset to ensure the data was in a suitable format for analysis. This included tasks such as encoding categorical data, handling class imbalance and normalizing the data. Preprocessing was aimed at improving the quality of the dataset and preparing it for further analysis.
+- Separated data of interest from various attack datasets from the same source as the NTP attack dataset was part of a larger collection of attack datasets from the same source. This involved filtering the dataset based on specific criteria on attributes related to NTP attacks such as the features which had maximum correlation with the target variable. After isolating the relevant data, it becomes easier to focus on the specific attack type and perform more accurate analysis.
+- Performed training and testing on several models and finalized an LSTM-based model for classification. These models could include various traditional ML algorithms and some neural networks architectures. After comparing the performance of different models, an LSTM-based model was selected as the most suitable for classification. LSTM (Long Short-Term Memory) is a type of recurrent neural network that excels in handling sequential data, making it a popular choice for time series and text-based classification tasks.
+- Obtained evaluation metrics for the model on various testing sets. Evaluation metrics such as accuracy, precision, recall, F1 score, AUC and confusion matrix were computed to quantify the model's classification performance on both training and validation sets during training for each epoch. After training they were obtained for the testing set as well. These metrics provided insights into the model's ability to correctly classify NTP attacks and distinguish them from other types of network traffic.
+- Compiled the project report with all the results and included detailed discussions about the methodologies and outcomes involved. The report included detailed explanations of the methodologies used, such as the preprocessing techniques and the LSTM-based model architecture. It also presented the outcomes of the project, including the evaluation metrics obtained for the model on different testing sets. 
 
 
