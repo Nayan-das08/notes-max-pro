@@ -65,7 +65,22 @@
 		{"type":"text","text":"<h2 style=\"text-align:center;\">\"BENIGN\"</h2>","id":"43bfc1582e5e6569","x":7200,"y":2425,"width":200,"height":60},
 		{"type":"text","text":"<h2 style=\"text-align:center;\">\"NTP_DrDoS\"</h2>","id":"4a800ca8448e199f","x":7499,"y":2425,"width":242,"height":60},
 		{"type":"text","text":"<h1 style=\"text-align:center;\">LSTM_layer_2</h1>\n<h2 style=\"text-align:center;\">64 units, return_sequence=False</h2>","id":"e3529f142a9bb85e","x":7260,"y":1109,"width":400,"height":160},
-		{"type":"text","text":"<h1 style=\"text-align:center;\">LSTM_layer_1</h1>\n<h2 style=\"text-align:center;\">128 units, return_sequence=True</h2>","id":"483c9df203fe2e15","x":7260,"y":879,"width":400,"height":160}
+		{"type":"text","text":"<h1 style=\"text-align:center;\">LSTM_layer_1</h1>\n<h2 style=\"text-align:center;\">128 units, return_sequence=True</h2>","id":"483c9df203fe2e15","x":7260,"y":879,"width":400,"height":160},
+		{"type":"text","text":"# final remarks\n\n- [ ] change abstract\n\t- [x] give number of servers\n\t- [x] days\n\t- [x] extensive\n\t- [x] comprehensive\n\t- [x] emperical study\n\t- [ ] dataset characteristics mentioned\n- [ ] intro\n\t- [x] focus on NTP applications\n- [ ] methodology\n\t- [x] tools used\n\t\t- [x] beautiful soup, ntplib, pandas, tensorflow, scikit-learn\n\t- [x] cite the website\n\t- [x] why chosen the website\n\t- [x] include scraper snippet\n\t- [x] diagram for NTP server dataset methodology\n\t- [x] cite table for features, fix table\n\t- [x] why using only correlation for feature selection\n\t\t- [x] used ANOVA and Chi Square\n\t\t- [x] were not satisfactory\n\t- [x] diagram for detection model methodology\n- [ ] results\n\t- [x] connective paragraph between analysis and model results\n\t- [x] comparison with the GRU model","id":"65e84a279f258c62","x":5376,"y":1430,"width":664,"height":850},
+		{"type":"text","text":"# list of servers","id":"24eedb3e39ffd2f4","x":6670,"y":2790,"width":175,"height":100},
+		{"type":"text","text":"# support.ntp.org","id":"88b6668495b599d6","x":6150,"y":2802,"width":252,"height":76},
+		{"type":"text","text":"# stratum 1 servers","id":"36e4cb6c3975297c","x":6663,"y":3028,"width":189,"height":76},
+		{"type":"text","text":"## stratum 1 responses","id":"d05602131d47e81b","x":6632,"y":3227,"width":191,"height":81},
+		{"type":"text","text":"# stratum 2 servers","id":"d84720f2ab1fc9de","x":6903,"y":3028,"width":189,"height":76},
+		{"type":"text","text":"## stratum 2 responses","id":"338b48ae38cf546b","x":6943,"y":3227,"width":191,"height":81},
+		{"type":"text","text":"# LSTM-based detection model","id":"39b93dc1b9347ac6","x":4540,"y":3324,"width":267,"height":113},
+		{"type":"text","text":"## results","id":"893b54cded639e79","x":5640,"y":3208,"width":195,"height":137},
+		{"type":"text","text":"# CICDDoS2019 \n## NTP_DrDoS dataset \nwith 87 features","id":"5d17636127820039","x":4554,"y":2742,"width":240,"height":197},
+		{"type":"text","text":"# NTP_DrDoS dataset \n## with 22 features\nimbalance ratio = 83.78","id":"19647b5efd3d7797","x":4994,"y":2742,"width":240,"height":197},
+		{"type":"text","text":"# balanced NTP_DrDoS dataset \n## with 25,000 samples of each class","id":"01fca08829947a0b","x":5466,"y":2742,"width":308,"height":197},
+		{"type":"text","text":"## training set\n32000 samples","id":"68d6ea0deb8671b0","x":5166,"y":3080,"width":200,"height":104},
+		{"type":"text","text":"## validation set\n8000 samples","id":"b7c0090d7b336ab0","x":5200,"y":3241,"width":200,"height":104},
+		{"type":"text","text":"## testing set\n10000 samples","id":"777536f70453bd67","x":5300,"y":3381,"width":200,"height":104}
 	],
 	"edges":[
 		{"id":"56fee852a863f823","fromNode":"8255d8cb31017a28","fromSide":"bottom","toNode":"43786bc28bdfb306","toSide":"top"},
@@ -100,6 +115,22 @@
 		{"id":"3faf3ed56d9c76fd","fromNode":"33e99f84e40a3772","fromSide":"bottom","toNode":"43bfc1582e5e6569","toSide":"top","label":"0"},
 		{"id":"4900ec32ec15ba3c","fromNode":"33e99f84e40a3772","fromSide":"bottom","toNode":"4a800ca8448e199f","toSide":"top","label":"1"},
 		{"id":"bcfbde717ecb55b5","fromNode":"483c9df203fe2e15","fromSide":"bottom","toNode":"e3529f142a9bb85e","toSide":"top"},
-		{"id":"cf6aab87b4f9668c","fromNode":"e3529f142a9bb85e","fromSide":"bottom","toNode":"2444a6268b49a30d","toSide":"top"}
+		{"id":"cf6aab87b4f9668c","fromNode":"e3529f142a9bb85e","fromSide":"bottom","toNode":"2444a6268b49a30d","toSide":"top"},
+		{"id":"8cdc0d3246cca242","fromNode":"88b6668495b599d6","fromSide":"right","toNode":"24eedb3e39ffd2f4","toSide":"left","label":"web-scraping"},
+		{"id":"1601071fdf503ee0","fromNode":"24eedb3e39ffd2f4","fromSide":"bottom","toNode":"36e4cb6c3975297c","toSide":"top","label":"filtering"},
+		{"id":"9a769d1d69471873","fromNode":"24eedb3e39ffd2f4","fromSide":"bottom","toNode":"d84720f2ab1fc9de","toSide":"top"},
+		{"id":"b48a8ad3896e8ddd","fromNode":"36e4cb6c3975297c","fromSide":"bottom","toNode":"d05602131d47e81b","toSide":"top","label":"sending request"},
+		{"id":"5987e5792f8cf627","fromNode":"d84720f2ab1fc9de","fromSide":"bottom","toNode":"338b48ae38cf546b","toSide":"top"},
+		{"id":"87ad4b503623a5f0","fromNode":"5d17636127820039","fromSide":"right","toNode":"19647b5efd3d7797","toSide":"left","label":"feature selection"},
+		{"id":"5b0b413180042198","fromNode":"19647b5efd3d7797","fromSide":"right","toNode":"01fca08829947a0b","toSide":"left","label":"SMOTE\nand\nundersampling"},
+		{"id":"58bd8a3751f3fc93","fromNode":"01fca08829947a0b","fromSide":"bottom","toNode":"68d6ea0deb8671b0","toSide":"top"},
+		{"id":"7b03f46247cdbbbe","fromNode":"01fca08829947a0b","fromSide":"bottom","toNode":"b7c0090d7b336ab0","toSide":"top"},
+		{"id":"7fd161ae5d88bf43","fromNode":"01fca08829947a0b","fromSide":"bottom","toNode":"777536f70453bd67","toSide":"top"},
+		{"id":"7933ba69bfb08dda","fromNode":"39b93dc1b9347ac6","fromSide":"right","toNode":"b7c0090d7b336ab0","toSide":"left","label":"validation"},
+		{"id":"34c7b7d47db50a62","fromNode":"39b93dc1b9347ac6","fromSide":"right","toNode":"68d6ea0deb8671b0","toSide":"left","label":"training"},
+		{"id":"e5016bec5b922317","fromNode":"39b93dc1b9347ac6","fromSide":"right","toNode":"777536f70453bd67","toSide":"left","label":"testing"},
+		{"id":"45fde96ed3ca51da","fromNode":"68d6ea0deb8671b0","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"},
+		{"id":"2389e9947af782da","fromNode":"b7c0090d7b336ab0","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"},
+		{"id":"9e86426a5d51dea3","fromNode":"777536f70453bd67","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"}
 	]
 }

@@ -14,8 +14,13 @@
 14. Kawamura, Tamotsu, et al. "An NTP-based detection module for DDoS attacks on IoT." _2017 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)_. IEEE, 2017.
 15. Assis, Marcos VO, et al. "A GRU deep learning system against attacks in software defined networks." _Journal of Network and Computer Applications_ 177 (2021): 102942.
 16. dataset - Sharafaldin, Iman, et al. "Developing realistic distributed denial of service (DDoS) attack dataset and taxonomy." _2019 International Carnahan Conference on Security Technology (ICCST)_. IEEE, 2019.
-17. ntplib - “Ntplib.” _PyPI_, 28 May 2021, pypi.org/project/ntplib.
-18. LSTM - Hochreiter, Sepp, and Jürgen Schmidhuber. "Long short-term memory." _Neural computation_ 9.8 (1997): 1735-1780.
-19. Dropout - Srivastava, Nitish, et al. "Dropout: a simple way to prevent neural networks from overfitting." _The journal of machine learning research_ 15.1 (2014): 1929-1958.
-20. Transformer - Vaswani, Ashish, et al. "Attention is all you need." _Advances in neural information processing systems_ 30 (2017).
-21. GTN - Liu, Minghao, et al. "Gated transformer networks for multivariate time series classification." _arXiv preprint arXiv:2103.14438_ (2021).
+17. Beautiful Soup - “Beautiful Soup Documentation &Mdash; Beautiful Soup 4.4.0 Documentation.” _Beautiful Soup Documentation &Mdash; Beautiful Soup 4.4.0 Documentation_, beautiful-soup-4.readthedocs.io/en/latest/#.
+18. ntplib - “Ntplib.” _PyPI_, 28 May 2021, pypi.org/project/ntplib.
+19. pandas - McKinney, Wes. "Data structures for statistical computing in python." _Proceedings of the 9th Python in Science Conference_. Vol. 445. No. 1. 2010.
+20. scikit-learn - Pedregosa, Fabian, et al. "Scikit-learn: Machine learning in Python." _the Journal of machine Learning research_ 12 (2011): 2825-2830.
+21. Tensorflow - Abadi, Martín, et al. "Tensorflow: Large-scale machine learning on heterogeneous distributed systems." _arXiv preprint arXiv:1603.04467_ (2016).
+22. support.ntp.org - “WebHome < Main < Network Time Foundation’s NTP Support Wiki.” _WebHome < Main < Network Time Foundation’s NTP Support Wiki_, support.ntp.org.
+23. LSTM - Hochreiter, Sepp, and Jürgen Schmidhuber. "Long short-term memory." _Neural computation_ 9.8 (1997): 1735-1780.
+24. Dropout - Srivastava, Nitish, et al. "Dropout: a simple way to prevent neural networks from overfitting." _The journal of machine learning research_ 15.1 (2014): 1929-1958.
+25. Transformer - Vaswani, Ashish, et al. "Attention is all you need." _Advances in neural information processing systems_ 30 (2017).
+26. GTN - Liu, Minghao, et al. "Gated transformer networks for multivariate time series classification." _arXiv preprint arXiv:2103.14438_ (2021).
