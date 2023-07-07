@@ -27,5 +27,6 @@ A full list of NTP servers must be made in order to start the analysis. To guara
 Each server's specifics might be accessed through a unique URL. A specific website must be accessed in order to gather information from it about a certain server. The procedure of gathering data from the source was thus carried out using a web scraping approach. The Python script for scraping was divided into various phases, including acquiring the website's HTML script, filtering through tags to find the needed fields, getting the value from the field into a dictionary format in Python, and handling non-responsive URLs and empty fields. Write the list's components into a CSV file after gathering information about all the servers that are accessible in the form of a list of dictionaries so that it may be filtered using the
 
 4.2.2
-Requests to NTP servers are made in such a way that the NTP Header with the associated time synchronisation information may be read. We use the ntplib Python package for this [18]. 
+Requests to NTP servers are made in such a way that the NTP Header with the associated time synchronisation information may be read. byWe use the ntplib Python package for this [18]. 
 
+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
