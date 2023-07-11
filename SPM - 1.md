@@ -86,24 +86,69 @@ application of knowledge, skills, tools and techniques to project activities to 
 		- govt
 			- interested in tax
 		- supplier
-- stakeholder identification
+- <u>stakeholder identification</u>
 	- note all stakeholders involved
 	- done by *stakeholder map*
-- stakeholder analysis
+- <u>stakeholder analysis</u>
 	- project manager's job
 	- identify needs, interfaces, expectations, authority, common relationships of the stakeholders
-- stakeholder matrix
+- <u>stakeholder matrix</u>
 	- they are positioned on the basis of their level of influence
-- stakeholder engagement
+- <u>stakeholder engagement</u>
 	- they engage with the manager to understand each other better at an executive level
 	- gives them chance to discuss expectations and goals
-- communicating info
+- <u>communicating info</u>
 	- expectations are agreed upon
 	- how and when information is sent and received
-- stakeholder agreements
-	- lexicon of prohect or objectives set forth
+- <u>stakeholder agreements</u>
+	- lexicon of project or objectives set forth
 	- all key stakeholders sign this 
 
+---
+# Software Project Manager: **roles**
+manager is generally never directly involved in producing the end product, controls the activities involved in the production
+
+- liaison
+	- ling bw clients, teams, own supervisors
+	- must coordinate transfer relevant info from clients to teams and report to upper management
+	- works closely with analyst, designers, other staff members, communicate goals
+	- monitors project
+- leader
+	- lead their teams towards success
+	- provide them direction and make them understand what is expected of them
+	- explain role of each member
+	- build team comprising of individuals with different skills
+- mentor
+	- guide the team at every step
+	- ensure that the team has cohesion
+	- provides advice to their team
+
+---
+# Software Project Manager: **responsibilities**
+1. planning
+	- scope of project
+	- activity schedules
+	- gantt chart
+	- potential risks
+2. setting goals
+3. time management
+4. budget allocation and cost estimates
+5. implementation and monitoring
+
+# organization behaviour
+- field of study with a common body of knowledge
+- studies three determinants of behaviour in org - individuals, groups, structures
+- applies the knowledge gained
+- theories
+	- classical theory
+	- neo classical theory
+	- modern management theory
+- objectives
+	- human resource approach
+		- development of human resource
+	- contingency approach
+	- system approach
+	- productivity approach
 
 ---
 PSDA
