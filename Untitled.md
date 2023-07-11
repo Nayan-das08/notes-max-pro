@@ -28,5 +28,3 @@ Each server's specifics might be accessed through a unique URL. A specific websi
 
 4.2.2
 Requests to NTP servers are made in such a way that the NTP Header with the associated time synchronisation information may be read. byWe use the ntplib Python package for this [18]. 
-
-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

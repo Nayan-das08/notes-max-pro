@@ -12,4 +12,3 @@
 		- will be looking at the syntactic structure, i.e., the grammar of the language to understand what the meaning is 
 	- **semantic processing**
 		- above processings do not suffice when it comes to advance NLP processing such as language translation, chatbot, etc.
-- 

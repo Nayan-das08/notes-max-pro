@@ -72,6 +72,40 @@ application of knowledge, skills, tools and techniques to project activities to 
 5. production of a complete project which follows the clients exclusive needs and objectives
 
 ---
+# stakeholder management
+- those who have a stake or an inerest in a project or strategy undertaken by the company
+- they will be affected by the project
+- 2 types
+	- **internal**
+		- project manager
+		- project team
+		- company
+		- funder
+	- **external**
+		- customer
+		- govt
+			- interested in tax
+		- supplier
+- stakeholder identification
+	- note all stakeholders involved
+	- done by *stakeholder map*
+- stakeholder analysis
+	- project manager's job
+	- identify needs, interfaces, expectations, authority, common relationships of the stakeholders
+- stakeholder matrix
+	- they are positioned on the basis of their level of influence
+- stakeholder engagement
+	- they engage with the manager to understand each other better at an executive level
+	- gives them chance to discuss expectations and goals
+- communicating info
+	- expectations are agreed upon
+	- how and when information is sent and received
+- stakeholder agreements
+	- lexicon of prohect or objectives set forth
+	- all key stakeholders sign this 
+
+
+---
 PSDA
 - decide group of 4
 - decide project manage, client, and other entities among the members
