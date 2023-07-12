@@ -16,3 +16,18 @@ given name to our framework as BiLSTM-DT-XG
 **Risk factor analysis**: We use time series-based techniques to develop prediction models. We implement Nonlinear Auto-Regressive eXogenous (NARX) model to find the impact of the evaluated subset on the target variable and trace the risk factors with a time gap.  
   
 **Performance**: Our method has established a relationship with the raw data using multiple levels of abstraction. We have identified the seven best features among 126 given input and target values and analyzed the critical factors affecting the attack classes. This model is useful for developing a prevention technique using the co-related feature set.
+
+---
+The increasing reliance on computer networks necessitates the need for synchronized timekeeping, which is achieved through the Network Time Protocol (NTP). However, NTP servers have become frequent targets of Distributed Denial of Service (DDoS) attacks, posing significant threats to network and system integrity. To address this problem, an extensive analysis and comparative study of 26,085 responses from 209 stratum 1 and 346 stratum 2 NTP servers were conducted over an 18-day period, with data collected at three intervals each day.
+
+The study aimed to provide valuable insights into performance variations and distribution of key parameters between the two strata. By understanding these differences, a better understanding of NTP server behavior could be achieved, leading to stronger security measures against potential attacks. Additionally, the study proposed an LSTM-based detection model designed specifically for identifying DDoS attacks against NTP servers.
+
+Drawing on the comprehensive empirical analysis of server responses from both strata, the proposed detection model offers organizations the capacity to successfully defend against NTP DDoS attacks. By combining the insights gained from the comparative analysis with the capabilities of the LSTM model, the integrity and dependability of network systems can be upheld effectively.
+
+To validate the efficacy of the proposed model, it was trained and tested on the CICDDoS2019 public dataset provided by the Canadian Institute of Cybersecurity. The model exhibited perfect classification results across various test sets, demonstrating its high accuracy and reliability.
+
+The findings and contributions of this research project provide a substantial advancement in the field of NTP server security. The comparative analysis sheds light on the performance variations and distribution patterns of NTP servers, enabling network administrators to make informed decisions and implement tailored security measures. Moreover, the LSTM-based detection model empowers organizations to proactively identify and mitigate potential DDoS attacks on NTP servers, thereby safeguarding the overall network infrastructure.
+
+The outcomes of this research project have significant implications for improving the security and resilience of computer networks and systems. By effectively addressing the vulnerabilities associated with NTP servers, organizations can ensure uninterrupted network synchronization, maintain data integrity, and enhance overall cybersecurity posture.
+
+---
