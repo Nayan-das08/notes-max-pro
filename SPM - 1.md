@@ -109,7 +109,7 @@ application of knowledge, skills, tools and techniques to project activities to 
 manager is generally never directly involved in producing the end product, controls the activities involved in the production
 
 - liaison
-	- ling bw clients, teams, own supervisors
+	- ~~ling~~link bw clients, teams, own supervisors
 	- must coordinate transfer relevant info from clients to teams and report to upper management
 	- works closely with analyst, designers, other staff members, communicate goals
 	- monitors project
