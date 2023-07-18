@@ -1,0 +1,7 @@
+- concerned with choosing the right approach to a particular project
+- options
+	- inhouse
+	- outsource
+		- build
+		- buy
+- 

@@ -109,7 +109,7 @@ application of knowledge, skills, tools and techniques to project activities to 
 manager is generally never directly involved in producing the end product, controls the activities involved in the production
 
 - liaison
-	- ~~ling~~link bw clients, teams, own supervisors
+	- link bw clients, teams, own supervisors
 	- must coordinate transfer relevant info from clients to teams and report to upper management
 	- works closely with analyst, designers, other staff members, communicate goals
 	- monitors project
@@ -150,7 +150,106 @@ manager is generally never directly involved in producing the end product, contr
 	- system approach
 	- productivity approach
 
----
-PSDA
-- decide group of 4
-- decide project manage, client, and other entities among the members
+# people management
+- unless there is some understanding of people, management will be unsuccessful
+- poor people management is an important contributor to project failure
+- factors
+	- consistency
+	- respect
+	- inclusion
+	- honesty
+- how to select staff
+	- CV
+	  - interview
+	  - recommendation
+- how to motivate people
+	- task oriented
+	- self oriented
+	- interaction oriented
+- how to manage group
+	- **group composition**
+		- manage group composed of members who share same motivation can be problematic
+		- everyone wants to be the boss
+		- effective group has a balance of all types
+	- **cohesiveness**
+		- can be encouraged with
+			- developing a group identity and territory
+			- social events
+			- explicit team building activities
+		- group member tend to be loyal to cohesive groups
+		- groupthink is preservation of group irrespective of technical or organizational consideration
+		- management should avoid groupthink by forcing external involvement with each group
+	- **communication**
+		- essential for effective group working
+		- regard the status of work, design decision and changes to previous 
+		- strengthen group cohesion as it promotes understanding
+		- factors
+			- size
+			- structure
+			- composition
+			- physical work envt
+	- **organization**
+		- small SE groups are usually organized informally w/o a rigid structure
+		- for large project there may be hierarchical structure where different groups are responsible for different sub-projects
+		- factors
+			- informal groups
+			- extreme programming groups (part of SDLC)
+			- chief programmer groups
+	- **environment**
+		- every engineer requires an area for uninterrupted work
+		- people prefer natural light
+		- individual adopts different working practices and like to organize their envt in different ways
+		- teams working together also require spaces where formal and informal meetings can be held
+		- formal meetings have agenda points, informal don't
+
+# people capability model
+- why
+	- to improve org capability by improving workforce capability
+	- t ensure that SD capability is not reliant on a small number of individuals
+	- to align the motivation of individuals with that of the org
+	- to help retain people with critical knowledge and skills
+- how
+	1. *initial*
+		- inconsistent management
+	1. *repeatable*
+		- people management
+	2. *defined*
+		- competency management
+	3. *managed*
+		- capable management
+	4. *optimizing*
+		- change management
+
+# stress management
+- impact on cognitive and behavioural performance
+- common sources
+	- unrealistic timeline
+	- working in a matrix system where PM does not have the full control of the resources
+	- lack of resources
+	- proliferation of virtual teams and cross cultural influences
+	- inter group conflict in organization
+	- project environment
+- management techniques
+	- detach or dissociate
+	- monitor "what if" thinking
+	- develop potent conflict resolution skills
+	- know when enuf is enuf
+	- stay away from debating
+	- look for paradoxical component in the situation
+
+# leadersheep
+- involves directing, influencing and motivating employees to perform
+- leader is
+	- one that leads or guides
+	- one who is in chanrge
+	- one who heads a group
+	- one who has influence
+- should have
+	- empathy
+	- consistency
+	- honesty
+	- needs support from all
+	- direction
+- effects morale
+- key to effective communication
+- effectively contributes more to the bottom line

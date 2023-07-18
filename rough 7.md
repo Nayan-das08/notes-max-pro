@@ -31,3 +31,29 @@ The findings and contributions of this research project provide a substantial ad
 The outcomes of this research project have significant implications for improving the security and resilience of computer networks and systems. By effectively addressing the vulnerabilities associated with NTP servers, organizations can ensure uninterrupted network synchronization, maintain data integrity, and enhance overall cybersecurity posture.
 
 ---
+- leap
+	- all zero
+- version
+	- nist uses 3
+	- rest use 2
+- stratum
+	- all are categorized as stratum 1 except for NPL UK
+- precision
+	- nist has highest precision = -29
+	- ptb = -25
+	- npl uk = -20
+	- npl = -18
+- poll
+	- npl uk = 0
+	- npl = 3
+	- ptb = 3
+	- nist = 13
+- rootdelay
+- delay
+- rootdisp
+- reftime
+	- npl has lowest
+	- nist has higher
+	- npl uk has highest
+
+When several prominent Stratum 1 NTP servers from around the world are compared, we can analyse their differences in their functionalities and their infrastructure in a comprehensive fashion. The servers from NIST, NPL India, NPL UK and PTB Germany compared in this study

@@ -1,4 +1,26 @@
 {
-	"nodes":[],
-	"edges":[]
+	"nodes":[
+		{"type":"text","text":"# Databases","id":"7f7b6108c69180b0","x":-620,"y":120,"width":192,"height":74},
+		{"type":"text","text":"# Data warehousing","id":"349d5e2f7ad958db","x":-380,"y":-40,"width":220,"height":100},
+		{"type":"text","text":"# relevant data","id":"e80b48ecc458e917","x":-100,"y":-220,"width":220,"height":100},
+		{"type":"text","text":"# pattern evaluation","id":"1655858f247bf70a","x":200,"y":-380,"width":220,"height":100},
+		{"type":"text","text":"# data warehouse","id":"941ad8c6c26b8000","x":-608,"y":920,"width":208,"height":89},
+		{"type":"text","text":"# data mining engine","id":"f2fd6819d4ccecb2","x":-608,"y":740,"width":208,"height":89},
+		{"type":"text","text":"# pattern evaluation","id":"6ad451906ec1449c","x":-608,"y":560,"width":208,"height":89},
+		{"type":"text","text":"# database","id":"4e1c0c9aff231e7e","x":-588,"y":1180,"width":168,"height":89},
+		{"type":"text","text":"# UI","id":"c8ab6ab0bef60fad","x":-608,"y":380,"width":208,"height":89},
+		{"id":"eb639daa4a9e8ed2","x":-224,"y":635,"width":196,"height":97,"type":"text","text":"# knowledge base"}
+	],
+	"edges":[
+		{"id":"c4edf562a780bf1b","fromNode":"7f7b6108c69180b0","fromSide":"right","toNode":"349d5e2f7ad958db","toSide":"bottom","label":"data\ncleaning"},
+		{"id":"57235d1617734815","fromNode":"349d5e2f7ad958db","fromSide":"top","toNode":"e80b48ecc458e917","toSide":"left","label":"selection and\ntransformation"},
+		{"id":"4d337bcbcc7510d6","fromNode":"e80b48ecc458e917","fromSide":"top","toNode":"1655858f247bf70a","toSide":"left","label":"data mining"},
+		{"id":"94fd84b7bf08eca3","fromNode":"1655858f247bf70a","fromSide":"bottom","toNode":"e80b48ecc458e917","toSide":"bottom"},
+		{"id":"eb8c6623a42f7447","fromNode":"4e1c0c9aff231e7e","fromSide":"top","toNode":"941ad8c6c26b8000","toSide":"bottom","label":"cleaning"},
+		{"id":"792ff5102dbf186d","fromNode":"eb639daa4a9e8ed2","fromSide":"left","toNode":"6ad451906ec1449c","toSide":"right"},
+		{"id":"3e3a28c62478a7ba","fromNode":"eb639daa4a9e8ed2","fromSide":"left","toNode":"f2fd6819d4ccecb2","toSide":"right"},
+		{"id":"b584644feec6f57d","fromNode":"941ad8c6c26b8000","fromSide":"top","toNode":"f2fd6819d4ccecb2","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"45f72fbb52b17fec","fromNode":"f2fd6819d4ccecb2","fromSide":"top","toNode":"6ad451906ec1449c","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"fd1fa5729f5325c3","fromNode":"6ad451906ec1449c","fromSide":"top","toNode":"c8ab6ab0bef60fad","toSide":"bottom","fromEnd":"arrow"}
+	]
 }
