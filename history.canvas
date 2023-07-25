@@ -1,7 +1,24 @@
 {
 	"nodes":[
-		{"id":"b891251f6be9172a","x":-380,"y":-260,"width":365,"height":420,"type":"text","text":"- **pre-history**\n\t- big bang to early humans\n\t- no literary evidence, but archeological evidence\n- **proto-history**\n\t- have both kinds of evidence\n\t- but not deciphered\n\t- eg: vedic period, indus valley civilization\n- **history**\n\t- ancient, medieval, modern\n\t- "},
-		{"id":"25f3f0ef5dc15d0e","x":111,"y":-231,"width":309,"height":291,"type":"text","text":"# syllabus\n- Indus valley civilization\n- Vedic Period\n- Mauryas\n- Golden Age (Guptas)\n- Scientific developments in ancient India"}
+		{"id":"af688a52e7627c2d","x":636,"y":-260,"width":450,"height":370,"type":"text","text":"# Indus Valley Civilization\n\n- everything is concerning archeology\n- *Mohenjodaro* and *Harappa* were the largest cities, most significant for housing structures, religion\n- *Dholavira* was a trade city, port city\n- *Rakhigarhi*, largest site in India\n- *Kalibangan*, largest site in general"},
+		{"id":"687795ba4554ebca","x":1288,"y":-586,"width":192,"height":206,"type":"text","text":"- Democratic\n- Autocratic\n- Plutocratic\n- Oligarchic\n- Egalitarian"},
+		{"id":"24678adfdb352e0e","x":1194,"y":-260,"width":326,"height":260,"type":"text","text":"- It was an **Egalitarian Society**\n- everyone had and utilized the same strata of resources\n- there were *no social hierarchies* observed from archeological remains/evidence"},
+		{"id":"5acfefa1815e7094","x":980,"y":200,"width":325,"height":289,"type":"text","text":"## features of study\n- town planning\n\t- house, wells, roads\n- drainage\n- great bath\n- granaries\n- seals"},
+		{"id":"938b55c887b75520","x":1426,"y":185,"width":454,"height":355,"type":"text","text":"## town planning\n### house\n- **doors** opened in a small alley instead of the main road\n\t- no fortification in cities\n\t- intruders were easy to catch in narrow roads/alleys\n- the **windows** were over the road\n\t- ventilation \n\n### wells\n- sign of egalitarian society\n- everyone had one\n\n### roads / streets\n- incorporated with drainage systems very well"},
+		{"id":"da916359ff523fca","x":1360,"y":600,"width":239,"height":120,"type":"text","text":"## drainage\n- filtration system"},
+		{"id":"aa8dd296db428546","x":947,"y":620,"width":358,"height":280,"type":"text","text":"## great bath\n- communal pool\n- had rooms beside the pools\n- had heating system\n- proper water drainage to and from the great bath\n"},
+		{"id":"1b3f54455c035736","x":640,"y":586,"width":261,"height":269,"type":"text","text":"## seals\n- used for trading\n- associated to religion\n- indicated many other aspects like fashion, flora and fauna, etc."},
+		{"id":"25e3872d0d4495b4","x":1958,"y":-226,"width":242,"height":186,"type":"text","text":"decline factors"},
+		{"type":"text","text":"# syllabus\n- Indus valley civilization\n- Vedic Period\n- Mauryas\n- Golden Age (Guptas)\n- Scientific developments in ancient India","id":"25f3f0ef5dc15d0e","x":240,"y":-220,"width":309,"height":291},
+		{"type":"text","text":"- **pre-history**\n\t- big bang to early humans\n\t- no literary evidence, but archeological evidence\n- **proto-history**\n\t- have both kinds of evidence\n\t- but not deciphered\n\t- eg: vedic period, indus valley civilization\n- **history**\n\t- ancient, medieval, modern\n\t- ","id":"b891251f6be9172a","x":-240,"y":-235,"width":365,"height":420}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"3c806054d0d9d321","fromNode":"24678adfdb352e0e","fromSide":"top","toNode":"687795ba4554ebca","toSide":"bottom"},
+		{"id":"a6ac8ebcf87dae26","fromNode":"af688a52e7627c2d","fromSide":"right","toNode":"24678adfdb352e0e","toSide":"left"},
+		{"id":"9c403a0a7dc8b3bf","fromNode":"af688a52e7627c2d","fromSide":"bottom","toNode":"5acfefa1815e7094","toSide":"top"},
+		{"id":"6901ab33800dd76f","fromNode":"5acfefa1815e7094","fromSide":"right","toNode":"938b55c887b75520","toSide":"left"},
+		{"id":"a8c05bcf10b3d9db","fromNode":"938b55c887b75520","fromSide":"bottom","toNode":"da916359ff523fca","toSide":"right"},
+		{"id":"361bcc7221b57ded","fromNode":"5acfefa1815e7094","fromSide":"bottom","toNode":"aa8dd296db428546","toSide":"top"},
+		{"id":"5ea6ec1f34b91fba","fromNode":"5acfefa1815e7094","fromSide":"left","toNode":"1b3f54455c035736","toSide":"top"}
+	]
 }

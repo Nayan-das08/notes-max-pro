@@ -90,4 +90,4 @@
 			- engines make use of item and user similarity
 	- **association rules**
 		- *supermarket shelf management*
-- 
+

@@ -75,3 +75,12 @@
 - spell character
 
 $tf_{t,d} = \text{freq of term t in doc d}$
+
+
+# text encoding
+- all the non num char were encoded to numbers using a code
+- also, the encoding technique had to be in the standard form so that different computer manufacture would not use different encoding techniques
+
+# regex
+- very powerful programming tool that are used for a variety of purposes such as feature extraction, string replacement and other string manipulation
+

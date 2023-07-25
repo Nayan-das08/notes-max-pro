@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"file","file":"placement flash cards.md","subpath":"#SQL PLSQL","id":"afb8694875e28e41","x":-1000,"y":600,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#Big Data Tools","id":"80565d4ca410ccb3","x":-450,"y":720,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#Data Science","id":"71b0e39a9693d437","x":-840,"y":40,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#EDA","id":"8a3efe4c9c4496be","x":80,"y":520,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#data analysis","id":"3de80aa78ac3f624","x":-320,"y":0,"width":460,"height":400},
+		{"type":"text","text":"# to do: **DSA**\n\n- [ ] Python OOP\n- [ ] C++ STL","id":"b3a066f35ca9fb9b","x":740,"y":-137,"width":364,"height":577},
+		{"type":"text","text":"# to do: **project**\n\n- [ ] Latex\n- [ ] OCR\n","id":"57df48d09c6bc1ab","x":1240,"y":112,"width":364,"height":577}
+	],
+	"edges":[]
+}
