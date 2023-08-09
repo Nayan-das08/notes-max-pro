@@ -1,12 +1,25 @@
 {
 	"nodes":[
 		{"type":"file","file":"placement flash cards.md","subpath":"#SQL PLSQL","id":"afb8694875e28e41","x":-1000,"y":600,"width":460,"height":400},
-		{"type":"file","file":"placement flash cards.md","subpath":"#Big Data Tools","id":"80565d4ca410ccb3","x":-450,"y":720,"width":460,"height":400},
-		{"type":"file","file":"placement flash cards.md","subpath":"#Data Science","id":"71b0e39a9693d437","x":-840,"y":40,"width":460,"height":400},
-		{"type":"file","file":"placement flash cards.md","subpath":"#EDA","id":"8a3efe4c9c4496be","x":80,"y":520,"width":460,"height":400},
-		{"type":"file","file":"placement flash cards.md","subpath":"#data analysis","id":"3de80aa78ac3f624","x":-320,"y":0,"width":460,"height":400},
-		{"type":"text","text":"# to do: **DSA**\n\n- [ ] Python OOP\n- [ ] C++ STL","id":"b3a066f35ca9fb9b","x":740,"y":-137,"width":364,"height":577},
-		{"type":"text","text":"# to do: **project**\n\n- [ ] Latex\n- [ ] OCR\n","id":"57df48d09c6bc1ab","x":1240,"y":112,"width":364,"height":577}
+		{"type":"file","file":"placement flash cards.md","subpath":"#Data Science","id":"71b0e39a9693d437","x":-1000,"y":100,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#data analysis","id":"3de80aa78ac3f624","x":-440,"y":40,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#Big Data Tools","id":"80565d4ca410ccb3","x":-440,"y":571,"width":460,"height":400},
+		{"type":"file","file":"placement flash cards.md","subpath":"#EDA","id":"8a3efe4c9c4496be","x":-770,"y":1085,"width":460,"height":400},
+		{"type":"text","text":"# to do","id":"e0b7bc048a875b21","x":440,"y":223,"width":185,"height":101},
+		{"type":"text","text":"## C++ from *complete reference*\n- mainly focus on STL","id":"4a2465c7570e4280","x":662,"y":513,"width":271,"height":167},
+		{"type":"text","text":"## C++ from FCC \n- skip where it is similar to **C**\n- focus mainly on \n\t- templates\n\t- OOP concepts","id":"47b5ecd7d389cdf5","x":742,"y":148,"width":261,"height":251},
+		{"type":"text","text":"## complete NeetCode\n- try these using **C++**","id":"1eb79bf2a00292b0","x":1102,"y":440,"width":212,"height":180},
+		{"type":"text","text":"## minor project\n","id":"b1ef11d113343fcc","x":360,"y":8,"width":222,"height":107},
+		{"type":"text","text":"# `using namespace std`\n- simplifies the access of C++ standard library\n- tells the compiler that we wish to use this `namespace`\n- a way to *organize code* into *logical groups* and to prevent name collisions when using multiple libraries\n- to *group related identifiers*\n- ","id":"884737b8c381cd98","x":471,"y":895,"width":369,"height":405},
+		{"id":"08a86a3846e22764","x":953,"y":893,"width":358,"height":467,"type":"text","text":"# header files in C++\n- file that contains **declarations** of certain classes, functions, and other identifiers\n- contains declarations for `cin` and `cout`\n- **old** C/C++ uses deprecated `iostream.h`\n- **new** C++ uses new `iostream`\n- needs namespace `std` for using them as the definitions are present there"},
+		{"id":"b2b9c6a14ff64003","x":560,"y":1420,"width":640,"height":400,"type":"text","text":">[!NOTE]\n>- the `<iostream>` header file contains declarations of the `cin` and `cout` objects, but their definitions are provided by the C++ standard library implementation. The `std` namespace is used by the C++ standard library to organize its identifiers\n>- when you include a standard library header file like `<iostream>`, you need to qualify the names of its identifiers with the `std` namespace in order to use them"},
+		{"id":"62c5cfcd7cde035f","x":-180,"y":1426,"width":460,"height":454,"type":"text","text":"Please note below points mentioned by HR to **prepare for Interviews** tomorrow -\n\nYou need to have below mentioned attributes and skills to clear the interviews tomorrow-\n\n- Learning attitude \n- Positive and healthy mind frame\n- Flexibility \n- Brush up your fundamentals \n- They would ask you your preferred language out of the 5 languages shared during ppt and ask questions related to your chosen one\n\nPrepare accordingly"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"b6c30cfc249860b4","fromNode":"e0b7bc048a875b21","fromSide":"right","toNode":"47b5ecd7d389cdf5","toSide":"left"},
+		{"id":"d8c7db50ad9857a5","fromNode":"e0b7bc048a875b21","fromSide":"bottom","toNode":"4a2465c7570e4280","toSide":"top"},
+		{"id":"932f654486f9cd9a","fromNode":"47b5ecd7d389cdf5","fromSide":"right","toNode":"1eb79bf2a00292b0","toSide":"top"},
+		{"id":"e8c6e88af6b2c46d","fromNode":"4a2465c7570e4280","fromSide":"right","toNode":"1eb79bf2a00292b0","toSide":"left"},
+		{"id":"26324e5a6835ef9d","fromNode":"e0b7bc048a875b21","fromSide":"top","toNode":"b1ef11d113343fcc","toSide":"bottom"}
+	]
 }
