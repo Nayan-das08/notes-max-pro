@@ -8,17 +8,18 @@
 
 # feature selection
 ## all features
-- list of all the features provided in the dataset
-	- IPV4_SRC_ADDR
-	- IPV4_DST_ADDR
-	- L4_SRC_PORT
-	- L4_DST_PORT
-	- PROTOCOL
-	- TCP_FLAGS
-	- L7_PROTO
-	- IN_BYTES
-	- OUT_BYTES
-	- IN_PKTS
-	- OUT_PKTS
-	- FLOW_DURATION_MILLISECONDS
+list of all the features provided in the dataset
+- IPV4_SRC_ADDR - IPv4 source address
+- IPV4_DST_ADDR - IPv4 destination address
+- L4_SRC_PORT - IPv4 source port number
+- L4_DST_PORT - IPv4 destination port number
+- PROTOCOL - IP protocol identifier byte
+- TCP_FLAGS - Cumulative of all TCP flags
+- L7_PROTO - Layer 7 protocol (numeric)
+- IN_BYTES - Incoming number of bytes
+- OUT_BYTES - Outgoing number of bytes
+- IN_PKTS - Incoming number of packets
+- OUT_PKTS - Outgoing number of packets
+- FLOW_DURATION_MILLISECONDS - Flow duration in milliseconds
+
 ## reason for feature selection
