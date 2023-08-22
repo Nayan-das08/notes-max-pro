@@ -18,8 +18,10 @@
 		{"type":"text","text":"## Social implications\n\n- administration\n- language\n- food\n- dress\n- religion\n- burial\n- toys and entertainment\n\t- star wars level *pod racing* with carts\n- tools","id":"7878680b0fbdbe08","x":751,"y":1520,"width":280,"height":395},
 		{"type":"text","text":"## economic implications\n\n- agriculture\n- animal husbandry\n- overseas relations\n\t- mesopotamia\n\t- egypt\n- transportation\n- business\n- metallurgy\n\t- could have made *Captain America's shield*","id":"f4ee313cac59c649","x":1245,"y":1520,"width":300,"height":440},
 		{"id":"f150701544f91fda","x":3134,"y":-442,"width":606,"height":622,"type":"text","text":"# Vedic Period\n- phases\n\t- phase 1\n\t\t- early vedic period / rigvedic\n\t- phase 2\n\t\t- middle to late vedic period / brahmanas period\n\t- phase 3\n\t\t- sutras period\n- what all we can find / infer\n\t- social\n\t- economy\n\t- politics\n\t- religion\n- problems\n\t- problem 1\n\t\t- most evidences verbal and compiled very late\n\t- problem 2\n\t\t- historians had to adopt an idealistic views of life for the period\n"},
-		{"id":"d5cfa70e2ee11023","x":3854,"y":-403,"width":466,"height":523,"type":"text","text":"## Vedas\npoetry for religion\n1. Rig\n\t- elements of naturism\n\t- has praises for each aspect of the nature\n2. Yajur\n\t- specific prayers for each ceremony\n3. Sam\n\t- how to conduct the ceremonies, pronouce mantras, etc.\n4. Atharv\n\t- black magic, prophesies, superstitions, etc.\n\t- gave inspiration to other branches like ayurveda, etc\n"},
-		{"id":"d370a026f0b87819","x":4433,"y":-558,"width":241,"height":280,"type":"text","text":"# structures of hindu society\n- caste\n- ashram\n- "}
+		{"id":"d5cfa70e2ee11023","x":3854,"y":-403,"width":466,"height":523,"type":"text","text":"## 1. Vedas\npoetry for religion\n1. Rig\n\t- elements of naturism\n\t- has praises for each aspect of the nature\n2. Yajur\n\t- specific prayers for each ceremony\n3. Sam\n\t- how to conduct the ceremonies, pronouce mantras, etc.\n4. Atharv\n\t- black magic, prophesies, superstitions, etc.\n\t- gave inspiration to other branches like ayurveda, etc\n"},
+		{"id":"d370a026f0b87819","x":4433,"y":-558,"width":241,"height":280,"type":"text","text":"# structures of hindu society\n- caste\n- ashram\n- purushatra"},
+		{"id":"7206415dc4b3a610","x":3940,"y":-580,"width":341,"height":96,"type":"text","text":"# literature"},
+		{"id":"94de910601114659","x":3881,"y":180,"width":413,"height":260,"type":"text","text":"## 2. brahmana\n- complimentary to each veda\n## 3. aryanakas"}
 	],
 	"edges":[
 		{"id":"3c806054d0d9d321","fromNode":"24678adfdb352e0e","fromSide":"right","toNode":"687795ba4554ebca","toSide":"left"},
@@ -34,6 +36,8 @@
 		{"id":"21b5757f28a66eb6","fromNode":"119673ef7d585b34","fromSide":"bottom","toNode":"f4ee313cac59c649","toSide":"top"},
 		{"id":"a6ac8ebcf87dae26","fromNode":"af688a52e7627c2d","fromSide":"top","toNode":"24678adfdb352e0e","toSide":"bottom"},
 		{"id":"4f29e442cf4ff94c","fromNode":"25e3872d0d4495b4","fromSide":"right","toNode":"d577292c307bf034","toSide":"left"},
-		{"id":"97dc8bf3a03348d1","fromNode":"af688a52e7627c2d","fromSide":"right","toNode":"25e3872d0d4495b4","toSide":"left"}
+		{"id":"97dc8bf3a03348d1","fromNode":"af688a52e7627c2d","fromSide":"right","toNode":"25e3872d0d4495b4","toSide":"left"},
+		{"id":"fe482158468887d6","fromNode":"7206415dc4b3a610","fromSide":"bottom","toNode":"d5cfa70e2ee11023","toSide":"top"},
+		{"id":"c850f32ffbd2a3b6","fromNode":"d5cfa70e2ee11023","fromSide":"bottom","toNode":"94de910601114659","toSide":"top"}
 	]
 }
