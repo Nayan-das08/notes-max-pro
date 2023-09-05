@@ -80,7 +80,16 @@
 		{"type":"text","text":"# balanced NTP_DrDoS dataset \n## with 25,000 samples of each class","id":"01fca08829947a0b","x":5466,"y":2742,"width":308,"height":197},
 		{"type":"text","text":"## training set\n32000 samples","id":"68d6ea0deb8671b0","x":5166,"y":3080,"width":200,"height":104},
 		{"type":"text","text":"## validation set\n8000 samples","id":"b7c0090d7b336ab0","x":5200,"y":3241,"width":200,"height":104},
-		{"type":"text","text":"## testing set\n10000 samples","id":"777536f70453bd67","x":5300,"y":3381,"width":200,"height":104}
+		{"type":"text","text":"## testing set\n10000 samples","id":"777536f70453bd67","x":5300,"y":3381,"width":200,"height":104},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">Dense_layer_2</h1>\n<h2 style=\"text-align:center;\">64 units, leaky_relu</h2>","id":"7b8ee471e5c86686","x":8123,"y":1661,"width":320,"height":140},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">Dense_layer_1</h1>\n<h2 style=\"text-align:center;\">128 units, leaky_relu</h2>","id":"d2cabe37dd3ac9c6","x":8123,"y":1456,"width":320,"height":145},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">LSTM_layer_2</h1>\n<h2 style=\"text-align:center;\">64 units, return_sequence=False</h2>","id":"aeb37db45428e55b","x":8083,"y":1225,"width":400,"height":160},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">LSTM_layer_1</h1>\n<h2 style=\"text-align:center;\">128 units, return_sequence=True</h2>","id":"9e78ff0106800ebe","x":8083,"y":995,"width":400,"height":160},
+		{"type":"text","text":"<h2 style=\"text-align:center;\">\"BENIGN\"</h2>","id":"efb0f3ec65df7df1","x":8640,"y":1691,"width":200,"height":60},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">Dropout_layer</h1>\n<h2 style=\"text-align:center;\">drop_factor=0.3</h2>","id":"27300bb6b5c1c4bd","x":8740,"y":1011,"width":320,"height":140},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">Dense_layer_3</h1>\n<h2 style=\"text-align:center;\">32 units, relu</h2>","id":"9eeb22383e0f3c57","x":8740,"y":1211,"width":320,"height":140},
+		{"type":"text","text":"<h1 style=\"text-align:center;\">Output_layer</h1>\n<h2 style=\"text-align:center;\">(sigmoid)</h2>","id":"7177b760c1e291d7","x":8740,"y":1420,"width":320,"height":131},
+		{"type":"text","text":"<h2 style=\"text-align:center;\">\"NTP_DrDoS\"</h2>","id":"cd3ef7fa963f07b5","x":8939,"y":1691,"width":242,"height":60}
 	],
 	"edges":[
 		{"id":"56fee852a863f823","fromNode":"8255d8cb31017a28","fromSide":"bottom","toNode":"43786bc28bdfb306","toSide":"top"},
@@ -131,6 +140,14 @@
 		{"id":"e5016bec5b922317","fromNode":"39b93dc1b9347ac6","fromSide":"right","toNode":"777536f70453bd67","toSide":"left","label":"testing"},
 		{"id":"45fde96ed3ca51da","fromNode":"68d6ea0deb8671b0","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"},
 		{"id":"2389e9947af782da","fromNode":"b7c0090d7b336ab0","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"},
-		{"id":"9e86426a5d51dea3","fromNode":"777536f70453bd67","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"}
+		{"id":"9e86426a5d51dea3","fromNode":"777536f70453bd67","fromSide":"right","toNode":"893b54cded639e79","toSide":"left"},
+		{"id":"cfd31f320a38bfdc","fromNode":"7b8ee471e5c86686","fromSide":"right","toNode":"27300bb6b5c1c4bd","toSide":"left"},
+		{"id":"6fe728983168bb15","fromNode":"d2cabe37dd3ac9c6","fromSide":"bottom","toNode":"7b8ee471e5c86686","toSide":"top"},
+		{"id":"fa8d48782dcbb77f","fromNode":"27300bb6b5c1c4bd","fromSide":"bottom","toNode":"9eeb22383e0f3c57","toSide":"top"},
+		{"id":"3c0c63c54846dc27","fromNode":"aeb37db45428e55b","fromSide":"bottom","toNode":"d2cabe37dd3ac9c6","toSide":"top"},
+		{"id":"09226b2d7fa74fa2","fromNode":"9eeb22383e0f3c57","fromSide":"bottom","toNode":"7177b760c1e291d7","toSide":"top"},
+		{"id":"9b55950be5fcee43","fromNode":"7177b760c1e291d7","fromSide":"bottom","toNode":"efb0f3ec65df7df1","toSide":"top","label":"0"},
+		{"id":"dae175497731f0a9","fromNode":"7177b760c1e291d7","fromSide":"bottom","toNode":"cd3ef7fa963f07b5","toSide":"top","label":"1"},
+		{"id":"35cd587afd54b04a","fromNode":"9e78ff0106800ebe","fromSide":"bottom","toNode":"aeb37db45428e55b","toSide":"top"}
 	]
 }

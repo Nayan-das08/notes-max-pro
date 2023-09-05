@@ -93,3 +93,4 @@
 		- to the right
 		- mean < median < mode
 
+---
