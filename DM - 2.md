@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 # Data Preprocessing
 
 ## why needed

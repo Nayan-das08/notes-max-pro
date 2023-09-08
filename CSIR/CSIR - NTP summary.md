@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 Date: 01/06/2023
 %%# NTP summary%%
 ## basics

@@ -1,5 +1,7 @@
->Links: [[rough notebooks]]
-
+---
+tags:
+  - rough
+---
 To Whom It May Concern,
 
 I am writing to highly recommend [Nayan Ranjan Das] for the [Summer Students Programme 2023] at [CERN OpenLabs]. I have had the pleasure of working with [him] for the past year as his supervisor at [Amity University, Noida], and I have consistently been impressed by his aptitude for and passion for this field.

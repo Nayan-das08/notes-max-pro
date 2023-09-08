@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 >Nayan Ranjan Das
 >A2305220148
 >7CSE2Y

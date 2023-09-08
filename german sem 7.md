@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 
 |           | mas   | fem  | neu   | plural |
 | --------- | ----- | ---- | ----- | ------ |

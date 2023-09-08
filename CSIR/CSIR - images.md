@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 - methodology
 	- analysis
 		- [x] code snippets for python scripts

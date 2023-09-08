@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 # Abstract
 Distributed Denial-of-Service (DDoS) attacks leveraging Network Time Protocol (NTP) traffic, also known as NTP amplification attacks, pose a severe threat to networks, overwhelming even those with resilient architectures and security protocols. This project presents a Deep Learning model designed for network analysis, specifically focused on detecting DDoS attacks within network traffic. *To be continued (details about data, model, evaluation, comparison)*
 

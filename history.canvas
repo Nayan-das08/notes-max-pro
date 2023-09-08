@@ -19,10 +19,10 @@
 		{"type":"text","text":"## economic implications\n\n- agriculture\n- animal husbandry\n- overseas relations\n\t- mesopotamia\n\t- egypt\n- transportation\n- business\n- metallurgy\n\t- could have made *Captain America's shield*","id":"f4ee313cac59c649","x":1245,"y":1520,"width":300,"height":440},
 		{"type":"text","text":"# Vedic Period\n- phases\n\t- phase 1\n\t\t- early vedic period / rigvedic\n\t- phase 2\n\t\t- middle to late vedic period / brahmanas period\n\t- phase 3\n\t\t- sutras period\n- what all we can find / infer\n\t- social\n\t- economy\n\t- politics\n\t- religion\n- problems\n\t- problem 1\n\t\t- most evidences verbal and compiled very late\n\t- problem 2\n\t\t- historians had to adopt an idealistic views of life for the period\n","id":"f150701544f91fda","x":2800,"y":-80,"width":606,"height":622},
 		{"type":"text","text":"# structures of hindu society\n- caste\n- ashram\n- purushatra","id":"d370a026f0b87819","x":3165,"y":-418,"width":241,"height":280},
-		{"type":"text","text":"# Mahajanapada Era","id":"b44b42127a289242","x":2385,"y":1241,"width":331,"height":79},
-		{"type":"text","text":"## Sociology\n- religious","id":"d00be5b3fe2577ac","x":2911,"y":1274,"width":309,"height":346},
 		{"type":"text","text":"# vedic literature","id":"7206415dc4b3a610","x":3583,"y":-218,"width":341,"height":96},
 		{"type":"text","text":"## 1. Vedas\npoetry for religion\n1. Rig\n\t- elements of naturism\n\t- has praises for each aspect of the nature\n2. Yajur\n\t- specific prayers for each ceremony\n3. Sam\n\t- how to conduct the ceremonies, pronouce mantras, etc.\n4. Atharv\n\t- black magic, prophesies, superstitions, etc.\n\t- gave inspiration to other branches like ayurveda, etc\n","id":"d5cfa70e2ee11023","x":3691,"y":-30,"width":466,"height":523},
+		{"type":"text","text":"# Mahajanapada Era","id":"b44b42127a289242","x":2385,"y":1241,"width":331,"height":79},
+		{"type":"text","text":"## Sociology\n- religious","id":"d00be5b3fe2577ac","x":2911,"y":1274,"width":309,"height":346},
 		{"type":"text","text":"## 2. brahmana\n- complimentary to each veda\n## 3. aryanakas\n- encyclopedia\n","id":"94de910601114659","x":3460,"y":620,"width":413,"height":247},
 		{"type":"text","text":">later vedic period\n## 4. upanishads\n- purpose of life\n- philosophical books\n## 5. Vedang\n- **shiksha** - pronunciation\n- **kalpa** - ritualistic knowledge\n- **vyakran** - grammar\n- **nirukta** - etymology\n- **chand** - punctuation\n- **jyotish** - astrology\n\n>religious books end here","id":"3e1773111d49804b","x":4012,"y":632,"width":368,"height":508},
 		{"type":"text","text":">politics\n## 6. Sutras\n## 7. Smritis\n## 8. Puranas\n","id":"0b63fa101716a773","x":4494,"y":647,"width":346,"height":313},
@@ -30,8 +30,8 @@
 		{"type":"text","text":"- 16 monarchies\n- 10 republics","id":"809a6727ac830d90","x":2274,"y":1082,"width":223,"height":117},
 		{"type":"text","text":"- period of experimentation\n\t- people just settled\n\t- experimented with sociology, politics\n- assimilation\n","id":"d46fae1256b08fed","x":2180,"y":1400,"width":317,"height":200},
 		{"id":"7ccd7800cb0272b3","type":"text","text":"- food\n\t- changes due to cultural affects to dietary customs\n- entertainment\n\t- music and dance were highly promoted\n- dress\n- education\n\t- better funding\n\t- pitatha in buddhism\n\t- canonical works in jainism","x":2551,"y":1369,"width":289,"height":511},
-		{"id":"50f8f63a35af82cf","x":3855,"y":1452,"width":225,"height":68,"type":"text","text":"# Mauryas"},
-		{"id":"a13a024d4bd69af3","x":4178,"y":1584,"width":277,"height":231,"type":"text","text":"## "}
+		{"id":"50f8f63a35af82cf","type":"text","text":"# Mauryas","x":3855,"y":1452,"width":225,"height":68},
+		{"id":"a13a024d4bd69af3","type":"text","text":"## ","x":4178,"y":1584,"width":277,"height":231}
 	],
 	"edges":[
 		{"id":"3c806054d0d9d321","fromNode":"24678adfdb352e0e","fromSide":"right","toNode":"687795ba4554ebca","toSide":"left"},

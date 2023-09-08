@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 1. Vattikonda, Bharath, et al. "Time and Frequency Metrology: Part II: Application of Indian Standard Time for Safe Digital India." _Metrology for Inclusive Growth of India_ (2020): 197-236.
 2. Mills, David L. "Internet time synchronization: the network time protocol." _IEEE Transactions on communications_ 39.10 (1991): 1482-1493.
 3. Perry, Yarin, Neta Rozen Schiff, and Michael Schapira. "A devil of a time: How vulnerable is NTP to malicious timeservers?." _NDSS_. 2021.

@@ -1,3 +1,7 @@
+---
+tags:
+  - rough
+---
 # objective
 - BLSTM-DT-XG, a model to detect Botnet attacks in IoT network traffic. this model is divided into two segments - 
 	- hybrid BLSTM-decision tree segment, which identifies whether an instance of captured network traffic is an instance of IoT botnet attack or not

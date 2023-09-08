@@ -1,3 +1,7 @@
+---
+tags:
+  - rough
+---
 # goal selection
 - For report
 	- compile complete file and send to me

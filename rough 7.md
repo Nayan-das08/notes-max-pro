@@ -1,3 +1,7 @@
+---
+tags:
+  - rough
+---
 The main contributions of this article are as follows.  
 1) A single hidden-layered LAE is proposed for feature dimensionality reduction. This method reduces the dimensionality of large-scale IoT network traffic data and produces a low-dimensional latent-space feature rep resentation at the hidden layer without loosing useful intrinsic network information. 
 

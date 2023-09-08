@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 # data mining
 - use of efficient techniques for *analysis* of very large collection of data and the *extraction* useful and possibly unexpected *patterns* in data
 - why do we need data mining

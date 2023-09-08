@@ -1,7 +1,3 @@
----
-tags:
-  - rough
----
 <div style="text-align:center; font-family: Latin Modern Math; font-size:50;">
 Mid-Semester Progress Report
 </div>

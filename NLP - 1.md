@@ -1,7 +1,7 @@
->[!NOTE]
->- Case study
->- 2 ppl
-
+---
+tags:
+  - college_notes
+---
 # Intro
 - for NLP, there are 3 stages
 	- **Lexical Processing**

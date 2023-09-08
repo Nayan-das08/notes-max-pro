@@ -1,0 +1,9 @@
+- grep alternative for windows CMD
+- minor project
+- Latex OCR
+- self growing neural network
+- Speech api for PDFs in edge for Android
+- Create language grammar using DL
+- interactive metro map app
+- text based instruction to navigate through GUI envt
+- google keep windows app

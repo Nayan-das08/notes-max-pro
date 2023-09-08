@@ -14,12 +14,9 @@
 		{"type":"text","text":"## start with the *LaTex project*","id":"36d51f5e483d9f96","x":756,"y":-657,"width":198,"height":121},
 		{"type":"text","text":"# Learn Front-End","id":"5264f392c4f040b9","x":1167,"y":-399,"width":285,"height":201},
 		{"type":"text","text":"## study \n- [ ] Fuzzy logic\n- [ ] statistics\n- [ ] GANs\n- [ ] NLP","id":"dd3312cbeabfcdfd","x":904,"y":-213,"width":200,"height":213},
-		{"type":"text","text":"<div style=\"text-align:center; font-family: Latin Modern Math; font-size:50;\">Don't Forget About</div>\n","id":"4232518100a3c0ef","x":798,"y":160,"width":362,"height":202},
-		{"type":"text","text":"# Things to do *that i must not forget* during the *summer break*","id":"62de61ac8d8cc8bd","x":369,"y":-378,"width":316,"height":180},
-		{"type":"text","text":"# LSTM Project\n- understand columns of data \n- clean data\n\t- imbalance\n- build a model\n- *start writing paper*","id":"72f37c6e49649db2","x":325,"y":42,"width":360,"height":320},
-		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":-30,"y":541,"width":322,"height":415},
-		{"type":"file","file":"things i haven't studied properly.md","id":"e601c256d25f492e","x":-290,"y":-703,"width":520,"height":600},
-		{"id":"a3723330350dd0b1","x":-485,"y":18,"width":487,"height":439,"type":"text","text":"# revision topics for placement\n\n- ### SQL\n- ### Statistics\n- ### Cloud\n- ### DSA\n- ### Networking, OS, DBMS, Java"}
+		{"id":"a3723330350dd0b1","type":"text","text":"# revision topics for placement\n\n- ### SQL\n- ### Statistics\n- ### Cloud\n- ### DSA\n- ### Networking, OS, DBMS, Java","x":-485,"y":18,"width":487,"height":439},
+		{"type":"text","text":"# extra read\n- ### LSTM papers\n- ### Generative Adversarial Networks (GANs)\n- ### Stable Diffusion\n- ### Latent Diffusion Models","id":"04a5685dbc78f873","x":435,"y":18,"width":322,"height":415},
+		{"id":"01c2b70bd20a57a1","x":-166,"y":-580,"width":601,"height":382,"type":"text","text":"# things i haven;t studied properly\n- ### ~~neural network~~\n- ### linear algebra\n- ### probability\n- ### statistics\n- ### theory of computation\n- ### digital electronics\n- ### Computer Architecture"}
 	],
 	"edges":[
 		{"id":"906ea0d20b382bb3","fromNode":"d659a809f057a9b9","fromSide":"bottom","toNode":"5264f392c4f040b9","toSide":"top"},
@@ -38,12 +35,6 @@
 		{"id":"fa4b7dab7bcc0c2f","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"8581ad545726b0bf","toSide":"right"},
 		{"id":"a4369de76c74ec2c","fromNode":"ac761a83122f6906","fromSide":"left","toNode":"4827b49dd4d45d49","toSide":"right"},
 		{"id":"3f6dc72aa411d554","fromNode":"ac761a83122f6906","fromSide":"bottom","toNode":"1a53496facbe1c5e","toSide":"top"},
-		{"id":"84af07293e8f62aa","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"36d51f5e483d9f96","toSide":"left"},
-		{"id":"85814149da5e601c","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"dd3312cbeabfcdfd","toSide":"left"},
-		{"id":"f909a69209445f24","fromNode":"04a5685dbc78f873","fromSide":"top","toNode":"72f37c6e49649db2","toSide":"left"},
-		{"id":"38b8cc986f4fd11d","fromNode":"4232518100a3c0ef","fromSide":"left","toNode":"72f37c6e49649db2","toSide":"right"},
-		{"id":"7dc58a6bad677a43","fromNode":"4232518100a3c0ef","fromSide":"top","toNode":"62de61ac8d8cc8bd","toSide":"bottom"},
-		{"id":"5994a7d31e8ee7ca","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"36d51f5e483d9f96","toSide":"right"},
-		{"id":"f996074ab480d1aa","fromNode":"62de61ac8d8cc8bd","fromSide":"right","toNode":"5264f392c4f040b9","toSide":"left"}
+		{"id":"5994a7d31e8ee7ca","fromNode":"d659a809f057a9b9","fromSide":"left","toNode":"36d51f5e483d9f96","toSide":"right"}
 	]
 }

@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 # intro
 - project: a specific plan or design
 

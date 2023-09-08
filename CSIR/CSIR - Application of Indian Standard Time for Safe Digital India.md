@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 ## introduction
 - time synchronization is needed various industries
 	- financial system

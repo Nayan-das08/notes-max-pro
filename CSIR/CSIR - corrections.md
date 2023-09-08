@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 ## abstract
 In order to maintain synchronized time across computer networks, Network Time Protocol is essential. However, because of their weaknesses, NTP servers are frequently the target of DDoS assaults, which pose serious threats to the integrity of networks and systems. To solve this problem we conducted an extensive analysis and comparative study of 26,085 responses obtained from 209 stratum 1 and 346 stratum 2 NTP servers with continuous collection of data over a period 18 days, recording in three intervals a day. This study provides valuable insights into the variations in performance and distribution of essential parameters between these two strata. By exploring and understanding these differences, we enhance our understanding of NTP server behavior and strengthen the security measures against potential attacks. Building further on the insights gathered from the comprehensive empirical analysis of the server responses from two strata, we propose a LSTM-based detection model made specifically for detecting Distributed Denial of Service (DDoS) attacks against NTP. This can give organizations the capacity to defend against NTP DDoS attacks successfully and uphold the integrity and dependability of their network systems when combined with the comparative analysis's insights. The suggested deep learning model trained and tested on the CICDDoS2019 public dataset provided by the Canadian Institute Cybersecurity shows perfect classification results for a variety of test sets. 
 

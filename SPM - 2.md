@@ -1,3 +1,7 @@
+---
+tags:
+  - college_notes
+---
 - concerned with choosing the right approach to a particular project
 - options
 	- inhouse

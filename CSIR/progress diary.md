@@ -1,3 +1,7 @@
+---
+tags:
+  - csir
+---
 ### week 1
 - Studied NTP
 	- from RFC-5905
