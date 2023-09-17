@@ -4,9 +4,9 @@ a notepad like terminal-based app where one can type the text and have it displa
 ---
 ## requirements
 ### what needs to be studied
-- [ ] `ncurses` for terminal text-based terminal UI
-- [ ] `std::map` for mapping the design to the corresponding character
-- [ ] makefiles [[cpp.canvas|cpp]]
+- [x] `ncurses` for terminal text-based terminal UI
+- [x] `std::map` for mapping the design to the corresponding character
+- [x] makefiles [[cpp.canvas|cpp]]
 ### resources required
 
 ---
@@ -23,11 +23,12 @@ a notepad like terminal-based app where one can type the text and have it displa
 	- using `struct`
 - [x] moving text to next line at the end of the current line
 	- [x] `new line` or `line feed` 
-- [ ] backspace
-	- [ ] normal for single line deletion
-	- [ ] complex for single line deletion of multiple letters
-	- [ ] complex for new line
-	- need to use a string or stack for storing the characters
-- [ ] numbers
+- [x] backspace
+	- need to use a stack for storing the characters
+	- [x] normal for single line deletion
+	- [x] complex for single line deletion of multiple letters
+	- [x] complex for new line
+		- use stack for last column value when pressing LF
+- [x] numbers
 - [ ] special characters
-- [ ] window setup
+- [x] window setup

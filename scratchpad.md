@@ -18,8 +18,3 @@
 		- $IDF = log_{10}(\text{total document} / \text{no. of documents containing data})$ 
 
 ---
-
-| subject | task | deadline | progress |
-| ------- | ---- | -------- | -------- |
-| socio   |      |          |          |
-|         |      |          |          |

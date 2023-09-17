@@ -17,12 +17,16 @@ kanban-plugin: basic
 
 ## in queue
 
-- [ ] [[shout from terminal]]
 - [ ] [[grep alternative]]
 
 
 ## started working
 
+
+
+## completed
+
+- [ ] [[shout-cli]]
 
 
 
