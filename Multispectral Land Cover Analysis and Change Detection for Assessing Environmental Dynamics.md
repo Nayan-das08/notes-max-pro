@@ -1,0 +1,49 @@
+## rough
+- topic and objective (shruti)
+- dataset (nayan and utkarsh)
+	- **LandCoverNet Asia**
+		- very extensive
+		- no normal system can handle
+		- contains Jan 2018 to Dec 2018
+	- **Sentinel-2 10m Land Use/Land Cover Time Series**
+		- contains individual snapshots for each year
+		- from 2018 to 2022
+		- 11 classes
+- progress
+	- STAC Catalog
+	- GeoTIFF
+- proposed
+	- model
+		- classification based segmentation
+			- Recurrent CNN
+			- 3D CNN
+		- change detection analysis
+
+- malawi
+	- post classification comparison
+	- cross tabulation matrix
+- kashmir
+	- statistical difference
+# .
+- Shruti - objective
+	- land cover analysis
+	- change detection analysis
+	- novelty
+		- existing such projects for india are only govt. - not accessible (data)
+		- not using ai / segmentation techniques
+	- monitoring dashboard
+		- final proposed implementation - outcome
+		- web based (Utkarsh)
+- Nayan - Lit rev
+	- STAC Catalog
+	- GEOTIFF
+	- models
+- Utkarsh - Datasets
+	- specifications 
+		- size
+		- timeline
+		- segmentation dataset to be used for training
+	- complications
+		- normal systems cannot handle such dataset
+		- require powerful processors
+		- require large storage space

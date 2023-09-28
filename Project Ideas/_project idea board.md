@@ -17,6 +17,7 @@ kanban-plugin: basic
 
 ## in queue
 
+- [ ] [[colorscheme generator]]
 - [ ] [[grep alternative]]
 
 

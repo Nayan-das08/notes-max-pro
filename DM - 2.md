@@ -74,7 +74,7 @@ tags:
 	- *eg*: median
 
 >[!NOTE]
->$$mean-mode = 3 \times (mean-median)$$
+>$mean-mode = 3 \times (mean-median)$
 
 ### midrange
 - average of the largest and smallest values in the dataset
@@ -94,7 +94,7 @@ tags:
 		- to the right
 		- mode < median < mean
 	- negatively skewed
-		- to the right
+		- to the left
 		- mean < median < mode
 
 ---
