@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## needs readme.md
 
+- [ ] ML SHA256() guesser
 - [ ] google keep windows app
 - [ ] Latex OCR
 - [ ] self growing neural network
