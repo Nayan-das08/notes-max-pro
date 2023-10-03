@@ -542,7 +542,7 @@ Cost-benefit evaluation techniques are used to assess the financial feasibility 
 
    - **Description**: NPV calculates the present value of all cash inflows and outflows over the project's life, using a specified discount rate. If the NPV is positive, the project is considered financially viable.
    
-   - **Formula**: \[NPV = \sum \frac{CF_t}{(1 + r)^t}\]
+   - **Formula**: $NPV = \sum \frac{CF_t}{(1 + r)^t}$
    
    - **Example**: Consider a project with an initial investment of $100,000 and expected cash flows of $30,000, $40,000, and $50,000 in years 1, 2, and 3, respectively. Using a discount rate of 10%, the NPV can be calculated.
 
