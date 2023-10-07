@@ -1,0 +1,98 @@
+# apps
+- [x] obsidian
+- [x] notion
+- [ ] browser
+	- [x] edge
+	- [ ] chrome
+	- [x] arc
+- [x] drive
+- [ ] apple store
+	- [x] spotify
+	- [x] whatsapp
+	- [x] MS Office
+- [ ] **Utilities**
+	- [x] alt tab
+	- [x] rectangle
+	- [x] clipboard
+		- [x] maccy
+- [ ] apps found from youtube
+	- [ ] later
+		- [ ] save app "workspace" for later and quits/hides them
+	- [ ] dropover
+		- [ ] yoink
+	- [ ] hotkey
+	- [x] tinkertool
+		- [x] terminal level settings
+	- [ ] better touch tools
+		- [ ] better gesture shortcuts
+	- [ ] aldente
+		- [ ] battery
+	- [ ] very specific
+		- [ ] shottr
+		- [ ] imageoptim
+		- [ ] hand mirror
+		- [ ] mathpix snip
+		- [ ] front and center
+		- [ ] pdf squeezer
+		- [ ] reeder
+		- [ ] diffusionbee
+
+# settings
+- [x] dock 
+- [x] Auto capitalize
+- [x] Autocorrect
+- [x] double space 
+- [x] Resolution
+- [ ] iCloud
+- [ ] get files from PC
+	- [x] remove "AMITY" from PC to mac
+	- [ ] look other imp things
+- [x] add second google account
+- [x] get google drive items
+- [x] update MacOS
+- [x] think about change email id for Apple ID
+- [x] hot corner
+- [x] screenshot directory
+- [x] widgets
+- [x] slow backspace
+- [x] backlit setting
+- [ ] services
+- [x] temperature
+- [x] app switching (non window apps in cmd+tab
+- [x] shortcut to navigate back
+- [ ] time machine
+- [x] spotlight exclude search history 
+- [x] safari youtube app
+- [x] trackpad speed
+- [x] clean my mac
+- [x] battery health
+- [x] change gestures
+	- [x] can't
+- [x] slow cursor movement on hold
+- [x] lock system on closing the lid
+- [x] Wallpapers
+
+# learn
+- [x] key bindings
+- [x] gestures
+- [x] windows delete feature
+- [x] the dock structure
+- [ ] dock shortcuts
+- [ ] apple script
+
+# codes
+- [x] python
+	- [x] conda
+- [ ] terminal
+	- [ ] ohmyzsh
+	- [ ] theme
+	- [ ] iterm2 maybe
+	- [ ] tree
+	- [ ] aliases
+	- [ ] homebrew
+	- [ ] aztop
+	- [ ] gcc
+	- [ ] nerdfont (adres suggests fantasque sans mono nerd font, but we will use caskaydia cove)
+- [x] vscode
+- [x] sublime
+- [ ] python scripts

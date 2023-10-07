@@ -140,3 +140,13 @@ Trotz - Despite
 total ten sentences with Während (During), Wegen (Because of), Statt (Instead of), Trotz (Despite)
 A4 sheet, UG group 4D
 next class
+
+---
+
+## wegen
+- wegen des schlechten Wetters haben wir den Ausflug abgesagt. 
+	- Because of the bad weather, we canceled the trip.
+- Wegen des Regens bleibt er drinnen
+	- He stayed inside because of the rain
+- Wegen der Kälte zieht sie einen Mantel an. 
+	- She puts on a coat because of the cold.

@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## needs readme.md
 
+- [ ] use NN to generate string art
+- [ ] terminal based chat client
 - [ ] ML SHA256() guesser
 - [ ] google keep windows app
 - [ ] Latex OCR
