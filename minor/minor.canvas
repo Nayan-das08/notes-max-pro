@@ -1,6 +1,18 @@
 {
 	"nodes":[
-		{"id":"88f3e0d6e64fdd5f","type":"file","file":"minor/mid-semester progress report.md","x":-460,"y":-280,"width":524,"height":416}
+		{"id":"88f3e0d6e64fdd5f","type":"file","file":"minor/mid-semester progress report.md","x":848,"y":-107,"width":506,"height":240},
+		{"id":"c8759b0159d0299a","x":-782,"y":-414,"width":300,"height":565,"type":"text","text":"# blueprint\n\n1. **introduction**\n2. **planning**\n\t1. target problem statement\n\t2. purpose of plan\n\t3. *goals and objectives*\n\t4. *background information*\n\t5. *scope*\n\t\t1. *project scope*\n\t\t2. *constraints*\n\t6. budget\n\t7. project timeline\n\t8. roles and responsibilities\n\t9. risk management\n3. **literature review**\n4. **project dependencies**"},
+		{"id":"148c2cf0bf1d5372","x":-402,"y":-1058,"width":1376,"height":245,"type":"text","text":"<h1 style=\"font-size:60\">Multispectral Land Cover Analysis and Change Detection for Assessing Environmental Dynamics</h1>\n"},
+		{"id":"0fe7348cc9351b67","x":-382,"y":-264,"width":439,"height":568,"type":"text","text":"# to do list\n\n- [ ] write about *datasets*\n- [ ] write the *objectives*\n\t- [ ] classification\n\t- [ ] change detection\n- [ ] write *background info*\n- [ ] write *scope*"},
+		{"id":"d79bc00a01ba5207","x":-1492,"y":687,"width":367,"height":314,"type":"text","text":"# change detection analysis\n\n"},
+		{"id":"db823802991fa380","x":-1000,"y":689,"width":526,"height":472,"type":"text","text":"# classification\n\n## merit\n- targeted training / specialized focus\n\t- over a particular region, or over a certain time period\n- efficient processing\n\t- Working with segmented objects instead of individual pixels can reduce computational demands\n"},
+		{"id":"beee46bfc74e0563","x":-115,"y":443,"width":408,"height":200,"type":"text","text":"# datasets\n\n## LandCoverNet Asia\n\n\n## ESRI"},
+		{"id":"d812e4190575424a","x":209,"y":31,"width":369,"height":299,"type":"text","text":"# blueprint for minor report\n\n## 2. Planning\n### 2.3 objectives\n### 2.4 background info\n### 2.5 scope\n"},
+		{"id":"251c9a325ffbf86d","x":-251,"y":704,"width":593,"height":589,"type":"text","text":"## LandCoverNet Asia\n\n- collected data from \n\t- Sentinel-1 ground range distance (GRD) with radiometric calibration and ortho-rectification at 10m spatial resolution\n\t- Sentinel-2 surface reflectance product (L2A) at 10m spatial resolution\n\t- Landsat-8 surface reflectance product from Collection 2 Level-2\n- contains temporal observations from the satellite products with an annual class label, all stored in raster format (GeoTIFF files)\n- grant from [Schmidt Futures](https://schmidtfutures.com/) with additional support from [NASA ACCESS](https://earthdata.nasa.gov/esds/competitive-programs/access/radiant-mlhub), [Microsoft AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) and in kind technology support from [Sinergise](https://www.sinergise.com/).\n- "},
+		{"id":"7a92e976b3568610","x":-1324,"y":63,"width":378,"height":286,"type":"text","text":"# objectives\n\n- acquire datasets\n- analyse and study data (STAC Catalog and GeoTIFF meta data formats)\n- Image processing\n- supervised classification model\n- change detection model"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"37a11c237156cb13","fromNode":"7a92e976b3568610","fromSide":"bottom","toNode":"db823802991fa380","toSide":"top"},
+		{"id":"b53fdb55ca1b7000","fromNode":"7a92e976b3568610","fromSide":"bottom","toNode":"d79bc00a01ba5207","toSide":"top"}
+	]
 }

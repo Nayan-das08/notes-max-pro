@@ -36,4 +36,6 @@
 
 ## inspection
 - find problem at the earliest possible point in the software
+
+## capacity planning
 - 

@@ -25,8 +25,8 @@
 		- [x] terminal level settings
 	- [ ] better touch tools
 		- [ ] better gesture shortcuts
-	- [ ] aldente
-		- [ ] battery
+	- [x] aldente
+		- [x] battery
 	- [ ] very specific
 		- [ ] shottr
 		- [ ] imageoptim
@@ -56,7 +56,7 @@
 - [x] widgets
 - [x] slow backspace
 - [x] backlit setting
-- [ ] services
+- [x] services
 - [x] temperature
 - [x] app switching (non window apps in cmd+tab
 - [x] shortcut to navigate back
@@ -84,15 +84,26 @@
 - [x] python
 	- [x] conda
 - [ ] terminal
-	- [ ] ohmyzsh
-	- [ ] theme
-	- [ ] iterm2 maybe
+	- [x] ohmyzsh
+	- [x] theme
+	- [x] iterm2 maybe
 	- [ ] tree
-	- [ ] aliases
-	- [ ] homebrew
+	- [x] aliases
+	- [x] homebrew
 	- [ ] aztop
 	- [ ] gcc
-	- [ ] nerdfont (adres suggests fantasque sans mono nerd font, but we will use caskaydia cove)
+	- [x] nerdfont (adres suggests fantasque sans mono nerd font, but we will use caskaydia cove)
 - [x] vscode
 - [x] sublime
-- [ ] python scripts
+- [x] python scripts
+- [ ] packages
+	- [x] numpy
+	- [x] pandas
+	- [x] matplotlib
+	- [x] seaborn
+	- [x] sklearn
+	- [x] jupyter
+	- [ ] tensorflow
+	- [ ] keras
+	- [ ] pytorch
+	- [ ] plotly

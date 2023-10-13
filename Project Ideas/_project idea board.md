@@ -6,6 +6,11 @@ kanban-plugin: basic
 
 ## needs readme.md
 
+- [ ] text to web renderer
+- [ ] Mircrosoft to do widget for mac os
+- [ ] extension (for arc) to render reader reading mode
+- [ ] insta msg app
+- [ ] native whatsapp
 - [ ] use NN to generate string art
 - [ ] terminal based chat client
 - [ ] ML SHA256() guesser
