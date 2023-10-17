@@ -145,7 +145,7 @@ The resolution of the remote sensing images used in the project is a critical co
 	- kashmir
 		- maximum likelihood
 		- https://link.springer.com/article/10.1007/s10708-019-10037-x
-	- SVM
+	- kernel analysis
 		- https://www.sciencedirect.com/science/article/abs/pii/S0303243409000464
 	- An assessment of support vector machines for land cover classification
 		- https://www.tandfonline.com/doi/pdf/10.1080/01431160110040323?casa_token=v-qQdjqQrzoAAAAA:LBlkOCDdthQsOVeUxEFbrrlmBmCAOYBgc0Gmv-fnwmeBQysd8jIGokbAaEJhjRoOz-GQeQlQePME-L8
@@ -192,8 +192,24 @@ The resolution of the remote sensing images used in the project is a critical co
 - [x] comparison of classification techniques
 - [x] LULC hybrid model
 - [x] land cover 2.0
-- [ ] *land cover classification methods*
-- [ ] *pune*
-- [ ] remote sensing image classification review
-- [ ] multi-temporal landsat classification, italy
-- [ ] geotiff
+- [x] *land cover classification methods*
+- [x] *pune*
+- [x] remote sensing image classification review
+- [x] multi-temporal landsat classification, italy
+- [x] geotiff
+
+
+1. OLI
+	1. _Operational Land Imager_ (2021) _NASA_. Available at: https://landsat.gsfc.nasa.gov/satellites/landsat-8/spacecraft-instruments/operational-land-imager/ (Accessed: 17 October 2023).
+2. kernel analysis
+3. svm review
+4. comparison of classification techniques
+5. multi-temporal landsat classification, italy
+6. kashmir
+7. LULC hybrid model
+8. land cover classification methods
+9. remote sensing image classification review
+10. pune
+11. malawi
+12. land cover 2.0
+13. geotiff
