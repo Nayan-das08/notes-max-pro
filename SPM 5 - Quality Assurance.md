@@ -36,6 +36,30 @@
 
 ## inspection
 - find problem at the earliest possible point in the software
-
-## capacity planning
-- 
+## project closure
+- gaining stakeholder and customer acceptance
+- projects are formally closed, even if they are not completed
+- project archives
+	- org process assets
+- lessons learned
+- final report presentation to sponsors or senior management
+- project review and closure report
+	- to tidy up any loose ends
+	- outline outstanding issues and recommendations
+	- details activities undertaken 
+	- inform future prospects
+	- started towards the end of the project
+	- need
+		- agreement to proceed of doc
+		- copy of project documentation
+			- project business plan
+			- project status reports
+			- project risk register
+- project closing meeting
+	- post implementation review
+		- solicit feedback
+		- conduct project assessment
+		- prepare post implementation report
+	- administrative closeout
+		- update skills inventory and provide perf feedback
+		- archive project information and assets
