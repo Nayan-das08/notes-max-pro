@@ -6,15 +6,17 @@ kanban-plugin: basic
 
 ## needs readme.md
 
+- [ ] windows Cmatrix clone
+- [ ] terminal based PONG
 - [ ] text to web renderer
 - [ ] Mircrosoft to do widget for mac os
-- [ ] extension (for arc) to render reader reading mode
+- [ ] extension (for arc) to render reader/reading mode
 - [ ] insta msg app
 - [ ] native whatsapp
 - [ ] use NN to generate string art
 - [ ] terminal based chat client
 - [ ] ML SHA256() guesser
-- [ ] google keep windows app
+- [ ] google keep mac app
 - [ ] Latex OCR
 - [ ] self growing neural network
 - [ ] Speech api for PDFs in edge for Android
