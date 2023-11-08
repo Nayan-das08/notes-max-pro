@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## needs readme.md
 
+- [ ] github GUI app
 - [ ] windows Cmatrix clone
 - [ ] terminal based PONG
 - [ ] text to web renderer

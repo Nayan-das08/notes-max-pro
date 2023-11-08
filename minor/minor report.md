@@ -213,3 +213,22 @@ The resolution of the remote sensing images used in the project is a critical co
 11. malawi
 12. land cover 2.0
 13. geotiff
+
+
+Certainly! Here is the information organized in a tabular format:
+
+| Technique                                    | Location                | Method(s)                                                      |
+|----------------------------------------------|------------------------|----------------------------------------------------------------|
+| Malawi                                     | Supervised             | PCC                                                            |
+| Kashmir                                     | Maximum Likelihood      |                                                                |
+| Kernel Analysis                             |                          |                                                                |
+| Assessment of SVM for Land Cover Classification |                     |                                                                |
+| Comparison of Classification Techniques       | ANN, SVM, Maximum Likelihood |                                        |
+| Land Cover 2.0                              |                          |                                                                |
+| LULC Hybrid Model                           | Hybrid Logistic-Multicriteria Evaluation-Cellular Automata-Markov Model |            |
+| Land Cover Classification Methods            | Various Image-based Techniques |                                        |
+| Pune                                        | Random Forest          | Visual and Statistical Change Analysis using ARCGIS           |
+| Remote Sensing Image Classification Review   | Pixel-wise, Sub-pixel-wise, Object-based Image Classification, Spatio-contextual Analysis for Image Classification |   |
+| Multi-temporal Landsat Classification, Italy | Neural Networks using JavaNNS, Maximum Likelihood |                                |
+
+Please note that the column for "Location" is currently empty. If you have specific locations or case studies associated with each technique, you can fill them in accordingly.

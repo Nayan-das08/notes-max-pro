@@ -1,21 +1,73 @@
-Respected Ma'am,
+# Module 1
+- indus valley
+	- [https://youtu.be/UkZ9uc-zRho](https://youtu.be/UkZ9uc-zRho)
+- early vedic age
+	- [https://youtu.be/oCccmh7e81Q](https://youtu.be/oCccmh7e81Q)
+- jainism
+	- [https://youtu.be/VktcKb6SRZ0](https://youtu.be/VktcKb6SRZ0)
+- vedic literature
+	- [https://youtu.be/oHoyuUNp-Gc](https://youtu.be/oHoyuUNp-Gc)
+- vedas
+	- [https://youtu.be/bh3sdhdNTLc](https://youtu.be/bh3sdhdNTLc)
 
-I hope this message finds you well. I am thrilled to receive confirmation of my offer selection with Amadeus Software Labs, and I am eagerly looking forward to being a part of the team.
+# module 2
+- mahajanapadas
+	- [https://youtu.be/slI-TCn2YzY](https://youtu.be/slI-TCn2YzY)
+- maurya dynasty
+	- [https://youtu.be/BPL_1uFt30w](https://youtu.be/BPL_1uFt30w)
 
-Thank you for providing the necessary steps. I have attached the following necessary documents as per your instructions:
-1. Latest passport-size photograph
-2. PAN Card copy
-3. Aadhar Card copy
+# module 3
+- gupta empire
+	- [https://youtu.be/6djWvLPGJIM](https://youtu.be/6djWvLPGJIM)
+- gupta empire: golden age
+	- [https://youtu.be/bFk7DkcpOc8](https://youtu.be/bFk7DkcpOc8)
+- kanishka's conquest
+	- [https://www.youtube.com/watch?v=-BCe0ren9gg](https://www.youtube.com/watch?v=-BCe0ren9gg)
 
-I have completed the form and submitted the documents via the provided link as well.
-
-Once again, I am looking forward to joining the Amadeus team and contributing to the success of the organization.
-
-Thank you for your support and guidance.
-
-Warm regards,
-
-Nayan Ranjan Das
-College Enrollment Number: A2305220148
-Ph: 7065884872
-Amity University, Noida
+# module 4
+- yoga
+	- [https://youtu.be/W9jdvLbMX3E](https://youtu.be/W9jdvLbMX3E)
+- ayurveda
+	- [https://youtu.be/NAiDGxty4Tk](https://youtu.be/NAiDGxty4Tk)
+- tech in ancient india
+	- [https://youtu.be/WN8XiCLCzy4](https://youtu.be/WN8XiCLCzy4)
+- civil engg
+	- [https://youtu.be/kaCE_BIfVz0](https://youtu.be/kaCE_BIfVz0)
+- civil engg
+	- [https://youtu.be/04rifZ6F_RE](https://youtu.be/04rifZ6F_RE)
+- agri
+	- [https://youtu.be/yszPSC_obW4](https://youtu.be/yszPSC_obW4)
+- scientists
+	- [https://youtu.be/61rLdwWtQjc](https://youtu.be/61rLdwWtQjc)
+- scientists pt 1
+	- [https://youtu.be/Vk_ZzpC_trM](https://youtu.be/Vk_ZzpC_trM)
+- maharishi kanad - atomic theory
+	- [https://youtu.be/AaC-gMbNhMI](https://youtu.be/AaC-gMbNhMI)
+- brahmagupta - math
+	- [https://youtu.be/kDipvrNUPwQ](https://youtu.be/kDipvrNUPwQ)
+- nagarjuna - alchemy
+	- [https://youtu.be/RXBsxPBroMI](https://youtu.be/RXBsxPBroMI)
+- bhaskara II - math
+	- [https://youtu.be/tDiyoltKNjg](https://youtu.be/tDiyoltKNjg)
+- bhaskara I - science
+	- [https://youtu.be/Y8ndBlG8EoI](https://youtu.be/Y8ndBlG8EoI)
+- 5 elements
+	- [https://youtu.be/MMzA7NjCrY0](https://youtu.be/MMzA7NjCrY0)
+- ayurveda
+	- [https://youtu.be/vMBbm0raMwY](https://youtu.be/vMBbm0raMwY)
+- sushruta
+	- [https://youtu.be/sREZRQavpns](https://youtu.be/sREZRQavpns)
+- charaka - med
+	- [https://youtu.be/-8QlMOJaWC0](https://youtu.be/-8QlMOJaWC0)
+- metallurgy and alchemy
+	- [https://youtu.be/Ilyj-MGbSFE](https://youtu.be/Ilyj-MGbSFE)
+- math
+	- [https://youtu.be/r9JMQaIBvQ4](https://youtu.be/r9JMQaIBvQ4)
+- baudhyana - pythagoras
+	- [https://youtu.be/MKkzM0Kp7aI](https://youtu.be/MKkzM0Kp7aI)
+- varahamira - astronomer, math
+	- [https://youtu.be/s76VZYuloqc](https://youtu.be/s76VZYuloqc)
+- aryabhatta
+	- [https://youtu.be/Q-IL8CSE1j8](https://youtu.be/Q-IL8CSE1j8)
+- astronomy
+	- [https://youtu.be/XCOdLDTD1ps](https://youtu.be/XCOdLDTD1ps)
